@@ -1,56 +1,124 @@
-\chapter{Methodology}\label{chap:methodology}
+\chapter{Research Design and Methodology}
+\label{chap:methodology} This chapter delineates the methodology employed to achieve
+the primary objective of this study: extending the explainability of path-based
+knowledge graph recommender systems to explore "what if" scenarios. The methodology
+is structured as follows:
+\begin{enumerate}
+	\item \textbf{Initial Recommendation}: The process commences with the system generating
+		a product recommendation for a user. In a path-based recommendation system, the
+		inherent explanation typically comprises a sequence of entities and relationships
+		that link the user to the recommended product.
 
-\section{Research Design and Methodology}
-\section{Research Design}
+	\item \textbf{Counterfactual Analysis}:
+		\begin{itemize}
+			\item \textbf{Extraction of Relevant Information}: Initially, the analysis
+				extracts pertinent information related to the entities along the
+				recommendation path. This includes the specific attributes that influenced
+				the selection of the final product, as well as other potentially
+				relevant attributes associated with the recommended product.
 
-The primary objective of this research is to enhance the explainability of recommendations through counterfactual analysis within an existing knowledge graph-based recommendation system. This study integrates counterfactual analysis into a pre-existing recommender system as described in the literature. This framework's unique aspect is that it is adaptable to any knowledge graph-based recommender system, provided that the system supports path-based recommendations. This method contributes to the broader field of recommendation systems research by providing deeper insights into the causality and reasoning behind recommendations.
-The theoretical basis for employing counterfactual analysis in recommendation systems lies in its ability to generate "what-if" scenarios, thereby enhancing the transparency and explainability of recommendations. The human cognitive process inherently seeks counterfactual scenarios for enhanced understanding. Relevant literature and theories support this approach by demonstrating how counterfactuals can reveal hidden patterns and dependencies in data, thereby making recommendations more understandable and actionable for users.
+			\item \textbf{Scenario Construction}: Utilizing the extracted information,
+				a collection of hypothetical scenarios is constructed. These scenarios are
+				crafted to test various alterations in attributes and their impact on the
+				recommendation outcome.
+		\end{itemize}
 
+	\item \textbf{Recommendation System Utilization}: For the recommendation engine,
+		we employ CAFE (Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation).
+		This system is particularly suitable for our purposes due to its path-based nature
+		and its capability to evaluate the plausibility of different paths by assigning
+		probability scores to the steps that connect users to products.
+\end{enumerate}
 
-\section{Data Collection and Preparation}
-For this study, we utilize the implementation of the knowledge graph-based recommender system known as CAFÉ (Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation). CAFÉ integrates knowledge graphs with neural symbolic reasoning to enhance e-commerce recommendations. It operates on a coarse-to-fine principle, initially creating user profiles from historical data that outline general user behaviors. These profiles then guide the system in navigating the KG to generate reasoning paths that lead to specific item recommendations. This method not only improves recommendation accuracy but also provides clear explanations for why items are recommended by tracing the reasoning paths in the KG.
+This methodology both facilitates a deeper understanding of the decision-making processes
+inherent in the recommender system and also allows us to simulate and evaluate how
+changes in product attributes or user-product relationships might alter the system's
+recommendations.
 
+\section{Recommender System Details}
+CAFE (Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation) is
+used as the foundational framework for our recommender system. This section
+provides an overview of its implementation and core functionalities.
+\subsection{Data and Implementation}
+The CAFE model is implemented using the Amazon review dataset, the beauty
+category, which includes comprehensive user and product interactions. It
+leverages predefined embeddings train in the model developed by \textcite{ai_learning_2018} described
+in the previous section, as input to their symbolic network.
+\subsection{Knowledge Graph Composition}
+The knowledge graph at the heart of this recommendation system is intricately structured,
+comprising several types of entities and relationships:
+\begin{itemize}
+	\item \textbf{Users} are linked to the words they have used and the products
+		they have purchased.
 
+	\item \textbf{Products} are associated with descriptive words, their brand,
+		category, and other related products. Relationships with related products
+		include those that have been 'bought together', 'also viewed', and 'also bought'.
 
+	\item \textbf{Brands and Categories} form additional nodes, creating multiple pathways
+		that connect different aspects of the data.
 
-\section{Knowledge Graph Construction}
-The knowledge graph is constructed using data from the existing recommender system, which includes entities such as users, products, brands, and words used in reviews, as well as related products that have been bought together, viewed, or also bought. Relationships like 'purchase', 'mentions', 'produced by', and 'described by' are included. This process involves:
-•	Representing the knowledge graph as a dictionary of entities and relationships, and including the reverse of each relationship.
-•	Connecting each user to the words they have mentioned and products they have purchased. Products are linked to the brands they are produced by, the categories they belong to, the words they are described by, and related products.
+	\item \textbf{Related categories} mentioned above.
+\end{itemize}
 
+\subsection{Path-Based Recommendation Mechanics}
+The system operates on predefined metapaths that represent meaningful
+relationships leading a user to a product. These metapaths are substantial for understanding
+the logic behind the recommendations. Todo: That paths . The recommender system assigns
+a probability score to each step along the path, determining the strength of the
+connection between the user and the potential product recommendations. It then selects
+the top 10 paths with the highest cumulative scores, and the products associated
+with these paths are recommended to the user. This scoring and selection process
+ensures that the recommendations are both relevant and tailored to the user's preferences
+and behavior patterns. This structured approach allows the CAFE system to
+recommend products effectively but also provide insights into the reasons behind
+each recommendation, providing explainability to the system.
 
-\section{Metapaths}
-Metapaths refer to predefined paths in the knowledge graph that represent sequences of relations connecting different entities (like users and items). These paths are structured to reflect potential behavioral or relational patterns between entities relevant to making recommendations. The reasoning process using these metapaths operates as follows: The system first generates a coarse sketch of user behavior by identifying prominent user-centric patterns from historical data. These patterns, essentially metapaths, highlight typical ways users interact with items or other entities in the knowledge graph. Using the metapaths outlined in the user profiles as a guide, the system then performs fine-grained path reasoning. This involves a path-finding algorithm that navigates through the knowledge graph, starting from a user entity and moving through the specified entities and relations. The goal is to reach item entities that best match the user’s profiled behavior. This path reasoning is augmented by neural symbolic reasoning modules, which assist in making decisions at each step of the path (like choosing which relation to follow next based on the current context). This combination of structured metapaths and neural decision-making enables the system to efficiently and effectively find relevant items, offering explanations for recommendations based on the sequences of relations traversed.
+\section{Counterfactual Analysis}
+subsection{Community Detection and Graph Analysis Node Filtering}The counterfactual
+analysis begins with the detection of communities within the knowledge graph of interactions.
+Communities are identified using Louvain Method. This helps to cluster entities that
+share significant similarities and interactions. The Louvain Method is a an
+efficient algorithm designed for detecting communities in large-scale networks
+by optimizing modularity, a measure that quantifies the density of links within communities
+relative to those between them introduced in \parencite{blondel_fast_2008}. The algorithm operates
+in two iterative phases: initially, it optimizes modularity locally, evaluating
+potential gains by moving individual nodes into different communities. Nodes are
+shifted to the community that maximizes this gain, and the process is repeated
+until no further improvement is possible, achieving a local maximum of modularity.
+In the second phase, the method aggregates these identified communities into new
+nodes of a reduced network, and the process is reapplied. This hierarchical approach
+allows the algorithm to uncover community structures at multiple levels effectively.
+Notable for its speed, the Louvain Method can handle networks with up to millions
+of nodes efficiently, making it well-suited for modern datasets of substantial
+size. To refine the analysis further, we calculate the degree centrality for
+each type of pair within the graph. Nodes that do not provide significant insight
+are filtered out based on their z-score; specifically, nodes with a z-score exceeding
+[specific threshold] are removed.
 
-\section{Recommender System Integration}
-To integrate the knowledge graph into the framework, I have extended the implementation of CAFÉ’s knowledge graph to enable the handling of a subgraph of the original, very large system. Sampling is based on the number of users and is performed using a snowball strategy, sampling connected products and their attributes. A pruning step follows this, which eliminates all entities that are not in a complete relationship with the sampled knowledge graph. For example, entities where only one side of a relationship is sampled, and the reverse does not exist, are removed. Since the CAFÉ recommender system uses predefined embeddings, after pruning, the conversion of IDs from old to new is performed.
-This revised version improves clarity, flow, and academic tone, and structurally it emphasizes a logical progression from general objectives to specific methodologies and integration steps.
+\subsection{Attribute Selection}
+Following the predictions provided by the recommender system, a threshold is set
+for the minimum score required for a product path to be recommended to a user, which
+is the path score of the last product recommended in the top 10 recommended products.
+For the analysis of a recommended path, we retrieve the first-level attributes and
+their related products. This forms the initial layer of attribute selection, predicated
+on the hypothesis that first-level connected items possess more relevant attributes.
+These selected attributes are then evaluated to determine whether they fall
+within the community of the recommended product. If they do, and their z-score
+is within an acceptable range, they are considered for further counterfactual analysis.
 
+\subsection{Performing Counterfactual Analysis}
+For each attribute, an appropriate metapath is selected based on the type of the
+attribute. Using the recommender engine, we calculate the score for a user-product
+combination, which incorporates all the products previously purchased by the user
+and the counterfactual attribute in question. This approach is grounded in the
+assumption that the system discerns the user's preferences through their
+purchase history. If the recalculated score for a product, when considering a
+counterfactual attribute, exceeds the set minimum score, the attribute is
+considered a positive influence for a product similar to the recommended one. This
+isolated attribute analysis not only aids in understanding the influence of specific
+attributes on product recommendations but also provides marketing insights. Such
+insights can further be used to enhance the diversity and precision of the
+recommender system.
 
-% \section{Framework Design}
-% The counterfactual analysis begins by examining the top 10 recommendations provided by the recommender system. For a given recommended path—which comprises entities and relationships defined by the recommender system's predefined metapaths—this path serves as the input for the counterfactual analysis. The analysis focuses on first-level attributes and entities that are connected to the attributes and related products of the recommended path, ensuring that the selections are highly relevant to the product under consideration.
-% The recommender system is designed to learn the tastes and behaviors of the user based 
-% on their purchased products, which is reflected in the design of the metapaths. After
-%  identifying related entities and attributes, a specific metapath associated with each
-%   entity is selected for analysis. For example, to explore whether a product would still 
-%   be recommended if it were associated with a different brand, the metapath might be: 
-%   user \rightarrow purchase \rightarrow product \rightarrow produced_by \rightarrow brand \rightarrow recommended product. The viability 
-%   of this scenario is assessed by calculating the average score of the steps along the path; 
-%   if this score exceeds the score of the least recommended product (the 10th product), 
-%   the scenario is considered plausible.
-
-\section{Framework Design}
-
-The counterfactual analysis begins by examining the top 10 recommendations provided by the recommender system. For a given recommended path—which comprises entities and relationships defined by the recommender system's predefined metapaths—this path serves as the input for the counterfactual analysis. The analysis focuses on first-level attributes and entities that are connected to the attributes and related products of the recommended path, ensuring that the selections are highly relevant to the product under consideration.
-
-The recommender system is designed to learn the tastes and behaviors of the user based on their purchased products, which is reflected in the design of the metapaths. After identifying related entities and attributes, a specific metapath associated with each entity is selected for analysis. For example, to explore whether a product would still be recommended if it were associated with a different brand, the metapath might be: user \(\rightarrow\) purchase \(\rightarrow\) product \(\rightarrow\) produced\_by \(\rightarrow\) brand \(\rightarrow\) recommended product. The viability of this scenario is assessed by calculating the average score of the steps along the path; if this score exceeds the score of the least recommended product (the 10th product), the scenario is considered plausible.
-
-
-
-\section{Knowledge Graph Entity Stats}
-Some nodes in the knowledge graph, such as those connected to a "beauty" category, exhibit high connectivity degrees but provide limited specific insight for the analysis due to their general nature. These nodes can create computational overhead. To address this, we calculate the connectivity degree for each entity across all related entity types. Nodes with z-scores exceeding a specified threshold (typically set at 1) are identified for potential exclusion from the analysis to streamline computations.
-
-\section{Community Identification}
-To address the computational overhead of some selected entities, for example words that are relatively higher in number connected to products, the study furthers the filtering process. If the number of selected entities exceeds a specified threshold, filtering occurs based on their community membership relative to the recommended product.
-To identify these communities within the knowledge graph, we employ the Louvain method. This method optimizes modularity, effectively grouping nodes into communities where connections are denser internally than with external nodes. The iterative process starts with each node as its own community and progressively merges them to maximize modularity. This is particularly beneficial for your counterfactual analysis as it helps identify clusters of products with similar attributes or relationships. Understanding these community structures allows you to analyze how alterations in product attributes might impact recommendation patterns, providing deeper insights into the factors that influence product categorization and recommendations.
-
+\section{Case Study}

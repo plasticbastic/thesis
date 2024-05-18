@@ -164,6 +164,75 @@
       \verb https://dl.acm.org/doi/10.1145/3477495.3532041
       \endverb
     \endentry
+    \entry{blondel_fast_2008}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7c4ebd50451e5b718eb3d5ad6cfbad71}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Vincent\bibnamedelima D},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b6e1859f5b4504b6f852c6112880f18}{%
+           family={Guillaume},
+           familyi={G\bibinitperiod},
+           given={Jean-Loup},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0bc3d83c54bda6a078936b2d87d6c9f}{%
+           family={Lambiotte},
+           familyi={L\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78c7291a964edd655c49fdec8099ab3e}{%
+           family={Lefebvre},
+           familyi={L\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f3235a1f0c5640347922a746d86f9f3}
+      \strng{fullhash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \strng{bibnamehash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \strng{authorbibnamehash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \strng{authornamehash}{9f3235a1f0c5640347922a746d86f9f3}
+      \strng{authorfullhash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{issn}{1742-5468}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shortjournal}{J. Stat. Mech.}
+      \field{title}{Fast unfolding of communities in large networks}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{P10008}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2008/10/P10008
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\VVVC8ESR\\Blondel et al. - 2008 - Fast unfolding of communities in large networks.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
+      \endverb
+    \endentry
     \entry{chiappa_path-specific_2019}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7be343845f20ae7e5afb043f78f991fe}{%
@@ -1505,6 +1574,75 @@
       \endverb
       \verb{url}
       \verb https://dl.acm.org/doi/10.1145/3477495.3532041
+      \endverb
+    \endentry
+    \entry{blondel_fast_2008}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7c4ebd50451e5b718eb3d5ad6cfbad71}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Vincent\bibnamedelima D},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b6e1859f5b4504b6f852c6112880f18}{%
+           family={Guillaume},
+           familyi={G\bibinitperiod},
+           given={Jean-Loup},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0bc3d83c54bda6a078936b2d87d6c9f}{%
+           family={Lambiotte},
+           familyi={L\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78c7291a964edd655c49fdec8099ab3e}{%
+           family={Lefebvre},
+           familyi={L\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f3235a1f0c5640347922a746d86f9f3}
+      \strng{fullhash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \strng{bibnamehash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \strng{authorbibnamehash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \strng{authornamehash}{9f3235a1f0c5640347922a746d86f9f3}
+      \strng{authorfullhash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{issn}{1742-5468}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shortjournal}{J. Stat. Mech.}
+      \field{title}{Fast unfolding of communities in large networks}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{P10008}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2008/10/P10008
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\VVVC8ESR\\Blondel et al. - 2008 - Fast unfolding of communities in large networks.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
       \endverb
     \endentry
     \entry{chiappa_path-specific_2019}{article}{}

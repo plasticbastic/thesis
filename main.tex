@@ -37,7 +37,7 @@
 
 \usepackage{fancyref}  % This allows to use \fref{} command. This is very useful, it allows to easily refer to any \label{}. % See documentation: https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/fancyref/fancyref.pdf.
 
-\usepackage{showframe}
+% \usepackage{showframe}
 
 
 \title{Unofficial template Master SSE Thesis}  % Title of your thesis
@@ -45,8 +45,8 @@
 \supervisor{Name First Supervisor}
 % \cosupervisor{Name co-supervisor (Uncomment this line if there is no co-supervisor)}
 \courseyear{2024}
-\makeglossaries
-\loadglsentries{chapters/acronyms}
+% \makeglossaries
+% \loadglsentries{chapters/acronyms}
 
 
 \begin{document}
@@ -77,8 +77,11 @@
 % \input{chapters/research_results}
 % \input{chapters/conclusion_recommendations}
 % \input{chapters/additional_chapters}
+\input{chapters/introduction}
 \input{chapters/literature_review}
 \input{chapters/methodology}
+\input{chapters/results}
+\input{chapters/conclusion}
 
 \printglossary[type=\acronymtype,title={Definitions and Abbreviations}]
 
