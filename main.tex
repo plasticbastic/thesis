@@ -16,7 +16,8 @@
 \usepackage{url}
 \usepackage[colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black, bookmarks=true, pdfstartview=FitH]{hyperref}
 
-\usepackage[style=ieee,backend=biber]{biblatex}
+% \usepackage[style=ieee,backend=biber]{biblatex}
+\usepackage[style=apa,backend=biber]{biblatex}
 \addbibresource{references.bib}
 \usepackage{lipsum}
 \usepackage{tabulary}
@@ -85,6 +86,6 @@
 \addcontentsline{toc}{chapter}{References}
 \printbibliography[title={References}]
 
-% \input{chapters/appendix} % Note, appendix must be last
+\input{chapters/appendix} % Note, appendix must be last
 
 \end{document}

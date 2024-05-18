@@ -1,66 +1,197 @@
-\chapter{Literature Review}\label{chap:literature_review}
-
-
+\chapter{Literature Review}
+\label{chap:literature_review}
 
 \section{Explainable AI In Knowledge Graph Recommender Systesm}
 
-Knowledge Graphs (KGs) are pivotal in enhancing the explainability and accuracy of recommender systems. These structured, relational frameworks capture complex interactions among users, items, and their attributes, allowing for more nuanced recommendations coupled with clear, logical explanations. This literature review synthesizes recent advancements in explainable artificial intelligence (XAI) that utilize KGs to illustrate how these technologies not only refine recommendation quality but also enhance user trust and understanding through transparency.
+Knowledge Graphs (KGs) are pivotal in enhancing the explainability and accuracy of
+recommender systems. These structured, relational frameworks capture complex interactions
+among users, items, and their attributes, allowing for more nuanced
+recommendations coupled with clear, logical explanations. This literature review
+synthesizes recent advancements in explainable artificial intelligence (XAI)
+that utilize KGs to illustrate how these technologies not only refine
+recommendation quality but also enhance user trust and understanding through
+transparency.
 
 \subsection{Path-based Modeling}
 
-Path-based modeling has emerged as a fundamental innovation in the utilization of KGs for recommender systems. Techniques such as the Knowledge-aware Path Recurrent Network (KPRN) and Path Language Modeling Recommendation (PLM-Rec) illustrate this trend's dynamic nature. KPRN leverages LSTM networks to interpret paths of entities and relationships, emphasizing those connections that are most influential in understanding user preferences. This method enriches the recommendation process by providing a temporal and semantic depth that traditional models lack, allowing for a better prediction of user behavior based on past interactions (Wang et al., 2019).
-On the other hand, PLM-Rec employs a novel approach by integrating natural language processing techniques to extend KG paths. This model treats paths as sentences, using a language model to dynamically predict and extend these paths within the KG. Such extensions help the system explore new, potentially uncharted areas of the KG, thereby enhancing the system’s ability to recommend items that were previously unreachable. This approach addresses the inherent limitations of static KG structures and improves the system's recall capabilities, making it particularly valuable for discovering long-tail items (Geng et al., 2022). Together, these path-based methods signify a shift towards more dynamic and exploratory use of KGs, expanding both the depth and breadth of what recommender systems can achieve.
-
+Path-based modeling has emerged as a fundamental innovation in the utilization of
+KGs for recommender systems. Techniques such as the Knowledge-aware Path
+Recurrent Network (KPRN) and Path Language Modeling Recommendation (PLM-Rec)
+illustrate this trend's dynamic nature. KPRN leverages LSTM networks to interpret
+paths of entities and relationships, emphasizing those connections that are most
+influential in understanding user preferences. This method enriches the recommendation
+process by providing a temporal and semantic depth that traditional models lack,
+allowing for a better prediction of user behavior based on past interactions \parencite{wang_explainable_2019}. 
+On the other hand, PLM-Rec employs a novel approach by
+integrating natural language processing techniques to extend KG paths. This model
+treats paths as sentences, using a language model to dynamically predict and
+extend these paths within the KG. Such extensions help the system explore new,
+potentially uncharted areas of the KG, thereby enhancing the system’s ability to
+recommend items that were previously unreachable. This approach addresses the
+inherent limitations of static KG structures and improves the system's recall
+capabilities, making it particularly valuable for discovering long-tail items \parencite{geng_path_2022}. 
+Together, these path-based methods signify a shift towards more dynamic
+and exploratory use of KGs, expanding both the depth and breadth of what
+recommender systems can achieve.
 
 \subsection{Integration of User Profiles and Behavior}
 
-The integration of user behavioral data into KGs has significantly refined the personalization capabilities of recommender systems. The "Cafe" model by Xian et al. (2020) represents a sophisticated application of this concept, employing a coarse-to-fine strategy where initially broad user profiles help to narrow down and guide the path-finding algorithms in KGs. These profiles are crafted from historical data and are instrumental in focusing the recommendation process on paths most relevant to individual users, thus enhancing both the relevance and personalization of the recommendations.
-This method mirrors strategies used in other models that combine knowledge-base embeddings (KBE) with collaborative filtering. By embedding user behaviors and item characteristics into a unified representation, these models achieve a granular understanding of user-item relationships. This integration allows for a tailored recommendation experience, where the system's outputs are closely aligned with individual preferences and behaviors, as demonstrated in the work by Ai et al. (2018).
+The integration of user behavioral data into KGs has significantly refined the personalization
+capabilities of recommender systems. The "Cafe" model by \textcite{xian_cafe_2020} represents
+a sophisticated application of this concept, employing a coarse-to-fine strategy
+where initially broad user profiles help to narrow down and guide the path-finding
+algorithms in KGs. These profiles are crafted from historical data and are instrumental
+in focusing the recommendation process on paths most relevant to individual users,
+thus enhancing both the relevance and personalization of the recommendations. This
+method mirrors strategies used in other models that combine knowledge-base embeddings
+(KBE) with collaborative filtering. By embedding user behaviors and item
+characteristics into a unified representation, these models achieve a granular understanding
+of user-item relationships. This integration allows for a tailored
+recommendation experience, where the system's outputs are closely aligned with individual
+preferences and behaviors, as demonstrated in the work by \textcite{ai_learning_2018}.
 
 \subsection{Explainability through Symbolic and Logical Reasoning}
 
-The demand for explainability in AI has driven the adoption of models that incorporate transparent, logical reasoning processes. Monotonic GNNs (MGNNs), introduced by Tena et al. (2022), exemplify this trend by ensuring that every transformation within the network adheres to a set of logical rules, akin to traditional rule-based systems. This adherence guarantees that the network's operations are interpretable and justifiable, enhancing user trust by providing comprehensible explanations for the recommendations made.
-Similarly, the Policy-Guided Path Reasoning (PGPR) model uses reinforcement learning to navigate through the KG, selecting paths that not only lead to relevant recommendations but are also interpretable. This model provides explicit paths that detail the reasoning behind each recommendation, fulfilling the dual requirements of accuracy and transparency in the recommendation process (Xian et al., 2019).
+The demand for explainability in AI has driven the adoption of models that
+incorporate transparent, logical reasoning processes. Monotonic GNNs (MGNNs), introduced
+by Tena et al. (2022), exemplify this trend by ensuring that every transformation
+within the network adheres to a set of logical rules, akin to traditional rule-based
+systems. This adherence guarantees that the network's operations are interpretable
+and justifiable, enhancing user trust by providing comprehensible explanations
+for the recommendations made. Similarly, the Policy-Guided Path Reasoning (PGPR)
+model uses reinforcement learning to navigate through the KG, selecting paths that
+not only lead to relevant recommendations but are also interpretable. This model
+provides explicit paths that detail the reasoning behind each recommendation, fulfilling
+the dual requirements of accuracy and transparency in the recommendation process
+\parencite{xian_reinforcement_2019}.
 
-The convergence of these methodologies highlights a crucial trend towards enhancing both the predictive accuracy and the interpretability of KG-based systems. Through the integration of dynamic path exploration, personalized user profile analysis, and logical reasoning, these approaches offer a more profound understanding of the intricacies involved in making recommendations. They collectively emphasize a shift towards recommender systems that are not only effective in their predictions but also provide transparent and understandable explanations, aligning with the growing user demand for transparency and accountability in AI systems.
-
+The convergence of these methodologies highlights a crucial trend towards enhancing
+both the predictive accuracy and the interpretability of KG-based systems.
+Through the integration of dynamic path exploration, personalized user profile analysis,
+and logical reasoning, these approaches offer a more profound understanding of the
+intricacies involved in making recommendations. They collectively emphasize a
+shift towards recommender systems that are not only effective in their
+predictions but also provide transparent and understandable explanations, aligning
+with the growing user demand for transparency and accountability in AI systems.
 
 \section{Counterfactual Methods in Different Types of Recommender Systems}
 
-Counterfactual reasoning in recommender systems has emerged as a pivotal technique within the domain of explainable artificial intelligence (XAI), enhancing both the transparency and fairness of recommendations. By modeling alternative scenarios where specific variables are modified, this approach provides insights into the potential impacts of different data configurations, helping to elucidate the inner workings and dependencies within these systems.
+Counterfactual reasoning in recommender systems has emerged as a pivotal
+technique within the domain of explainable artificial intelligence (XAI), enhancing
+both the transparency and fairness of recommendations. By modeling alternative
+scenarios where specific variables are modified, this approach provides insights
+into the potential impacts of different data configurations, helping to
+elucidate the inner workings and dependencies within these systems.
 
-The introduction of the KGCR model by Wei et al. (2023) marks a significant advancement in embedding causal inference within graph-based recommender systems. Utilizing Graph Convolutional Networks, this model enriches user, item, and attribute embeddings, which allow for a more nuanced understanding of user preferences. By constructing a causal graph and applying do-calculus interventions, the KGCR model effectively mitigates biases introduced by previous user interactions, offering a refined approach to understanding how bias influences recommendation outcomes (Wei et al., 2023).
+The introduction of the KGCR model \parencite{wei_causal_2023} marks a significant advancement
+in embedding causal inference within graph-based recommender systems. Utilizing
+Graph Convolutional Networks, this model enriches user, item, and attribute embeddings,
+which allow for a more nuanced understanding of user preferences. By constructing
+a causal graph and applying do-calculus interventions, the KGCR model
+effectively mitigates biases introduced by previous user interactions, offering a
+refined approach to understanding how bias influences recommendation outcomes.
 
-In a similar vein, Tran et al. (2021) developed the ACCENT framework, which facilitates the generation of actionable counterfactual explanations in neural recommender systems. This framework leverages extended influence functions to explore how changes in user-item interactions could affect recommendation outputs, significantly enhancing computational efficiency through Fast Influence Analysis. This methodology underscores the minimal adjustments in user behavior that could lead to different recommendations, thereby aiding in the creation of more transparent recommendation mechanisms (Tran et al., 2021).
+In a similar vein, \textcite{tran_counterfactual_2021} developed the ACCENT framework, which
+facilitates the generation of actionable counterfactual explanations in neural
+recommender systems. This framework leverages extended influence functions to explore
+how changes in user-item interactions could affect recommendation outputs,
+significantly enhancing computational efficiency through Fast Influence Analysis.
+This methodology underscores the minimal adjustments in user behavior that could
+lead to different recommendations, thereby aiding in the creation of more
+transparent recommendation mechanisms.
 
-Addressing selection bias, Liu et al. (2022) implemented counterfactual policy learning to recalibrate recommendation fairness and effectiveness. Their approach utilizes Inverse Propensity Scoring to weigh observed interactions, allowing the system to simulate outcomes under different recommendation policies. By integrating these counterfactual outcomes into the learning process, the model achieves an improved balance, enhancing both the performance and equity of recommendations across various user groups and item categories (Liu et al., 2022).
+Addressing selection bias, \parencite{liu_practical_2022} implemented counterfactual policy
+learning to recalibrate recommendation fairness and effectiveness. Their approach
+utilizes Inverse Propensity Scoring to weigh observed interactions, allowing the
+system to simulate outcomes under different recommendation policies. By integrating
+these counterfactual outcomes into the learning process, the model achieves an
+improved balance, enhancing both the performance and equity of recommendations across
+various user groups and item categories.
 
-The Prince method, as introduced by Ghazimatin et al. (2020), emphasizes the importance of trust and understanding in recommendation systems through counterfactual reasoning within heterogeneous information networks. By identifying key user actions and employing Personalized PageRank, Prince efficiently predicts the impact of these actions on recommendation outcomes. This approach not only avoids exhaustive computations but also outperforms traditional heuristic methods in providing understandable and trust-enhancing explanations (Ghazimatin et al., 2020).
+The Prince method \parencite{ghazimatin_prince_2020}, emphasizes the
+importance of trust and understanding in recommendation systems through
+counterfactual reasoning within heterogeneous information networks. By identifying
+key user actions and employing Personalized PageRank, Prince efficiently
+predicts the impact of these actions on recommendation outcomes. This approach not
+only avoids exhaustive computations but also outperforms traditional heuristic methods
+in providing understandable and trust-enhancing explanations.
 
-Yang et al. (2021) utilize causal inference through Structural Equation Models (SEMs) to address data sparsity in recommender systems. By generating counterfactual training samples, they enrich the dataset with diverse user responses that are otherwise not observed but plausible. This approach not only enhances the performance of the recommender systems but also strengthens their capacity to handle scenarios marked by data imbalance.
+\textcite{yang_top-n_2021} utilize causal inference through Structural Equation Models (SEMs)
+to address data sparsity in recommender systems. By generating counterfactual training
+samples, they enrich the dataset with diverse user responses that are otherwise
+not observed but plausible. This approach not only enhances the performance of the
+recommender systems but also strengthens their capacity to handle scenarios marked
+by data imbalance.
 
-Finally, the Counterfactual Explainable Recommendation (CountER) model, proposed by Tan et al. (2021), focuses on identifying minimal attribute changes that could reverse a recommendation decision. Through a structured optimization process, CountER iteratively adjusts item attributes to discover the least extensive yet impactful changes required for altering outcomes. This model utilizes novel metrics to evaluate the necessity and sufficiency of these changes, demonstrating enhanced precision in providing actionable insights into recommendation decisions (Tan et al., 2021).
+Finally, the Counterfactual Explainable Recommendation (CountER) model \parencite{tan_counterfactual_2021} focuses on identifying minimal attribute changes that could
+reverse a recommendation decision. Through a structured optimization process, CountER
+iteratively adjusts item attributes to discover the least extensive yet impactful
+changes required for altering outcomes. This model utilizes novel metrics to
+evaluate the necessity and sufficiency of these changes, demonstrating enhanced precision
+in providing actionable insights into recommendation decisions.
 
-In conclusion, counterfactual reasoning offers a robust framework for enhancing the explainability and fairness of recommender systems by providing a deeper understanding of the implications of various data interactions and policies. These innovative approaches not only clarify the decision-making processes but also foster more equitable and user-centric recommendation practices.
-
+In conclusion, counterfactual reasoning offers a robust framework for enhancing
+the explainability and fairness of recommender systems by providing a deeper
+understanding of the implications of various data interactions and policies. These
+innovative approaches not only clarify the decision-making processes but also foster
+more equitable and user-centric recommendation practices.
 
 \section{Application of Counterfactuals for Fairness and Bias Mitigation}
 
-Counterfactual reasoning plays a pivotal role in the domain of explainable artificial intelligence (XAI), especially for mitigating biases in automated decision-making systems. This method involves hypothesizing alternative scenarios where key variables are altered, allowing for the exploration of how such changes impact outcomes. This not only uncovers hidden biases but also ensures fairness in AI operations. Broadly applied in various AI frameworks, from graph neural networks to recommender systems, counterfactual reasoning enhances transparency and equity in AI outcomes, establishing it as an essential tool for ethical AI development.
-
+Counterfactual reasoning plays a pivotal role in the domain of explainable
+artificial intelligence (XAI), especially for mitigating biases in automated decision-making
+systems. This method involves hypothesizing alternative scenarios where key
+variables are altered, allowing for the exploration of how such changes impact outcomes.
+This not only uncovers hidden biases but also ensures fairness in AI operations.
+Broadly applied in various AI frameworks, from graph neural networks to
+recommender systems, counterfactual reasoning enhances transparency and equity in
+AI outcomes, establishing it as an essential tool for ethical AI development.
 
 \subsection{Mitigating Bias Across Different AI Frameworks}
 
-The use of counterfactual reasoning in graph-based models like those studied by Guo et al. (2023) demonstrates a rigorous approach to maintaining consistency in model predictions across varying sensitive attributes. By implementing Graph Variational Autoencoders (GraphVAE), they not only perturb attributes but also train the network to minimize discrepancies in outputs between the original and counterfactual nodes. This methodology effectively addresses biases at a fundamental level, ensuring the fairness of the model's outcomes. Medda et al. (2024) extend this approach within graph neural network-based recommender systems. Their innovative use of counterfactual reasoning to adjust user-item interactions on a bipartite graph includes strategically adding or removing connections, which serves to simulate various scenarios where demographic disparities can be analyzed and mitigated, ensuring a more equitable distribution of utility among users.
-The field of recommender systems frequently grapples with biases such as popularity and exposure, which can distort user preferences. Wei et al. (2021) dissect these issues through the Model-Agnostic Counterfactual Reasoning (MACR) framework, which explicitly separates the influence of item popularity from actual user preferences. By adjusting input data to simulate a scenario where item popularity is neutralized, MACR provides a recalibrated basis for recommendation, aligning more closely with unbiased user preferences. Meanwhile, Xu et al. (2020) focus on exposure bias by employing a counterfactual approach that involves a minimax adversarial model. This model simulates worst-case scenarios to test the resilience of the recommendation system, ensuring that it can withstand and adapt to a range of user exposure conditions, thus promoting a more fair and balanced recommendation landscape.
+The use of counterfactual reasoning in graph-based models like those studied \textcite{guo_towards_2023} demonstrates a rigorous approach to maintaining consistency in
+model predictions across varying sensitive attributes. By implementing Graph Variational
+Autoencoders (GraphVAE), they not only perturb attributes but also train the
+network to minimize discrepancies in outputs between the original and
+counterfactual nodes. This methodology effectively addresses biases at a fundamental
+level, ensuring the fairness of the model's outcomes. \textcite{medda_gnnuers_2024} extend
+this approach within graph neural network-based recommender systems. Their innovative
+use of counterfactual reasoning to adjust user-item interactions on a bipartite graph
+includes strategically adding or removing connections, which serves to simulate
+various scenarios where demographic disparities can be analyzed and mitigated, ensuring
+a more equitable distribution of utility among users. The field of recommender
+systems frequently grapples with biases such as popularity and exposure, which can
+distort user preferences. \textcite{wei_model-agnostic_2021} dissect these issues through the Model-Agnostic
+Counterfactual Reasoning (MACR) framework, which explicitly separates the
+influence of item popularity from actual user preferences. By adjusting input data
+to simulate a scenario where item popularity is neutralized, MACR provides a
+recalibrated basis for recommendation, aligning more closely with unbiased user preferences.
+Meanwhile, \textcite{xu_adversarial_2020} focus on exposure bias by employing a counterfactual
+approach that involves a minimax adversarial model. This model simulates worst-case
+scenarios to test the resilience of the recommendation system, ensuring that it
+can withstand and adapt to a range of user exposure conditions, thus promoting a
+more fair and balanced recommendation landscape.
 
 \subsection{Enriching Data and Ensuring Equitable Outcomes}
 
-Addressing data sparsity and imbalance, Yang et al. (2021) utilize causal inference via Structural Equation Models (SEMs) to generate counterfactual scenarios that enrich training datasets. This not only addresses the immediate issue of insufficient data but also simulates a broader spectrum of user interactions, which helps in developing a more robust and responsive recommender system. On a more focused level, Chiappa (2019) pioneers the use of Path-Specific Counterfactual Fairness (PSCF) within decision-making processes. This approach manipulates causal pathways, particularly those that might be influenced by sensitive attributes such as race or gender, to ensure that resulting decisions are free from the undue influence of these attributes, thus promoting fairness in critical decision-making contexts.
+Addressing data sparsity and imbalance, \textcite{yang_top-n_2021} utilize causal
+inference via Structural Equation Models (SEMs) to generate counterfactual
+scenarios that enrich training datasets. This not only addresses the immediate issue
+of insufficient data but also simulates a broader spectrum of user interactions,
+which helps in developing a more robust and responsive recommender system. On a more
+focused level, \textcite{chiappa_path-specific_2019} pioneers the use of Path-Specific Counterfactual
+Fairness (PSCF) within decision-making processes. This approach manipulates causal
+pathways, particularly those that might be influenced by sensitive attributes
+such as race or gender, to ensure that resulting decisions are free from the undue
+influence of these attributes, thus promoting fairness in critical decision-making
+contexts.
 
 \subsection{Leveraging Knowledge Graphs for Fair Recommendations}
 
-Expanding the utility of knowledge graphs, Balloccu et al. (2022) integrate counterfactual reasoning within the Policy-Guided Path Reasoning (PGPR) model to optimize recommendation systems. By re-ranking items and explanations based on various fairness-oriented criteria, such as recency, popularity, and diversity, PGPR enhances the quality and equity of recommendations. This approach not only improves the relevance of the recommendations but also significantly increases user trust and satisfaction by ensuring that recommendations cater equitably to diverse user groups.
-
-
-
+Expanding the utility of knowledge graphs, \textcite{balloccu_post_2022} integrate counterfactual
+reasoning within the Policy-Guided Path Reasoning (PGPR) model to optimize recommendation
+systems. By re-ranking items and explanations based on various fairness-oriented
+criteria, such as recency, popularity, and diversity, PGPR enhances the quality
+and equity of recommendations. This approach not only improves the relevance of the
+recommendations but also significantly increases user trust and satisfaction by ensuring
+that recommendations cater equitably to diverse user groups.

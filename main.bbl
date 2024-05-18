@@ -16,5 +16,2694 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{ai_learning_2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=eb294f4a1f98b3664bcc1539456b1130}{%
+           family={Ai},
+           familyi={A\bibinitperiod},
+           given={Qingyao},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=365831c1af5333aa36925c2d1f201dbc}{%
+           family={Azizi},
+           familyi={A\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5e0e425e3c4ad8daed89aacb63428ee}
+      \strng{fullhash}{afe7eff6d7710328cc7e72fe372e2403}
+      \strng{bibnamehash}{afe7eff6d7710328cc7e72fe372e2403}
+      \strng{authorbibnamehash}{afe7eff6d7710328cc7e72fe372e2403}
+      \strng{authornamehash}{e5e0e425e3c4ad8daed89aacb63428ee}
+      \strng{authorfullhash}{afe7eff6d7710328cc7e72fe372e2403}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Providing model-generated explanations in recommender systems is important to user experience. State-of-the-art recommendation algorithms—especially the collaborative filtering ({CF})- based approaches with shallow or deep models—usually work with various unstructured information sources for recommendation, such as textual reviews, visual images, and various implicit or explicit feedbacks. Though structured knowledge bases were considered in content-based approaches, they have been largely ignored recently due to the availability of vast amounts of data and the learning power of many complex models. However, structured knowledge bases exhibit unique advantages in personalized recommendation systems. When the explicit knowledge about users and items is considered for recommendation, the system could provide highly customized recommendations based on users’ historical behaviors and the knowledge is helpful for providing informed explanations regarding the recommended items. A great challenge for using knowledge bases for recommendation is how to integrate large-scale structured and unstructured data, while taking advantage of collaborative filtering for highly accurate performance. Recent achievements in knowledge-base embedding ({KBE}) sheds light on this problem, which makes it possible to learn user and item representations while preserving the structure of their relationship with external knowledge for explanation. In this work, we propose to explain knowledge-base embeddings for explainable recommendation. Specifically, we propose a knowledge-base representation learning framework to embed heterogeneous entities for recommendation, and based on the embedded knowledge base, a soft matching algorithm is proposed to generate personalized explanations for the recommended items. Experimental results on real-world e-commerce datasets verified the superior recommendation performance and the explainability power of our approach compared with state-of-the-art baselines.}
+      \field{day}{13}
+      \field{issn}{1999-4893}
+      \field{journaltitle}{Algorithms}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{shortjournal}{Algorithms}
+      \field{title}{Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{137}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/a11090137
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\HIFY7I9P\\Ai et al. - 2018 - Learning Heterogeneous Knowledge Base Embeddings f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.mdpi.com/1999-4893/11/9/137
+      \endverb
+      \verb{url}
+      \verb http://www.mdpi.com/1999-4893/11/9/137
+      \endverb
+    \endentry
+    \entry{balloccu_post_2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f48df1fdb195508ab1fcac4bcb9b8868}{%
+           family={Balloccu},
+           familyi={B\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ece28083e98f19084890f4e4277f20f6}{%
+           family={Boratto},
+           familyi={B\bibinitperiod},
+           given={Ludovico},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c00da03f503509a13385ba0773e91dec}{%
+           family={Fenu},
+           familyi={F\bibinitperiod},
+           given={Gianni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b43b8e865efce96614ed2d22f0d512}{%
+           family={Marras},
+           familyi={M\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Madrid Spain}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b3e4c47695c66fdd451d253a75b471e1}
+      \strng{fullhash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \strng{bibnamehash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \strng{authorbibnamehash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \strng{authornamehash}{b3e4c47695c66fdd451d253a75b471e1}
+      \strng{authorfullhash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{eventtitle}{{SIGIR} '22: The 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-8732-3}
+      \field{journaltitle}{Proceedings of the 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Post Processing Recommender Systems with Knowledge Graphs for Recency, Popularity, and Diversity of Explanations}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{646\bibrangedash 656}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3477495.3532041
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\5WC4GK63\\Balloccu et al. - 2022 - Post Processing Recommender Systems with Knowledge.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
+      \endverb
+    \endentry
+    \entry{chiappa_path-specific_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7be343845f20ae7e5afb043f78f991fe}{%
+           family={Chiappa},
+           familyi={C\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{fullhash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{bibnamehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{authorbibnamehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{authornamehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{authorfullhash}{7be343845f20ae7e5afb043f78f991fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider the problem of learning fair decision systems from data in which a sensitive attribute might affect the decision along both fair and unfair pathways. We introduce a counterfactual approach to disregard effects along unfair pathways that does not incur in the same loss of individual-specific information as previous approaches. Our method corrects observations adversely affected by the sensitive attribute, and uses these to form a decision. We leverage recent developments in deep learning and approximate inference to develop a {VAE}-type method that is widely applicable to complex nonlinear models.}
+      \field{day}{17}
+      \field{issn}{2374-3468, 2159-5399}
+      \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{{AAAI}}
+      \field{title}{Path-Specific Counterfactual Fairness}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7801\bibrangedash 7808}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v33i01.33017801
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\3BQAMRUZ\\Chiappa - 2019 - Path-Specific Counterfactual Fairness.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
+      \endverb
+    \endentry
+    \entry{geng_path_2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6b08640f38e5ddc30b8bb80b6b0e0307}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Juntao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1277d77bdfd409919222e5e1718be257}{%
+           family={De\bibnamedelima Melo},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event, Lyon France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{84adc253e39f3007678aefe3cfd3a824}
+      \strng{fullhash}{82e139cf02e46b710cbe08e270f92cb1}
+      \strng{bibnamehash}{82e139cf02e46b710cbe08e270f92cb1}
+      \strng{authorbibnamehash}{82e139cf02e46b710cbe08e270f92cb1}
+      \strng{authornamehash}{84adc253e39f3007678aefe3cfd3a824}
+      \strng{authorfullhash}{82e139cf02e46b710cbe08e270f92cb1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
+      \field{isbn}{978-1-4503-9096-5}
+      \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Path Language Modeling over Knowledge Graphsfor Explainable Recommendation}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{946\bibrangedash 955}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3485447.3511937
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\A2R7NW8H\\Geng et al. - 2022 - Path Language Modeling over Knowledge Graphsfor Ex.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
+      \endverb
+    \endentry
+    \entry{ghazimatin_prince_2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4da1cb8bafd42711242897330030027f}{%
+           family={Ghazimatin},
+           familyi={G\bibinitperiod},
+           given={Azin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89520357b06d1ec346263723ebcc990f}{%
+           family={Balalau},
+           familyi={B\bibinitperiod},
+           given={Oana},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b3a3c22efa153fdab0cd72c38778d1}{%
+           family={Saha\bibnamedelima Roy},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rishiraj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e47f9d085c16045a5911784850208ada}{%
+           family={Weikum},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Houston {TX} {USA}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{cf8cf26880a64a5ba8a0f84e64d8b1b5}
+      \strng{fullhash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \strng{bibnamehash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \strng{authorbibnamehash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \strng{authornamehash}{cf8cf26880a64a5ba8a0f84e64d8b1b5}
+      \strng{authorfullhash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{20}
+      \field{eventtitle}{{WSDM} '20: The Thirteenth {ACM} International Conference on Web Search and Data Mining}
+      \field{isbn}{978-1-4503-6822-3}
+      \field{journaltitle}{Proceedings of the 13th International Conference on Web Search and Data Mining}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{PRINCE}}
+      \field{title}{{PRINCE}: Provider-side Interpretability with Counterfactual Explanations in Recommender Systems}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{196\bibrangedash 204}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3336191.3371824
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\ZNU5FLZZ\\Ghazimatin et al. - 2020 - PRINCE Provider-side Interpretability with Counte.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
+      \endverb
+    \endentry
+    \entry{guo_towards_2023}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0a068c182ef9d6ae996ea69f606de468}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zhimeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=547d2c7b66ff9b1174652a7596e7fb9f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jialiang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcf13621873c2b85b00e2b5aa77c455c}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9495c8a5a2c9489e8af928b6f0eed6b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{8da548645b9bff802500006abf6d9a47}
+      \strng{fullhash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \strng{bibnamehash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \strng{authorbibnamehash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \strng{authornamehash}{8da548645b9bff802500006abf6d9a47}
+      \strng{authorfullhash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{eventtitle}{{CIKM} '23: The 32nd {ACM} International Conference on Information and Knowledge Management}
+      \field{isbn}{9798400701245}
+      \field{journaltitle}{Proceedings of the 32nd {ACM} International Conference on Information and Knowledge Management}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Towards Fair Graph Neural Networks via Graph Counterfactual}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{669\bibrangedash 678}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3583780.3615092
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Z8E6ISDA\\Guo et al. - 2023 - Towards Fair Graph Neural Networks via Graph Count.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
+      \endverb
+    \endentry
+    \entry{liu_practical_2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=18c466c121d4455422b2b316682d7cd8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yaxu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c0f28368b0877e0d5e1a5a777f2a816}{%
+           family={Yen},
+           familyi={Y\bibinitperiod},
+           given={Jui-Nan},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61004c474eff4456e0a1454f084540ed}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7cf1a4a508155e24e5d642ff2bf5416}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Rundong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c826e710b315f2169f3cedb41b63a269}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb8c32ec740b902c4f066796b083badc}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chih-Jen},
+           giveni={C\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington {DC} {USA}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{83ea025989b0c7726ad175da57f3e040}
+      \strng{fullhash}{2e9ca85dce8475782dfaef0470ef2884}
+      \strng{bibnamehash}{2e9ca85dce8475782dfaef0470ef2884}
+      \strng{authorbibnamehash}{2e9ca85dce8475782dfaef0470ef2884}
+      \strng{authornamehash}{83ea025989b0c7726ad175da57f3e040}
+      \strng{authorfullhash}{2e9ca85dce8475782dfaef0470ef2884}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{eventtitle}{{KDD} '22: The 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
+      \field{isbn}{978-1-4503-9385-0}
+      \field{journaltitle}{Proceedings of the 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Practical Counterfactual Policy Learning for Top-K Recommendations}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1141\bibrangedash 1151}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3534678.3539295
+      \endverb
+      \verb{file}
+      \verb Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:C\:\\Users\\Celine\\Zotero\\storage\\XH43KA7J\\Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
+      \endverb
+    \endentry
+    \entry{medda_gnnuers_2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=345ae0ead031e439f8cc012a6438a25d}{%
+           family={Medda},
+           familyi={M\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4568ffcde5f3b87222a77dee3bf6ba}{%
+           family={Fabbri},
+           familyi={F\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b43b8e865efce96614ed2d22f0d512}{%
+           family={Marras},
+           familyi={M\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ece28083e98f19084890f4e4277f20f6}{%
+           family={Boratto},
+           familyi={B\bibinitperiod},
+           given={Ludovico},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c00da03f503509a13385ba0773e91dec}{%
+           family={Fenu},
+           familyi={F\bibinitperiod},
+           given={Gianni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{361f34e4fb2c1b9d25a60efcd0ab92ab}
+      \strng{fullhash}{e19f7a1fb8df852d978908f90198a559}
+      \strng{bibnamehash}{e19f7a1fb8df852d978908f90198a559}
+      \strng{authorbibnamehash}{e19f7a1fb8df852d978908f90198a559}
+      \strng{authornamehash}{361f34e4fb2c1b9d25a60efcd0ab92ab}
+      \strng{authorfullhash}{e19f7a1fb8df852d978908f90198a559}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Nowadays, research into personalization has been focusing on explainability and fairness. Several approaches proposed in recent works are able to explain individual recommendations in a post-hoc manner or by explanation paths. However, explainability techniques applied to unfairness in recommendation have been limited to finding user/item features mostly related to biased recommendations. In this paper, we devised a novel algorithm that leverages counterfactuality methods to discover user unfairness explanations in the form of user-item interactions. In our counterfactual framework, interactions are represented as edges in a bipartite graph, with users and items as nodes. Our bipartite graph explainer perturbs the topological structure to find an altered version that minimizes the disparity in utility between the protected and unprotected demographic groups. Experiments on four real-world graphs coming from various domains showed that our method can systematically explain user unfairness on three state-of-the-art {GNN}-based recommendation models. Moreover, an empirical evaluation of the perturbed network uncovered relevant patterns that justify the nature of the unfairness discovered by the generated explanations. The source code and the preprocessed data sets are available at https://github.com/jackmedda/{RS}-{BGExplainer}.}
+      \field{day}{3}
+      \field{issn}{2157-6904, 2157-6912}
+      \field{journaltitle}{{ACM} Transactions on Intelligent Systems and Technology}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{{ACM} Trans. Intell. Syst. Technol.}
+      \field{shorttitle}{{GNNUERS}}
+      \field{title}{{GNNUERS}: Fairness Explanation in {GNNs} for Recommendation via Counterfactual Reasoning}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3655631}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/3655631
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\P7ERWIY9\\Medda et al. - 2024 - GNNUERS Fairness Explanation in GNNs for Recommen.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3655631
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3655631
+      \endverb
+    \endentry
+    \entry{tan_counterfactual_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Juntao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d45b288ada8f9bd631225634f1fc361}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shuyuan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bccfb53e1d1e81227f90f7da7bbbf3f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yunqi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Queensland Australia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9639267e9f8240da479fff72c719e336}
+      \strng{fullhash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \strng{bibnamehash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \strng{authorbibnamehash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \strng{authornamehash}{9639267e9f8240da479fff72c719e336}
+      \strng{authorfullhash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{eventtitle}{{CIKM} '21: The 30th {ACM} International Conference on Information and Knowledge Management}
+      \field{isbn}{978-1-4503-8446-9}
+      \field{journaltitle}{Proceedings of the 30th {ACM} International Conference on Information \& Knowledge Management}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Counterfactual Explainable Recommendation}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1784\bibrangedash 1793}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3459637.3482420
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\4B33ZZHV\\Tan et al. - 2021 - Counterfactual Explainable Recommendation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
+      \endverb
+    \endentry
+    \entry{tran_counterfactual_2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fbf160e8463ae49b197c4daba0a0a0fe}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Khanh\bibnamedelima Hiep},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4da1cb8bafd42711242897330030027f}{%
+           family={Ghazimatin},
+           familyi={G\bibinitperiod},
+           given={Azin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b3a3c22efa153fdab0cd72c38778d1}{%
+           family={Saha\bibnamedelima Roy},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rishiraj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{d1cde03e801fdab63c75db605063c5dc}
+      \strng{fullhash}{64643394b35cdfe0258948448db5f84f}
+      \strng{bibnamehash}{64643394b35cdfe0258948448db5f84f}
+      \strng{authorbibnamehash}{64643394b35cdfe0258948448db5f84f}
+      \strng{authornamehash}{d1cde03e801fdab63c75db605063c5dc}
+      \strng{authorfullhash}{64643394b35cdfe0258948448db5f84f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{eventtitle}{{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-8037-9}
+      \field{journaltitle}{Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Counterfactual Explanations for Neural Recommenders}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1627\bibrangedash 1631}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3404835.3463005
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CDQRSJ7P\\Tran et al. - 2021 - Counterfactual Explanations for Neural Recommender.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
+      \endverb
+    \endentry
+    \entry{wang_explainable_2019}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181eb68f541c9dae90b87dbe6453fcb7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dingxian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90bb8cfeb8540303d7a425bf3cf4c88b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Canran},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3f1b6bfe8e9131a8c719c1af0dce5d}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiangnan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffbd440be3d518a696e50320511efbfa}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yixin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e4257ea3484acff91be2a3df96d16b}{%
+           family={Chua},
+           familyi={C\bibinitperiod},
+           given={Tat-Seng},
+           giveni={T\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{35ac326fad78d42d0760cfb75887ea69}
+      \strng{fullhash}{f73ede44b43826810beaf6b5957c4e2f}
+      \strng{bibnamehash}{f73ede44b43826810beaf6b5957c4e2f}
+      \strng{authorbibnamehash}{f73ede44b43826810beaf6b5957c4e2f}
+      \strng{authornamehash}{35ac326fad78d42d0760cfb75887ea69}
+      \strng{authorfullhash}{f73ede44b43826810beaf6b5957c4e2f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Incorporating knowledge graph into recommender systems has attracted increasing attention in recent years. By exploring the interlinks within a knowledge graph, the connectivity between users and items can be discovered as paths, which provide rich and complementary information to user-item interactions. Such connectivity not only reveals the semantics of entities and relations, but also helps to comprehend a user’s interest. However, existing efforts have not fully explored this connectivity to infer user preferences, especially in terms of modeling the sequential dependencies within and holistic semantics of a path.In this paper, we contribute a new model named Knowledgeaware Path Recurrent Network ({KPRN}) to exploit knowledge graph for recommendation. {KPRN} can generate path representations by composing the semantics of both entities and relations. By leveraging the sequential dependencies within a path, we allow effective reasoning on paths to infer the underlying rationale of a user-item interaction. Furthermore, we design a new weighted pooling operation to discriminate the strengths of different paths in connecting a user with an item, endowing our model with a certain level of explainability. We conduct extensive experiments on two datasets about movie and music, demonstrating significant improvements over state-of-the-art solutions Collaborative Knowledge Base Embedding and Neural Factorization Machine.}
+      \field{day}{17}
+      \field{issn}{2374-3468, 2159-5399}
+      \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{{AAAI}}
+      \field{title}{Explainable Reasoning over Knowledge Graphs for Recommendation}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5329\bibrangedash 5336}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v33i01.33015329
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CKCXZV5V\\Wang et al. - 2019 - Explainable Reasoning over Knowledge Graphs for Re.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
+      \endverb
+    \endentry
+    \entry{wei_model-agnostic_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=99a61cf570c808fe308edda655e4796d}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Tianxin},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9090db11da70fe0d8b95cbf3d73a6216}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Fuli},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85049970055d4a4c563f4721339feab4}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2808603b7a1f45c8cc694282db766c16}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ziwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca7d16eca3f24b096742925b9bd1fcf}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Jinfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3f1b6bfe8e9131a8c719c1af0dce5d}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiangnan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Singapore}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{20f981e70185965c80a572d10eb0d66e}
+      \strng{fullhash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \strng{bibnamehash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \strng{authorbibnamehash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \strng{authornamehash}{20f981e70185965c80a572d10eb0d66e}
+      \strng{authorfullhash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{eventtitle}{{KDD} '21: The 27th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
+      \field{isbn}{978-1-4503-8332-5}
+      \field{journaltitle}{Proceedings of the 27th {ACM} {SIGKDD} Conference on Knowledge Discovery \& Data Mining}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1791\bibrangedash 1800}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3447548.3467289
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NL6UHIYH\\Wei et al. - 2021 - Model-Agnostic Counterfactual Reasoning for Elimin.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
+      \endverb
+    \endentry
+    \entry{wei_causal_2023}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=eb920c7a4d742c604a700db59929e8cd}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Yinwei},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc7884a5203c192ab9125f81d18db97d}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Liqiang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=151ddabbb2bf2479bde813848620feab}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shaoyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181eb68f541c9dae90b87dbe6453fcb7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dingxian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e4257ea3484acff91be2a3df96d16b}{%
+           family={Chua},
+           familyi={C\bibinitperiod},
+           given={Tat-Seng},
+           giveni={T\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7b3dd19d6eb0dcf85afe43ac4bbb1a5}
+      \strng{fullhash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \strng{bibnamehash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \strng{authorbibnamehash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \strng{authornamehash}{d7b3dd19d6eb0dcf85afe43ac4bbb1a5}
+      \strng{authorfullhash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1041-4347, 1558-2191, 2326-3865}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
+      \field{title}{Causal Inference for Knowledge Graph Based Recommendation}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{35}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{11153\bibrangedash 11164}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TKDE.2022.3231352
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\CFTJYLCR\\Wei et al. - 2023 - Causal Inference for Knowledge Graph Based Recomme.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9996555/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9996555/
+      \endverb
+    \endentry
+    \entry{xian_reinforcement_2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c3604a0fdd0d75adb96818166010e65e}{%
+           family={Xian},
+           familyi={X\bibinitperiod},
+           given={Yikun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02e7a85244af7b816b75511a2a7b7197}{%
+           family={Muthukrishnan},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1277d77bdfd409919222e5e1718be257}{%
+           family={De\bibnamedelima Melo},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{fullhash}{b027642d8ee307d9abbec44665cc419f}
+      \strng{bibnamehash}{b027642d8ee307d9abbec44665cc419f}
+      \strng{authorbibnamehash}{b027642d8ee307d9abbec44665cc419f}
+      \strng{authornamehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{authorfullhash}{b027642d8ee307d9abbec44665cc419f}
+      \field{extraname}{1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{eventtitle}{{SIGIR} '19: The 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-6172-9}
+      \field{journaltitle}{Proceedings of the 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Reinforcement Knowledge Graph Reasoning for Explainable Recommendation}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{285\bibrangedash 294}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3331184.3331203
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\56IHWS7C\\Xian et al. - 2019 - Reinforcement Knowledge Graph Reasoning for Explai.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
+      \endverb
+    \endentry
+    \entry{xian_cafe_2020}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=c3604a0fdd0d75adb96818166010e65e}{%
+           family={Xian},
+           familyi={X\bibinitperiod},
+           given={Yikun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71df4655715679499a76d682effe8fa4}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Handong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78fc9f7a2f54d8fd8bce28094b366a59}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Qiaoying},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b08640f38e5ddc30b8bb80b6b0e0307}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6296b2d7722078d1b1ed76e550ba0f}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Zhou},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1277d77bdfd409919222e5e1718be257}{%
+           family={De\bibnamedelima Melo},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02e7a85244af7b816b75511a2a7b7197}{%
+           family={Muthukrishnan},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Ireland}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{fullhash}{2269a77370518142182727b9d3149f29}
+      \strng{bibnamehash}{2269a77370518142182727b9d3149f29}
+      \strng{authorbibnamehash}{2269a77370518142182727b9d3149f29}
+      \strng{authornamehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{authorfullhash}{2269a77370518142182727b9d3149f29}
+      \field{extraname}{2}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{eventtitle}{{CIKM} '20: The 29th {ACM} International Conference on Information and Knowledge Management}
+      \field{isbn}{978-1-4503-6859-9}
+      \field{journaltitle}{Proceedings of the 29th {ACM} International Conference on Information \& Knowledge Management}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{{CAFE}}
+      \field{title}{{CAFE}: Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation}
+      \field{urlday}{17}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1645\bibrangedash 1654}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3340531.3412038
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\2BMXT2LQ\\Xian et al. - 2020 - CAFE Coarse-to-Fine Neural Symbolic Reasoning for.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
+      \endverb
+    \endentry
+    \entry{xu_adversarial_2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5ab93999b4789be2349e6dfe88b37fc3}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Da},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0ffedc664ef5e1f0fe45803b15f7b83}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Chuanwei},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b3f5d9c23395d00c0a6b135ec70ea25}{%
+           family={Korpeoglu},
+           familyi={K\bibinitperiod},
+           given={Evren},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b725fe9e7e6c59effa0b8e0b58647046}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sushant},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79ba2bd6ba1876984c6393007ffaf596}{%
+           family={Achan},
+           familyi={A\bibinitperiod},
+           given={Kannan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00bec66902d1e6595097c475e208b5ea}
+      \strng{fullhash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \strng{bibnamehash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \strng{authorbibnamehash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \strng{authornamehash}{00bec66902d1e6595097c475e208b5ea}
+      \strng{authorfullhash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The feedback data of recommender systems are often subject to what was exposed to the users; however, most learning and evaluation methods do not account for the underlying exposure mechanism. We first show in theory that applying supervised learning to detect user preferences may end up with inconsistent results in the absence of exposure information. The counterfactual propensity-weighting approach from causal inference can account for the exposure mechanism; nevertheless, the partial-observation nature of the feedback data can cause identifiability issues. We propose a principled solution by introducing a minimax empirical risk formulation. We show that the relaxation of the dual problem can be converted to an adversarial game between two recommendation models, where the opponent of the candidate model characterizes the underlying exposure mechanism. We provide learning bounds and conduct extensive simulation studies to illustrate and justify the proposed approach over a broad range of recommendation settings, which shed insights on the various benefits of the proposed approach.}
+      \field{note}{Publisher: {arXiv} Version Number: 1}
+      \field{title}{Adversarial Counterfactual Learning and Evaluation for Recommender System}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2012.02295
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.02295
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.02295
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Machine Learning (cs.{LG}),Machine Learning (stat.{ML})}
+    \endentry
+    \entry{yang_top-n_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2be87ee0a456eed12044ea17e67a2ab7}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Mengyue},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b0c5f34c0fc6446e697f45557b5d289}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Quanyu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44ae8117010be88e691fda7401517919}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Zhenhua},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2434e8d6f3fde5589659dea6e285eff2}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiuqiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f3ea981fa5a715a69118b48e576a9f5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34159ba45a50538315f7728524b59c9d}
+      \strng{fullhash}{2ee10920fd77b89397c008382e91421c}
+      \strng{bibnamehash}{2ee10920fd77b89397c008382e91421c}
+      \strng{authorbibnamehash}{2ee10920fd77b89397c008382e91421c}
+      \strng{authornamehash}{34159ba45a50538315f7728524b59c9d}
+      \strng{authorfullhash}{2ee10920fd77b89397c008382e91421c}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Top-N recommendation, which aims to learn user ranking-based preference, has long been a fundamental problem in a wide range of applications. Traditional models usually motivate themselves by designing complex or tailored architectures based on different assumptions. However, the training data of recommender system can be extremely sparse and imbalanced, which poses great challenges for boosting the recommendation performance. To alleviate this problem, in this paper, we propose to reformulate the recommendation task within the causal inference framework, which enables us to counterfactually simulate user ranking-based preferences to handle the data scarce problem. The core of our model lies in the counterfactual question: "what would be the user's decision if the recommended items had been different?". To answer this question, we firstly formulate the recommendation process with a series of structural equation models ({SEMs}), whose parameters are optimized based on the observed data. Then, we actively indicate many recommendation lists (called intervention in the causal inference terminology) which are not recorded in the dataset, and simulate user feedback according to the learned {SEMs} for generating new training samples. Instead of randomly intervening on the recommendation list, we design a learning-based method to discover more informative training samples. Considering that the learned {SEMs} can be not perfect, we, at last, theoretically analyze the relation between the number of generated samples and the model prediction error, based on which a heuristic method is designed to control the negative effect brought by the prediction error. Extensive experiments are conducted based on both synthetic and real-world datasets to demonstrate the effectiveness of our framework.}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{title}{Top-N Recommendation with Counterfactual User Preference Simulation}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2109.02444
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YFDFGTL7\\Yang et al. - 2021 - Top-N Recommendation with Counterfactual User Pref.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2109.02444
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2109.02444
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Artificial Intelligence (cs.{AI})}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{ai_learning_2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=eb294f4a1f98b3664bcc1539456b1130}{%
+           family={Ai},
+           familyi={A\bibinitperiod},
+           given={Qingyao},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=365831c1af5333aa36925c2d1f201dbc}{%
+           family={Azizi},
+           familyi={A\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5e0e425e3c4ad8daed89aacb63428ee}
+      \strng{fullhash}{afe7eff6d7710328cc7e72fe372e2403}
+      \strng{bibnamehash}{afe7eff6d7710328cc7e72fe372e2403}
+      \strng{authorbibnamehash}{afe7eff6d7710328cc7e72fe372e2403}
+      \strng{authornamehash}{e5e0e425e3c4ad8daed89aacb63428ee}
+      \strng{authorfullhash}{afe7eff6d7710328cc7e72fe372e2403}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Providing model-generated explanations in recommender systems is important to user experience. State-of-the-art recommendation algorithms—especially the collaborative filtering ({CF})- based approaches with shallow or deep models—usually work with various unstructured information sources for recommendation, such as textual reviews, visual images, and various implicit or explicit feedbacks. Though structured knowledge bases were considered in content-based approaches, they have been largely ignored recently due to the availability of vast amounts of data and the learning power of many complex models. However, structured knowledge bases exhibit unique advantages in personalized recommendation systems. When the explicit knowledge about users and items is considered for recommendation, the system could provide highly customized recommendations based on users’ historical behaviors and the knowledge is helpful for providing informed explanations regarding the recommended items. A great challenge for using knowledge bases for recommendation is how to integrate large-scale structured and unstructured data, while taking advantage of collaborative filtering for highly accurate performance. Recent achievements in knowledge-base embedding ({KBE}) sheds light on this problem, which makes it possible to learn user and item representations while preserving the structure of their relationship with external knowledge for explanation. In this work, we propose to explain knowledge-base embeddings for explainable recommendation. Specifically, we propose a knowledge-base representation learning framework to embed heterogeneous entities for recommendation, and based on the embedded knowledge base, a soft matching algorithm is proposed to generate personalized explanations for the recommended items. Experimental results on real-world e-commerce datasets verified the superior recommendation performance and the explainability power of our approach compared with state-of-the-art baselines.}
+      \field{day}{13}
+      \field{issn}{1999-4893}
+      \field{journaltitle}{Algorithms}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{shortjournal}{Algorithms}
+      \field{title}{Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{137}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/a11090137
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\HIFY7I9P\\Ai et al. - 2018 - Learning Heterogeneous Knowledge Base Embeddings f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.mdpi.com/1999-4893/11/9/137
+      \endverb
+      \verb{url}
+      \verb http://www.mdpi.com/1999-4893/11/9/137
+      \endverb
+    \endentry
+    \entry{balloccu_post_2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f48df1fdb195508ab1fcac4bcb9b8868}{%
+           family={Balloccu},
+           familyi={B\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ece28083e98f19084890f4e4277f20f6}{%
+           family={Boratto},
+           familyi={B\bibinitperiod},
+           given={Ludovico},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c00da03f503509a13385ba0773e91dec}{%
+           family={Fenu},
+           familyi={F\bibinitperiod},
+           given={Gianni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b43b8e865efce96614ed2d22f0d512}{%
+           family={Marras},
+           familyi={M\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Madrid Spain}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b3e4c47695c66fdd451d253a75b471e1}
+      \strng{fullhash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \strng{bibnamehash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \strng{authorbibnamehash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \strng{authornamehash}{b3e4c47695c66fdd451d253a75b471e1}
+      \strng{authorfullhash}{b89eeafce1be5b747cfda5d2752a7ff1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{eventtitle}{{SIGIR} '22: The 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-8732-3}
+      \field{journaltitle}{Proceedings of the 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Post Processing Recommender Systems with Knowledge Graphs for Recency, Popularity, and Diversity of Explanations}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{646\bibrangedash 656}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3477495.3532041
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\5WC4GK63\\Balloccu et al. - 2022 - Post Processing Recommender Systems with Knowledge.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
+      \endverb
+    \endentry
+    \entry{chiappa_path-specific_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7be343845f20ae7e5afb043f78f991fe}{%
+           family={Chiappa},
+           familyi={C\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{fullhash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{bibnamehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{authorbibnamehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{authornamehash}{7be343845f20ae7e5afb043f78f991fe}
+      \strng{authorfullhash}{7be343845f20ae7e5afb043f78f991fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider the problem of learning fair decision systems from data in which a sensitive attribute might affect the decision along both fair and unfair pathways. We introduce a counterfactual approach to disregard effects along unfair pathways that does not incur in the same loss of individual-specific information as previous approaches. Our method corrects observations adversely affected by the sensitive attribute, and uses these to form a decision. We leverage recent developments in deep learning and approximate inference to develop a {VAE}-type method that is widely applicable to complex nonlinear models.}
+      \field{day}{17}
+      \field{issn}{2374-3468, 2159-5399}
+      \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{{AAAI}}
+      \field{title}{Path-Specific Counterfactual Fairness}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7801\bibrangedash 7808}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v33i01.33017801
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\3BQAMRUZ\\Chiappa - 2019 - Path-Specific Counterfactual Fairness.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
+      \endverb
+    \endentry
+    \entry{geng_path_2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6b08640f38e5ddc30b8bb80b6b0e0307}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Juntao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1277d77bdfd409919222e5e1718be257}{%
+           family={De\bibnamedelima Melo},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event, Lyon France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{84adc253e39f3007678aefe3cfd3a824}
+      \strng{fullhash}{82e139cf02e46b710cbe08e270f92cb1}
+      \strng{bibnamehash}{82e139cf02e46b710cbe08e270f92cb1}
+      \strng{authorbibnamehash}{82e139cf02e46b710cbe08e270f92cb1}
+      \strng{authornamehash}{84adc253e39f3007678aefe3cfd3a824}
+      \strng{authorfullhash}{82e139cf02e46b710cbe08e270f92cb1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
+      \field{isbn}{978-1-4503-9096-5}
+      \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Path Language Modeling over Knowledge Graphsfor Explainable Recommendation}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{946\bibrangedash 955}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3485447.3511937
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\A2R7NW8H\\Geng et al. - 2022 - Path Language Modeling over Knowledge Graphsfor Ex.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
+      \endverb
+    \endentry
+    \entry{ghazimatin_prince_2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4da1cb8bafd42711242897330030027f}{%
+           family={Ghazimatin},
+           familyi={G\bibinitperiod},
+           given={Azin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89520357b06d1ec346263723ebcc990f}{%
+           family={Balalau},
+           familyi={B\bibinitperiod},
+           given={Oana},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b3a3c22efa153fdab0cd72c38778d1}{%
+           family={Saha\bibnamedelima Roy},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rishiraj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e47f9d085c16045a5911784850208ada}{%
+           family={Weikum},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Houston {TX} {USA}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{cf8cf26880a64a5ba8a0f84e64d8b1b5}
+      \strng{fullhash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \strng{bibnamehash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \strng{authorbibnamehash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \strng{authornamehash}{cf8cf26880a64a5ba8a0f84e64d8b1b5}
+      \strng{authorfullhash}{1fcacfad0556f6fee69ecd30294eab8b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{20}
+      \field{eventtitle}{{WSDM} '20: The Thirteenth {ACM} International Conference on Web Search and Data Mining}
+      \field{isbn}{978-1-4503-6822-3}
+      \field{journaltitle}{Proceedings of the 13th International Conference on Web Search and Data Mining}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{PRINCE}}
+      \field{title}{{PRINCE}: Provider-side Interpretability with Counterfactual Explanations in Recommender Systems}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{196\bibrangedash 204}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3336191.3371824
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\ZNU5FLZZ\\Ghazimatin et al. - 2020 - PRINCE Provider-side Interpretability with Counte.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
+      \endverb
+    \endentry
+    \entry{guo_towards_2023}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0a068c182ef9d6ae996ea69f606de468}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zhimeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=547d2c7b66ff9b1174652a7596e7fb9f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jialiang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcf13621873c2b85b00e2b5aa77c455c}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9495c8a5a2c9489e8af928b6f0eed6b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{8da548645b9bff802500006abf6d9a47}
+      \strng{fullhash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \strng{bibnamehash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \strng{authorbibnamehash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \strng{authornamehash}{8da548645b9bff802500006abf6d9a47}
+      \strng{authorfullhash}{bdfd476c0c50b1a7a18a31b16cbae1a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{eventtitle}{{CIKM} '23: The 32nd {ACM} International Conference on Information and Knowledge Management}
+      \field{isbn}{9798400701245}
+      \field{journaltitle}{Proceedings of the 32nd {ACM} International Conference on Information and Knowledge Management}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Towards Fair Graph Neural Networks via Graph Counterfactual}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{669\bibrangedash 678}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3583780.3615092
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Z8E6ISDA\\Guo et al. - 2023 - Towards Fair Graph Neural Networks via Graph Count.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
+      \endverb
+    \endentry
+    \entry{liu_practical_2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=18c466c121d4455422b2b316682d7cd8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yaxu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c0f28368b0877e0d5e1a5a777f2a816}{%
+           family={Yen},
+           familyi={Y\bibinitperiod},
+           given={Jui-Nan},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61004c474eff4456e0a1454f084540ed}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7cf1a4a508155e24e5d642ff2bf5416}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Rundong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c826e710b315f2169f3cedb41b63a269}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb8c32ec740b902c4f066796b083badc}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chih-Jen},
+           giveni={C\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington {DC} {USA}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{83ea025989b0c7726ad175da57f3e040}
+      \strng{fullhash}{2e9ca85dce8475782dfaef0470ef2884}
+      \strng{bibnamehash}{2e9ca85dce8475782dfaef0470ef2884}
+      \strng{authorbibnamehash}{2e9ca85dce8475782dfaef0470ef2884}
+      \strng{authornamehash}{83ea025989b0c7726ad175da57f3e040}
+      \strng{authorfullhash}{2e9ca85dce8475782dfaef0470ef2884}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{eventtitle}{{KDD} '22: The 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
+      \field{isbn}{978-1-4503-9385-0}
+      \field{journaltitle}{Proceedings of the 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Practical Counterfactual Policy Learning for Top-K Recommendations}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1141\bibrangedash 1151}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3534678.3539295
+      \endverb
+      \verb{file}
+      \verb Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:C\:\\Users\\Celine\\Zotero\\storage\\XH43KA7J\\Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
+      \endverb
+    \endentry
+    \entry{medda_gnnuers_2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=345ae0ead031e439f8cc012a6438a25d}{%
+           family={Medda},
+           familyi={M\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4568ffcde5f3b87222a77dee3bf6ba}{%
+           family={Fabbri},
+           familyi={F\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b43b8e865efce96614ed2d22f0d512}{%
+           family={Marras},
+           familyi={M\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ece28083e98f19084890f4e4277f20f6}{%
+           family={Boratto},
+           familyi={B\bibinitperiod},
+           given={Ludovico},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c00da03f503509a13385ba0773e91dec}{%
+           family={Fenu},
+           familyi={F\bibinitperiod},
+           given={Gianni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{361f34e4fb2c1b9d25a60efcd0ab92ab}
+      \strng{fullhash}{e19f7a1fb8df852d978908f90198a559}
+      \strng{bibnamehash}{e19f7a1fb8df852d978908f90198a559}
+      \strng{authorbibnamehash}{e19f7a1fb8df852d978908f90198a559}
+      \strng{authornamehash}{361f34e4fb2c1b9d25a60efcd0ab92ab}
+      \strng{authorfullhash}{e19f7a1fb8df852d978908f90198a559}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Nowadays, research into personalization has been focusing on explainability and fairness. Several approaches proposed in recent works are able to explain individual recommendations in a post-hoc manner or by explanation paths. However, explainability techniques applied to unfairness in recommendation have been limited to finding user/item features mostly related to biased recommendations. In this paper, we devised a novel algorithm that leverages counterfactuality methods to discover user unfairness explanations in the form of user-item interactions. In our counterfactual framework, interactions are represented as edges in a bipartite graph, with users and items as nodes. Our bipartite graph explainer perturbs the topological structure to find an altered version that minimizes the disparity in utility between the protected and unprotected demographic groups. Experiments on four real-world graphs coming from various domains showed that our method can systematically explain user unfairness on three state-of-the-art {GNN}-based recommendation models. Moreover, an empirical evaluation of the perturbed network uncovered relevant patterns that justify the nature of the unfairness discovered by the generated explanations. The source code and the preprocessed data sets are available at https://github.com/jackmedda/{RS}-{BGExplainer}.}
+      \field{day}{3}
+      \field{issn}{2157-6904, 2157-6912}
+      \field{journaltitle}{{ACM} Transactions on Intelligent Systems and Technology}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{{ACM} Trans. Intell. Syst. Technol.}
+      \field{shorttitle}{{GNNUERS}}
+      \field{title}{{GNNUERS}: Fairness Explanation in {GNNs} for Recommendation via Counterfactual Reasoning}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3655631}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/3655631
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\P7ERWIY9\\Medda et al. - 2024 - GNNUERS Fairness Explanation in GNNs for Recommen.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3655631
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3655631
+      \endverb
+    \endentry
+    \entry{tan_counterfactual_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Juntao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d45b288ada8f9bd631225634f1fc361}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shuyuan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bccfb53e1d1e81227f90f7da7bbbf3f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yunqi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Queensland Australia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9639267e9f8240da479fff72c719e336}
+      \strng{fullhash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \strng{bibnamehash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \strng{authorbibnamehash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \strng{authornamehash}{9639267e9f8240da479fff72c719e336}
+      \strng{authorfullhash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{eventtitle}{{CIKM} '21: The 30th {ACM} International Conference on Information and Knowledge Management}
+      \field{isbn}{978-1-4503-8446-9}
+      \field{journaltitle}{Proceedings of the 30th {ACM} International Conference on Information \& Knowledge Management}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Counterfactual Explainable Recommendation}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1784\bibrangedash 1793}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3459637.3482420
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\4B33ZZHV\\Tan et al. - 2021 - Counterfactual Explainable Recommendation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
+      \endverb
+    \endentry
+    \entry{tran_counterfactual_2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fbf160e8463ae49b197c4daba0a0a0fe}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Khanh\bibnamedelima Hiep},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4da1cb8bafd42711242897330030027f}{%
+           family={Ghazimatin},
+           familyi={G\bibinitperiod},
+           given={Azin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b3a3c22efa153fdab0cd72c38778d1}{%
+           family={Saha\bibnamedelima Roy},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rishiraj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{d1cde03e801fdab63c75db605063c5dc}
+      \strng{fullhash}{64643394b35cdfe0258948448db5f84f}
+      \strng{bibnamehash}{64643394b35cdfe0258948448db5f84f}
+      \strng{authorbibnamehash}{64643394b35cdfe0258948448db5f84f}
+      \strng{authornamehash}{d1cde03e801fdab63c75db605063c5dc}
+      \strng{authorfullhash}{64643394b35cdfe0258948448db5f84f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{eventtitle}{{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-8037-9}
+      \field{journaltitle}{Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Counterfactual Explanations for Neural Recommenders}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1627\bibrangedash 1631}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3404835.3463005
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CDQRSJ7P\\Tran et al. - 2021 - Counterfactual Explanations for Neural Recommender.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
+      \endverb
+    \endentry
+    \entry{wang_explainable_2019}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181eb68f541c9dae90b87dbe6453fcb7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dingxian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90bb8cfeb8540303d7a425bf3cf4c88b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Canran},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3f1b6bfe8e9131a8c719c1af0dce5d}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiangnan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffbd440be3d518a696e50320511efbfa}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yixin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e4257ea3484acff91be2a3df96d16b}{%
+           family={Chua},
+           familyi={C\bibinitperiod},
+           given={Tat-Seng},
+           giveni={T\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{35ac326fad78d42d0760cfb75887ea69}
+      \strng{fullhash}{f73ede44b43826810beaf6b5957c4e2f}
+      \strng{bibnamehash}{f73ede44b43826810beaf6b5957c4e2f}
+      \strng{authorbibnamehash}{f73ede44b43826810beaf6b5957c4e2f}
+      \strng{authornamehash}{35ac326fad78d42d0760cfb75887ea69}
+      \strng{authorfullhash}{f73ede44b43826810beaf6b5957c4e2f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Incorporating knowledge graph into recommender systems has attracted increasing attention in recent years. By exploring the interlinks within a knowledge graph, the connectivity between users and items can be discovered as paths, which provide rich and complementary information to user-item interactions. Such connectivity not only reveals the semantics of entities and relations, but also helps to comprehend a user’s interest. However, existing efforts have not fully explored this connectivity to infer user preferences, especially in terms of modeling the sequential dependencies within and holistic semantics of a path.In this paper, we contribute a new model named Knowledgeaware Path Recurrent Network ({KPRN}) to exploit knowledge graph for recommendation. {KPRN} can generate path representations by composing the semantics of both entities and relations. By leveraging the sequential dependencies within a path, we allow effective reasoning on paths to infer the underlying rationale of a user-item interaction. Furthermore, we design a new weighted pooling operation to discriminate the strengths of different paths in connecting a user with an item, endowing our model with a certain level of explainability. We conduct extensive experiments on two datasets about movie and music, demonstrating significant improvements over state-of-the-art solutions Collaborative Knowledge Base Embedding and Neural Factorization Machine.}
+      \field{day}{17}
+      \field{issn}{2374-3468, 2159-5399}
+      \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{{AAAI}}
+      \field{title}{Explainable Reasoning over Knowledge Graphs for Recommendation}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5329\bibrangedash 5336}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v33i01.33015329
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CKCXZV5V\\Wang et al. - 2019 - Explainable Reasoning over Knowledge Graphs for Re.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
+      \endverb
+    \endentry
+    \entry{wei_model-agnostic_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=99a61cf570c808fe308edda655e4796d}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Tianxin},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9090db11da70fe0d8b95cbf3d73a6216}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Fuli},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85049970055d4a4c563f4721339feab4}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2808603b7a1f45c8cc694282db766c16}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ziwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca7d16eca3f24b096742925b9bd1fcf}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Jinfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3f1b6bfe8e9131a8c719c1af0dce5d}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiangnan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Singapore}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{20f981e70185965c80a572d10eb0d66e}
+      \strng{fullhash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \strng{bibnamehash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \strng{authorbibnamehash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \strng{authornamehash}{20f981e70185965c80a572d10eb0d66e}
+      \strng{authorfullhash}{9f92522b5bbe8cd2f13a41eaf313d806}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{eventtitle}{{KDD} '21: The 27th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
+      \field{isbn}{978-1-4503-8332-5}
+      \field{journaltitle}{Proceedings of the 27th {ACM} {SIGKDD} Conference on Knowledge Discovery \& Data Mining}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1791\bibrangedash 1800}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3447548.3467289
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NL6UHIYH\\Wei et al. - 2021 - Model-Agnostic Counterfactual Reasoning for Elimin.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
+      \endverb
+    \endentry
+    \entry{wei_causal_2023}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=eb920c7a4d742c604a700db59929e8cd}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Yinwei},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc7884a5203c192ab9125f81d18db97d}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Liqiang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=151ddabbb2bf2479bde813848620feab}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shaoyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181eb68f541c9dae90b87dbe6453fcb7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dingxian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e4257ea3484acff91be2a3df96d16b}{%
+           family={Chua},
+           familyi={C\bibinitperiod},
+           given={Tat-Seng},
+           giveni={T\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7b3dd19d6eb0dcf85afe43ac4bbb1a5}
+      \strng{fullhash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \strng{bibnamehash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \strng{authorbibnamehash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \strng{authornamehash}{d7b3dd19d6eb0dcf85afe43ac4bbb1a5}
+      \strng{authorfullhash}{19fb442e4cf86a9f6396da9eb79f4417}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1041-4347, 1558-2191, 2326-3865}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
+      \field{title}{Causal Inference for Knowledge Graph Based Recommendation}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{35}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{11153\bibrangedash 11164}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TKDE.2022.3231352
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\CFTJYLCR\\Wei et al. - 2023 - Causal Inference for Knowledge Graph Based Recomme.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9996555/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9996555/
+      \endverb
+    \endentry
+    \entry{xian_reinforcement_2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c3604a0fdd0d75adb96818166010e65e}{%
+           family={Xian},
+           familyi={X\bibinitperiod},
+           given={Yikun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02e7a85244af7b816b75511a2a7b7197}{%
+           family={Muthukrishnan},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1277d77bdfd409919222e5e1718be257}{%
+           family={De\bibnamedelima Melo},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{fullhash}{b027642d8ee307d9abbec44665cc419f}
+      \strng{bibnamehash}{b027642d8ee307d9abbec44665cc419f}
+      \strng{authorbibnamehash}{b027642d8ee307d9abbec44665cc419f}
+      \strng{authornamehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{authorfullhash}{b027642d8ee307d9abbec44665cc419f}
+      \field{extraname}{1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{eventtitle}{{SIGIR} '19: The 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-6172-9}
+      \field{journaltitle}{Proceedings of the 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Reinforcement Knowledge Graph Reasoning for Explainable Recommendation}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{285\bibrangedash 294}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3331184.3331203
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\56IHWS7C\\Xian et al. - 2019 - Reinforcement Knowledge Graph Reasoning for Explai.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
+      \endverb
+    \endentry
+    \entry{xian_cafe_2020}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=c3604a0fdd0d75adb96818166010e65e}{%
+           family={Xian},
+           familyi={X\bibinitperiod},
+           given={Yikun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71df4655715679499a76d682effe8fa4}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Handong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78fc9f7a2f54d8fd8bce28094b366a59}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Qiaoying},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b08640f38e5ddc30b8bb80b6b0e0307}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6296b2d7722078d1b1ed76e550ba0f}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Zhou},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1277d77bdfd409919222e5e1718be257}{%
+           family={De\bibnamedelima Melo},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02e7a85244af7b816b75511a2a7b7197}{%
+           family={Muthukrishnan},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event Ireland}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{fullhash}{2269a77370518142182727b9d3149f29}
+      \strng{bibnamehash}{2269a77370518142182727b9d3149f29}
+      \strng{authorbibnamehash}{2269a77370518142182727b9d3149f29}
+      \strng{authornamehash}{c5d4f363ef41003a7fd8bf3c659ca3ba}
+      \strng{authorfullhash}{2269a77370518142182727b9d3149f29}
+      \field{extraname}{2}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{eventtitle}{{CIKM} '20: The 29th {ACM} International Conference on Information and Knowledge Management}
+      \field{isbn}{978-1-4503-6859-9}
+      \field{journaltitle}{Proceedings of the 29th {ACM} International Conference on Information \& Knowledge Management}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{{CAFE}}
+      \field{title}{{CAFE}: Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation}
+      \field{urlday}{17}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1645\bibrangedash 1654}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3340531.3412038
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\2BMXT2LQ\\Xian et al. - 2020 - CAFE Coarse-to-Fine Neural Symbolic Reasoning for.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
+      \endverb
+    \endentry
+    \entry{xu_adversarial_2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5ab93999b4789be2349e6dfe88b37fc3}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Da},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0ffedc664ef5e1f0fe45803b15f7b83}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Chuanwei},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b3f5d9c23395d00c0a6b135ec70ea25}{%
+           family={Korpeoglu},
+           familyi={K\bibinitperiod},
+           given={Evren},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b725fe9e7e6c59effa0b8e0b58647046}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sushant},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79ba2bd6ba1876984c6393007ffaf596}{%
+           family={Achan},
+           familyi={A\bibinitperiod},
+           given={Kannan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00bec66902d1e6595097c475e208b5ea}
+      \strng{fullhash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \strng{bibnamehash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \strng{authorbibnamehash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \strng{authornamehash}{00bec66902d1e6595097c475e208b5ea}
+      \strng{authorfullhash}{3b9246228b64be3fbac04904b8ae9ffb}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The feedback data of recommender systems are often subject to what was exposed to the users; however, most learning and evaluation methods do not account for the underlying exposure mechanism. We first show in theory that applying supervised learning to detect user preferences may end up with inconsistent results in the absence of exposure information. The counterfactual propensity-weighting approach from causal inference can account for the exposure mechanism; nevertheless, the partial-observation nature of the feedback data can cause identifiability issues. We propose a principled solution by introducing a minimax empirical risk formulation. We show that the relaxation of the dual problem can be converted to an adversarial game between two recommendation models, where the opponent of the candidate model characterizes the underlying exposure mechanism. We provide learning bounds and conduct extensive simulation studies to illustrate and justify the proposed approach over a broad range of recommendation settings, which shed insights on the various benefits of the proposed approach.}
+      \field{note}{Publisher: {arXiv} Version Number: 1}
+      \field{title}{Adversarial Counterfactual Learning and Evaluation for Recommender System}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2012.02295
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.02295
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.02295
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Machine Learning (cs.{LG}),Machine Learning (stat.{ML})}
+    \endentry
+    \entry{yang_top-n_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2be87ee0a456eed12044ea17e67a2ab7}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Mengyue},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b0c5f34c0fc6446e697f45557b5d289}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Quanyu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44ae8117010be88e691fda7401517919}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Zhenhua},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2434e8d6f3fde5589659dea6e285eff2}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiuqiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f3ea981fa5a715a69118b48e576a9f5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34159ba45a50538315f7728524b59c9d}
+      \strng{fullhash}{2ee10920fd77b89397c008382e91421c}
+      \strng{bibnamehash}{2ee10920fd77b89397c008382e91421c}
+      \strng{authorbibnamehash}{2ee10920fd77b89397c008382e91421c}
+      \strng{authornamehash}{34159ba45a50538315f7728524b59c9d}
+      \strng{authorfullhash}{2ee10920fd77b89397c008382e91421c}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Top-N recommendation, which aims to learn user ranking-based preference, has long been a fundamental problem in a wide range of applications. Traditional models usually motivate themselves by designing complex or tailored architectures based on different assumptions. However, the training data of recommender system can be extremely sparse and imbalanced, which poses great challenges for boosting the recommendation performance. To alleviate this problem, in this paper, we propose to reformulate the recommendation task within the causal inference framework, which enables us to counterfactually simulate user ranking-based preferences to handle the data scarce problem. The core of our model lies in the counterfactual question: "what would be the user's decision if the recommended items had been different?". To answer this question, we firstly formulate the recommendation process with a series of structural equation models ({SEMs}), whose parameters are optimized based on the observed data. Then, we actively indicate many recommendation lists (called intervention in the causal inference terminology) which are not recorded in the dataset, and simulate user feedback according to the learned {SEMs} for generating new training samples. Instead of randomly intervening on the recommendation list, we design a learning-based method to discover more informative training samples. Considering that the learned {SEMs} can be not perfect, we, at last, theoretically analyze the relation between the number of generated samples and the model prediction error, based on which a heuristic method is designed to control the negative effect brought by the prediction error. Extensive experiments are conducted based on both synthetic and real-world datasets to demonstrate the effectiveness of our framework.}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{title}{Top-N Recommendation with Counterfactual User Preference Simulation}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2109.02444
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YFDFGTL7\\Yang et al. - 2021 - Top-N Recommendation with Counterfactual User Pref.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2109.02444
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2109.02444
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Artificial Intelligence (cs.{AI})}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

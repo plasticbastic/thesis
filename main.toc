@@ -19,3 +19,5 @@
 \contentsline {section}{\numberline {2.7}Framework Design}{14}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Knowledge Graph Entity Stats}{15}{section.2.8}%
 \contentsline {section}{\numberline {2.9}Community Identification}{15}{section.2.9}%
+\contentsline {chapter}{References}{16}{section.2.9}%
+\contentsline {chapter}{Appendix}{19}{chapter*.3}%
