@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1716071423.76076 "main.bcf" "main.bbl" "main" 1716071435.97354 0
-  "main.bcf" 1716071435 135253 d3e4707a8722bcdaf485a4111de3231d "pdflatex"
-  "references.bib" 1716071100 37696 2741331f2628a0d810df83955f863047 ""
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1716277299.51031 -1
+  "main.bcf" 1716277299 135730 f50564179c90f74ef76df4800fa57b57 "pdflatex"
+  "references.bib" 1716232861 44398 b145e6c7ec742f9f990874293cd457ea ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1716071432.87608 "c:/Users/Celine/Desktop/Thesis/Thesis_draft/main.tex" "main.pdf" "main" 1716071435.97452 0
+["pdflatex"] 1716277296.15051 "c:/Users/Celine/Desktop/Thesis/Thesis_draft/main.tex" "main.pdf" "main" 1716277299.51115 0
   "C:/Users/Celine/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1716037555 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Celine/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1715986322 24225559 aeee55f29045bb974904ebda9240b534 ""
   "C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -198,19 +198,19 @@
   "chapters/abstract.tex" 1715972342 414 4db6de49c64221b4ab00861f8a229bb6 ""
   "chapters/appendix.tex" 1715972342 595 bb30b74ed6a72a22b9adefe50254e4f7 ""
   "chapters/conclusion.tex" 1716040966 45 af9744795c14ac790b3e97a53e7cc7a3 ""
-  "chapters/introduction.tex" 1716040884 49 2341bd995c72b28ab513856636d7c4d5 ""
+  "chapters/introduction.tex" 1716277295 17509 6306f38ed73ddaecd90bc527892c14e3 ""
   "chapters/literature_review.tex" 1716040008 13476 7b7336e6afaadc787e09724a4d54f183 ""
   "chapters/methodology.tex" 1716071419 7739 c1d81db45caf3f4ca6ed6efa654f37bd ""
   "chapters/results.tex" 1716040923 39 863fdd13ff5f32c8c3a05912b5a257cd ""
   "images/hanzelogo.png" 1715972342 15687 1bf7f6c093ee58d39c0551dc0fe50fb6 ""
   "ipb.cls" 1716027131 6193 a106b7df258912b9b240f42e07376ed1 ""
   "main.acr" 0 -1 0 ""
-  "main.aux" 1716071435 10243 8736c009145e0a94e98a885f0a5e9663 "pdflatex"
-  "main.bbl" 1716071426 129633 794a1137cf32ca25ec0d0e0266937d10 "biber main"
-  "main.out" 1716071435 5146 f01b4b4a8b773f8274bb0e4b1a696897 "pdflatex"
-  "main.run.xml" 1716071435 2532 29ed655d0bd07c65b2c238c17bfb4c68 "pdflatex"
+  "main.aux" 1716277299 12381 07d99ce1cd05bc29b2ea64959edf8b9e "pdflatex"
+  "main.bbl" 1716233453 151353 a8ec9b1fdfe30f988d224101ddec1524 "biber main"
+  "main.out" 1716277299 6252 77c779690ca4b1d01158614570594d74 "pdflatex"
+  "main.run.xml" 1716277299 2532 29ed655d0bd07c65b2c238c17bfb4c68 "pdflatex"
   "main.tex" 1716041223 3378 b1e1ca651fd2f9bf115c6a52671ec71a ""
-  "main.toc" 1716071435 2272 79eb75f3f97cd3e1a068515d0b5d1983 "pdflatex"
+  "main.toc" 1716277299 2878 7dc27211609c5b565d5116241a81747c "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

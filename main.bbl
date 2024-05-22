@@ -233,6 +233,63 @@
       \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
       \endverb
     \endentry
+    \entry{byrne_counterfactuals_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5af56dc8d5bb5c446b4b166620cc571e}{%
+           family={Byrne},
+           familyi={B\bibinitperiod},
+           given={Ruth\bibnamedelimb M.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Macao, China}%
+      }
+      \list{publisher}{1}{%
+        {International Joint Conferences on Artificial Intelligence Organization}%
+      }
+      \strng{namehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{fullhash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{bibnamehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{authorbibnamehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{authornamehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{authorfullhash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Counterfactuals about what could have happened are increasingly used in an array of Artificial Intelligence ({AI}) applications, and especially in explainable {AI} ({XAI}). Counterfactuals can aid the provision of interpretable models to make the decisions of inscrutable systems intelligible to developers and users. However, not all counterfactuals are equally helpful in assisting human comprehension. Discoveries about the nature of the counterfactuals that humans create are a helpful guide to maximize the effectiveness of counterfactual use in {AI}.}
+      \field{eventtitle}{Twenty-Eighth International Joint Conference on Artificial Intelligence \{{IJCAI}-19\}}
+      \field{isbn}{978-0-9992411-4-1}
+      \field{journaltitle}{Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{Counterfactuals in Explainable Artificial Intelligence ({XAI})}
+      \field{title}{Counterfactuals in Explainable Artificial Intelligence ({XAI}): Evidence from Human Reasoning}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6276\bibrangedash 6282}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.24963/ijcai.2019/876
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CG8ULPSN\\Byrne - 2019 - Counterfactuals in Explainable Artificial Intellig.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ijcai.org/proceedings/2019/876
+      \endverb
+      \verb{url}
+      \verb https://www.ijcai.org/proceedings/2019/876
+      \endverb
+    \endentry
     \entry{chiappa_path-specific_2019}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7be343845f20ae7e5afb043f78f991fe}{%
@@ -446,14 +503,100 @@
       \verb https://dl.acm.org/doi/10.1145/3336191.3371824
       \endverb
     \endentry
+    \entry{guo_survey_2020}{article}{}
+      \name{author}{7}{}{%
+        {{un=1,uniquepart=given,hash=3c539ce749ae7c71cfb16cdee9a72815}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Qingyu},
+           giveni={Q\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f80c633bdaeb37dfe8ee7a8562a118b0}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Fuzhen},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efa14006b4be39c2fca0f7dc33c26238}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Chuan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b711e1aff9a8c67d1eb39bca853aa41}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hengshu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0801da56d6877e3eff32e6a6030425d3}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa0c7ab0b9dad5902ab8fc501f57cd77}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c27f1b2b48feefb0593a05e9c6a8b12}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f6b255c1e2d63035812588a75f5f0ae}
+      \strng{fullhash}{b43804649d87557f8a50f2dbe5783c77}
+      \strng{bibnamehash}{b43804649d87557f8a50f2dbe5783c77}
+      \strng{authorbibnamehash}{b43804649d87557f8a50f2dbe5783c77}
+      \strng{authornamehash}{7f6b255c1e2d63035812588a75f5f0ae}
+      \strng{authorfullhash}{b43804649d87557f8a50f2dbe5783c77}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{issn}{1041-4347, 1558-2191, 2326-3865}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{month}{10}
+      \field{number}{8}
+      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
+      \field{title}{A Survey on Knowledge Graph-Based Recommender Systems}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3549\bibrangedash 3568}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/TKDE.2020.3028705
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\8EVEK4S6\\Guo et al. - 2022 - A Survey on Knowledge Graph-Based Recommender Syst.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9216015/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9216015/
+      \endverb
+    \endentry
     \entry{guo_towards_2023}{article}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=0a068c182ef9d6ae996ea69f606de468}{%
+        {{un=1,uniquepart=given,hash=0a068c182ef9d6ae996ea69f606de468}{%
            family={Guo},
            familyi={G\bibinitperiod},
            given={Zhimeng},
            giveni={Z\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=547d2c7b66ff9b1174652a7596e7fb9f}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -495,7 +638,6 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{21}
@@ -774,6 +916,60 @@
       \verb https://dl.acm.org/doi/10.1145/3459637.3482420
       \endverb
     \endentry
+    \entry{tiddi_knowledge_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9e031cc54b67f32dbb75a9d41fb68b40}{%
+           family={Tiddi},
+           familyi={T\bibinitperiod},
+           given={Ilaria},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8acaf13b4c30b3e3091c8848e35d1246}{%
+           family={Schlobach},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{fullhash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{bibnamehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{authorbibnamehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{authornamehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{authorfullhash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00043702}
+      \field{journaltitle}{Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Artificial Intelligence}
+      \field{shorttitle}{Knowledge graphs as tools for explainable machine learning}
+      \field{title}{Knowledge graphs as tools for explainable machine learning: A survey}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{302}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103627}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.artint.2021.103627
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
+      \endverb
+    \endentry
     \entry{tran_counterfactual_2021}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fbf160e8463ae49b197c4daba0a0a0fe}{%
@@ -840,6 +1036,65 @@
       \endverb
       \verb{url}
       \verb https://dl.acm.org/doi/10.1145/3404835.3463005
+      \endverb
+    \endentry
+    \entry{vultureanu-albisi_recommender_2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c137d804d58c2a14420ef19670a235a}{%
+           family={Vultureanu-Albisi},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c037b8581045765f7dcfe7ee2a3749a2}{%
+           family={Badica},
+           familyi={B\bibinitperiod},
+           given={Costin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Kocaeli, Turkey}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{fullhash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{bibnamehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{authorbibnamehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{authornamehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{authorfullhash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{25}
+      \field{eventtitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
+      \field{isbn}{978-1-66543-603-8}
+      \field{journaltitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
+      \field{month}{8}
+      \field{shorttitle}{Recommender Systems}
+      \field{title}{Recommender Systems: An Explainable {AI} Perspective}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/INISTA52262.2021.9548125
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9548125/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9548125/
       \endverb
     \endentry
     \entry{wang_explainable_2019}{article}{}
@@ -1645,6 +1900,63 @@
       \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
       \endverb
     \endentry
+    \entry{byrne_counterfactuals_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5af56dc8d5bb5c446b4b166620cc571e}{%
+           family={Byrne},
+           familyi={B\bibinitperiod},
+           given={Ruth\bibnamedelimb M.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Macao, China}%
+      }
+      \list{publisher}{1}{%
+        {International Joint Conferences on Artificial Intelligence Organization}%
+      }
+      \strng{namehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{fullhash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{bibnamehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{authorbibnamehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{authornamehash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \strng{authorfullhash}{5af56dc8d5bb5c446b4b166620cc571e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Counterfactuals about what could have happened are increasingly used in an array of Artificial Intelligence ({AI}) applications, and especially in explainable {AI} ({XAI}). Counterfactuals can aid the provision of interpretable models to make the decisions of inscrutable systems intelligible to developers and users. However, not all counterfactuals are equally helpful in assisting human comprehension. Discoveries about the nature of the counterfactuals that humans create are a helpful guide to maximize the effectiveness of counterfactual use in {AI}.}
+      \field{eventtitle}{Twenty-Eighth International Joint Conference on Artificial Intelligence \{{IJCAI}-19\}}
+      \field{isbn}{978-0-9992411-4-1}
+      \field{journaltitle}{Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{Counterfactuals in Explainable Artificial Intelligence ({XAI})}
+      \field{title}{Counterfactuals in Explainable Artificial Intelligence ({XAI}): Evidence from Human Reasoning}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6276\bibrangedash 6282}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.24963/ijcai.2019/876
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CG8ULPSN\\Byrne - 2019 - Counterfactuals in Explainable Artificial Intellig.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ijcai.org/proceedings/2019/876
+      \endverb
+      \verb{url}
+      \verb https://www.ijcai.org/proceedings/2019/876
+      \endverb
+    \endentry
     \entry{chiappa_path-specific_2019}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7be343845f20ae7e5afb043f78f991fe}{%
@@ -1858,14 +2170,100 @@
       \verb https://dl.acm.org/doi/10.1145/3336191.3371824
       \endverb
     \endentry
+    \entry{guo_survey_2020}{article}{}
+      \name{author}{7}{}{%
+        {{un=1,uniquepart=given,hash=3c539ce749ae7c71cfb16cdee9a72815}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Qingyu},
+           giveni={Q\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f80c633bdaeb37dfe8ee7a8562a118b0}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Fuzhen},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efa14006b4be39c2fca0f7dc33c26238}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Chuan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b711e1aff9a8c67d1eb39bca853aa41}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hengshu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0801da56d6877e3eff32e6a6030425d3}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa0c7ab0b9dad5902ab8fc501f57cd77}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c27f1b2b48feefb0593a05e9c6a8b12}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f6b255c1e2d63035812588a75f5f0ae}
+      \strng{fullhash}{b43804649d87557f8a50f2dbe5783c77}
+      \strng{bibnamehash}{b43804649d87557f8a50f2dbe5783c77}
+      \strng{authorbibnamehash}{b43804649d87557f8a50f2dbe5783c77}
+      \strng{authornamehash}{7f6b255c1e2d63035812588a75f5f0ae}
+      \strng{authorfullhash}{b43804649d87557f8a50f2dbe5783c77}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{issn}{1041-4347, 1558-2191, 2326-3865}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{month}{10}
+      \field{number}{8}
+      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
+      \field{title}{A Survey on Knowledge Graph-Based Recommender Systems}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3549\bibrangedash 3568}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/TKDE.2020.3028705
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\8EVEK4S6\\Guo et al. - 2022 - A Survey on Knowledge Graph-Based Recommender Syst.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9216015/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9216015/
+      \endverb
+    \endentry
     \entry{guo_towards_2023}{article}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=0a068c182ef9d6ae996ea69f606de468}{%
+        {{un=1,uniquepart=given,hash=0a068c182ef9d6ae996ea69f606de468}{%
            family={Guo},
            familyi={G\bibinitperiod},
            given={Zhimeng},
            giveni={Z\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=547d2c7b66ff9b1174652a7596e7fb9f}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -1907,7 +2305,6 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{21}
@@ -2186,6 +2583,60 @@
       \verb https://dl.acm.org/doi/10.1145/3459637.3482420
       \endverb
     \endentry
+    \entry{tiddi_knowledge_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9e031cc54b67f32dbb75a9d41fb68b40}{%
+           family={Tiddi},
+           familyi={T\bibinitperiod},
+           given={Ilaria},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8acaf13b4c30b3e3091c8848e35d1246}{%
+           family={Schlobach},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{fullhash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{bibnamehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{authorbibnamehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{authornamehash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \strng{authorfullhash}{6e44c9ab00d7e0d4f89a77e016c15a51}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00043702}
+      \field{journaltitle}{Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Artificial Intelligence}
+      \field{shorttitle}{Knowledge graphs as tools for explainable machine learning}
+      \field{title}{Knowledge graphs as tools for explainable machine learning: A survey}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{302}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103627}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.artint.2021.103627
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
+      \endverb
+    \endentry
     \entry{tran_counterfactual_2021}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fbf160e8463ae49b197c4daba0a0a0fe}{%
@@ -2252,6 +2703,65 @@
       \endverb
       \verb{url}
       \verb https://dl.acm.org/doi/10.1145/3404835.3463005
+      \endverb
+    \endentry
+    \entry{vultureanu-albisi_recommender_2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c137d804d58c2a14420ef19670a235a}{%
+           family={Vultureanu-Albisi},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c037b8581045765f7dcfe7ee2a3749a2}{%
+           family={Badica},
+           familyi={B\bibinitperiod},
+           given={Costin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Kocaeli, Turkey}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{fullhash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{bibnamehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{authorbibnamehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{authornamehash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \strng{authorfullhash}{7dec15e1948eff5dba722d5f3f0f526e}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{25}
+      \field{eventtitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
+      \field{isbn}{978-1-66543-603-8}
+      \field{journaltitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
+      \field{month}{8}
+      \field{shorttitle}{Recommender Systems}
+      \field{title}{Recommender Systems: An Explainable {AI} Perspective}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/INISTA52262.2021.9548125
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9548125/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9548125/
       \endverb
     \endentry
     \entry{wang_explainable_2019}{article}{}

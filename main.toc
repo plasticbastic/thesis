@@ -1,25 +1,32 @@
 \babel@toc {USenglish}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Literature Review}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Explainable AI In Knowledge Graph Recommender Systesm}{8}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Path-based Modeling}{8}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Integration of User Profiles and Behavior}{9}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Explainability through Symbolic and Logical Reasoning}{9}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Counterfactual Methods in Different Types of Recommender Systems}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Application of Counterfactuals for Fairness and Bias Mitigation}{12}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Mitigating Bias Across Different AI Frameworks}{12}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Enriching Data and Ensuring Equitable Outcomes}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Leveraging Knowledge Graphs for Fair Recommendations}{13}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Research Design and Methodology}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Recommender System Details}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Data and Implementation}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Knowledge Graph Composition}{15}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Path-Based Recommendation Mechanics}{15}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Counterfactual Analysis}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Attribute Selection}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Performing Counterfactual Analysis}{17}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Case Study}{17}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Results}{18}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.5}%
-\contentsline {chapter}{References}{20}{chapter.5}%
-\contentsline {chapter}{Appendix}{23}{chapter*.3}%
+\contentsline {section}{\numberline {1.1}Background and Motivation}{7}{section.1.1}%
+\contentsline {subsubsection}{Types of Explainable Recommender Systems}{8}{section*.2}%
+\contentsline {section}{\numberline {1.2}Research Problem and Objective}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Methodological Approach}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Expected Contributions and Outcomes}{12}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Contribution}{12}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Structure of the Thesis}{12}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Literature Review}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Explainable AI In Knowledge Graph Recommender Systesm}{14}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Path-based Modeling}{14}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Integration of User Profiles and Behavior}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Explainability through Symbolic and Logical Reasoning}{15}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Counterfactual Methods in Different Types of Recommender Systems}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Application of Counterfactuals for Fairness and Bias Mitigation}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Mitigating Bias Across Different AI Frameworks}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Enriching Data and Ensuring Equitable Outcomes}{19}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Leveraging Knowledge Graphs for Fair Recommendations}{19}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Research Design and Methodology}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Recommender System Details}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Data and Implementation}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Knowledge Graph Composition}{21}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Path-Based Recommendation Mechanics}{21}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Counterfactual Analysis}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Attribute Selection}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Performing Counterfactual Analysis}{23}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Case Study}{23}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Results}{24}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
+\contentsline {chapter}{References}{26}{chapter.5}%
+\contentsline {chapter}{Appendix}{29}{chapter*.5}%

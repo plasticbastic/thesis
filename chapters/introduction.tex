@@ -1,2 +1,275 @@
 \chapter{Introduction}\label{chap:introduction}
 
+\section{Background and Motivation}
+The rapid growth of the Internet as a center for digital and commercial
+interactions has highlighted the essential role of recommender systems in today's
+technology landscape. These systems, which are increasingly vital to companies
+from media giants like Netflix to e-commerce leaders such as Amazon, utilize user
+feedback to create personalized experiences. This feedback varies from explicit
+ratings to implicit behavioral data, such as browsing and purchasing histories,
+and serves as a critical foundation for these systems. By analyzing past interactions
+between users and products, recommender systems can predict future preferences
+and use advanced algorithms to detect patterns in user behavior. These capabilities
+not only improve user satisfaction by aligning recommendations with individual tastes
+but also enhance business strategies by promoting customer engagement and retention.
+As user data grows more complex, these systems evolve by integrating sophisticated
+models that consider content attributes, user specifications, and contextual information,
+% thus increasing the accuracy and relevance of the recommendations offered
+% \parencite{aggarwal_recommender_2016}. Despite their effectiveness in predicting user
+% preferences and enhancing service personalization, traditional recommender systems
+% often operate as opaque entities. This opacity arises from their complex
+% computational mechanisms that typically use deep learning methods, known for their
+'black-box' nature, where the internal reasoning processes remain hidden from
+both users and developers. This lack of transparency poses significant challenges,
+especially from a business perspective, where understanding and trust in these systems
+are crucial. For businesses, the drive to make recommender systems explainable is
+motivated by several key factors. Transparency builds trust; when users understand
+how recommendations are generated, they are more likely to trust and accept
+these suggestions, thereby increasing user satisfaction and loyalty. This is
+particularly important in sectors like e-commerce or content streaming, where the
+accuracy of recommendations directly affects user engagement and retention.
+Furthermore, explainability aids in complying with regulatory standards, such as
+the European Union's General Data Protection Regulation (GDPR), which requires that
+users must understand the decisions made by automated systems that affect them.
+This regulation is critical for businesses to ensure that their AI systems can
+provide clear explanations for their outputs. Additionally, from a business
+innovation standpoint, explainability enables the refinement and optimization of
+recommender systems. By understanding the decision-making processes, developers can
+identify and address biases or errors, leading to more accurate and fair
+recommendations. This not only improves the system's performance but also increases
+its fairness and accountability, aligning with ethical AI practices. The development
+of explainable AI (XAI) seeks to clarify AI operations, allowing both users and
+developers to understand, trust, and effectively manage AI outputs. Recent trends
+toward this field highlight the growing recognition of the need for AI systems,
+particularly recommender systems, to be both effective and understandable. As
+such, the business case for explainable recommender systems is strong, promising
+not only to enhance user experience and comply with regulations but also to
+foster technological advancement and ethical AI practices \parencite{vultureanu-albisi_recommender_2021}
+Explainable recommender systems can be understood from different angles. One way
+for their classification is their approach to explainability.
+
+\subsubsection{Types of Explainable Recommender Systems}
+
+\begin{itemize}
+	\item \textbf{Intrinsic Explainability:} This approach involves developing
+		interpretable models where the decision-making process is transparent. As a result,
+		it's easier to provide natural explanations for the decisions made by the
+		model.
+
+	\item \textbf{Model-Agnostic Approach:} Also known as the post-hoc explanation
+		approach, this allows the decision mechanism to remain a black box. Instead
+		of making the decision process itself clear, it focuses on developing a separate
+		explanation model that generates explanations after a decision has been made.
+\end{itemize}
+
+The underlying philosophy of these approaches aligns closely with theories in
+human cognitive psychology. Sometimes, we make decisions through careful, rational
+reasoning and can clearly explain why we made those decisions. At other times, we
+make decisions first and then rationalize them afterward to support or justify our
+actions. There are multiple approaches to achieving intrinsic
+explainability in recommender systems. These include factorization-based, topic modeling,
+graph-based, specialized deep learning methods, knowledge-based, and rule mining
+approaches. Knowledge graphs, in particular, play a critical role in advancing
+the field of Explainable Artificial Intelligence (XAI) by providing a structured
+and semantically rich framework that enhances the interpretability of complex AI
+models. As \textcite{tiddi_knowledge_2022} describe, knowledge graphs are typically
+structured as directed, edge-labeled graphs that describe entities and their relationships,
+often organized within an ontological schema covering a variety of topics. This organization
+reflects human cognitive processes of understanding and reasoning, making it a
+transparent layer in AI systems where the decisions of otherwise
+
+opaque models can be traced and understood through clear, logical pathways. The primary
+value of knowledge graphs in explainability stems from their ability to connect AI
+outputs with comprehensible and verifiable pieces of information, offering
+deeper insights into the reasoning behind AI decisions. Therefore, knowledge
+graphs not only enhance the trustworthiness and clarity of AI systems but also
+play a significant role in bridging the gap between human understanding and
+machine reasoning, crucial for the broader adoption and ethical deployment of AI
+% technologies \parencite{tiddi_knowledge_2022}. Within the realm of knowledge graph-based
+% recommender systems, two primary methodologies are prominent: embedding-based methods
+and path-based methods. Embedding-based approaches capitalize on the rich
+semantic information available within knowledge graphs to improve the
+representation of users and items. These methods may focus on creating item-specific
+graphs that enrich item representations with attributes from the knowledge graph
+or develop user-item graphs that include both entities and utilize the defined relationships
+and attributes to predict user preferences. Conversely, path-based methods leverage
+the connectivity patterns within the graph, utilizing paths to define and
+measure the similarity and interaction context between users and items. These methods
+often employ predefined meta-paths to capture semantic similarities and refine representations,
+thereby enhancing the recommendation process \parencite{guo_survey_2020}. While these
+explanations significantly improve transparency, they often do not fully meet the
+human cognitive need for a deeper understanding. Users frequently question how
+recommendations might change if product attributes were altered, such as brand changes
+or descriptors like "animal cruelty-free" or "plant-based." This study aims to
+extend the level of explainability of path based kg recommendation through
+counterfactual analysis. Counterfactuals represent hypothetical alternatives to actual
+events, offering insights into what could have happened under different
+circumstances. These constructs are crucial in various domains of artificial intelligence
+(AI), especially in enhancing the interpretability and trustworthiness of AI
+systems—a fundamental aspect of explainable AI (XAI). Counterfactuals serve as a
+critical tool in XAI by providing "what if" analyses that elucidate the decision-making
+processes of AI models, showing how alternative inputs might alter an AI
+% systems output and making these systems more transparent and understandable. The
+application of counterfactuals in XAI are present in both intrinsic and post hoc
+approaches. Intrinsic methods integrate counterfactual reasoning as part of the
+AI model's fundamental design, directly influencing its operational framework.
+Conversely, post hoc techniques generate counterfactual explanations after the model
+has made a decision. By simulating different scenarios, counterfactuals provide insights
+into the specific conditions under which the outcomes of AI decisions might change,
+thereby highlighting the causal relationships within the model's reasoning. These
+"what if" scenarios do more than alter outcomes; they enrich the AI's decision-making
+process, allowing users to explore and understand the model's behavior under various
+hypothetical conditions. This aspect of counterfactuals in XAI not only aids in
+debugging and improving AI systems but also enhances user trust, making AI decisions
+more relatable and understandable, thereby fostering a deeper human-AI rapport \textcite{byrne_counterfactuals_2019}.
+
+\section{Research Problem and Objective}
+
+The central challenge addressed by this thesis is the limited explainability in
+path-based knowledge graph recommender systems. These systems are adept at stating
+the reasons for selecting a particular product but often lack the capability to delve
+into hypothetical "what-if" scenarios, such as the impact of different
+attributes on recommendations. Specifically, the systems do not answer questions
+like, "What if the recommended product had different attributes? Which attributes
+would still make it a plausible choice? Through what other attributes the
+recommended product would be still plausible" This thesis addresses this gap by applying
+counterfactual analysis to these systems, aiming to explore how hypothetical
+changes to product attributes and interactions could alter the generated
+recommendations, thereby enhancing the system's explainability. The primary
+objectives of this research are twofold:
+
+\begin{enumerate}
+	\item \textbf{Development of an Analytical Model:} To create an analytical
+		model that evaluates how changes in the attributes of recommended items
+		affect the recommendation outcomes. This model is designed to identify attributes
+		that would continue to uphold the recommendation's validity, providing
+		deeper insights into the decision-making process of the recommender system.
+
+	\item \textbf{Marketing and User Experience Insights:} To leverage the
+		insights gained from the analytical model to offer marketing intelligence, foster
+		diversity in recommendations, and formulate user profiles that influence
+		these recommendations. This objective aims to enhance the way businesses understand
+		and cater to diverse consumer preferences, thus improving user satisfaction
+		and engagement.
+\end{enumerate}
+
+By meeting these objectives, the research will not only advance the theoretical
+understanding of explainable AI in recommender systems but also equip businesses
+with practical tools to refine their marketing strategies and enhance
+recommendation processes.
+
+\section{Methodological Approach}
+
+The methodological approach developed in this thesis represents a novel strategy
+for enhancing the explainability of knowledge graph-based recommender systems through
+counterfactual analysis. This approach employs techniques in data processing and
+graph analytics to simulate potential scenarios under various attribute
+conditions. By manipulating attributes and observing the resultant changes in recommendations,
+this method offers a detailed view into the decision-making process of the
+recommender system.
+
+\section*{Key Components}
+
+The methodology consists of several essential components:
+
+\begin{enumerate}
+	\item \textbf{Attribute Extraction:} This process involves identifying and
+		extracting relevant attributes and interactions of recommended products from
+		the knowledge graph. This step is crucial for understanding the specific factors
+		that might influence the recommendations.
+
+	\item \textbf{Community Identification:} Utilizing community detection
+		algorithms helps manage the complexity and size of the data by grouping
+		similar products and attributes. This organization enhances the relevance and
+		efficiency of the counterfactual analysis by ensuring that the simulations are
+		grounded in realistic and comparable scenarios.
+
+	\item \textbf{Recommendation Scoring:} This component evaluates each
+		hypothetical scenario by calculating the recommendation scores for altered
+		paths. It allows for a comparison with actual recommendation outcomes to determine
+		if a product with changed attributes would still be recommended. This
+		scoring process is integral in assessing the robustness and flexibility of
+		the recommender system under varied conditions.
+\end{enumerate}
+
+\section{Expected Contributions and Outcomes}
+
+\textbf{Contributions to the Field:} This research contributes to the fields of
+recommender systems and explainable AI by introducing a counterfactual framework
+that incorporates counterfactual reasoning into the recommendation process. This
+adds a significant layer of depth to the analytical capabilities of existing systems
+and enhances the explainability of complex recommender systems, bridging the gap
+between advanced algorithmic decisions and user comprehensibility.
+
+
+\textbf{Anticipated Findings:} The expected findings of this research are likely to show that
+certain attributes and their changes have significant impacts on recommendations,
+highlighting the importance of these attributes in the recommendation logic. By providing
+clearer explanations for recommendations, user satisfaction and trust in the
+system are expected to improve. Additionally, insights from counterfactual
+analyses can inform more targeted marketing strategies and product development
+initiatives, leading to better customer targeting and enhanced product offerings.
+These contributions and findings are anticipated to foster a deeper
+understanding of recommendation systems, promoting more informed and transparent
+use in various applications.
+
+\section{Contribution}
+
+This research advances the fields of recommender systems and explainable AI by
+integrating counterfactual reasoning into the path-based knowledge graph
+recommendation process. This integration introduces a depth to the analytical capabilities
+of existing systems and enhances the explainability of complex recommender systems,
+effectively bridging the gap It aligns algorithmic decision-making more closely
+with stakeholder needs and expectations, thereby increasing the practical utility
+and transparency of these systems.
+
+\section{Structure of the Thesis}
+
+% \section*{Thesis Organization}
+
+This thesis is organized into several chapters, each serving a specific purpose
+to comprehensively cover the research undertaken. Here's a brief outline of each
+chapter and what it entails:
+
+\textbf{Chapter 1: Introduction}
+
+This opening chapter sets the stage for the research by introducing the topic,
+stating the research problem, and outlining the objectives. It provides a
+thorough background on the importance of explainability in knowledge graph-based
+recommender systems and introduces the concept of counterfactual analysis as a
+novel approach to address these challenges.
+
+\textbf{Chapter 2: Literature Review}
+
+The literature review chapter delves into existing studies and theories relevant
+to knowledge graph recommender systems and explainable AI. It discusses previous
+approaches to improve transparency in AI-driven recommendations, evaluates their
+limitations, and highlights the need for innovative solutions like counterfactual
+analysis. This review establishes the theoretical foundation for the research
+and identifies gaps that this thesis aims to fill.
+
+\textbf{Chapter 3: Methodology}
+
+In this chapter, the research methodology used in the thesis is detailed. It
+describes the development of the counterfactual framework, including the processes
+of attribute extraction, community identification, and the computation of recommendation
+scores. The chapter elaborates on the tools and algorithms employed, the data collection
+process, and the techniques used to simulate and analyze various counterfactual
+scenarios.
+
+\textbf{Chapter 4: Results}
+
+The results chapter presents the findings from the application of the
+counterfactual analysis framework. It includes detailed discussions on how different
+attributes and their hypothetical modifications impact the recommendation outcomes.
+The results are supported by quantitative data and visual representations to
+illustrate the effects of attribute changes on the recommendations.
+
+\textbf{Chapter 5: Conclusion and Recommendations}
+
+The concluding chapter synthesizes the findings, discussing the implications for
+both theory and practice. It evaluates the success of the counterfactual
+framework in enhancing the explainability of recommender systems and suggests
+areas for future research. Recommendations for practitioners in the field of recommender
+systems are also provided, focusing on how they can implement similar
+methodologies to improve the transparency and effectiveness of their systems.
