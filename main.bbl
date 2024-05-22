@@ -90,6 +90,71 @@
       \verb http://www.mdpi.com/1999-4893/11/9/137
       \endverb
     \endentry
+    \entry{akula_cocox_2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f2c525078278d937d50b01d17fe6fa09}{%
+           family={Akula},
+           familyi={A\bibinitperiod},
+           given={Arjun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d40715daabe18f3238281befdb32fb12}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b4356508155ef61bbcbb2e10e2c918b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Song-Chun},
+           giveni={S\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cdb0346f1c6bf58712459b0d83d9dcf1}
+      \strng{fullhash}{e9451ddee9851d089db7c4169a3bf255}
+      \strng{bibnamehash}{e9451ddee9851d089db7c4169a3bf255}
+      \strng{authorbibnamehash}{e9451ddee9851d089db7c4169a3bf255}
+      \strng{authornamehash}{cdb0346f1c6bf58712459b0d83d9dcf1}
+      \strng{authorfullhash}{e9451ddee9851d089db7c4169a3bf255}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present {CoCoX} (short for Conceptual and Counterfactual Explanations), a model for explaining decisions made by a deep convolutional neural network ({CNN}). In Cognitive Psychology, the factors (or semantic-level features) that humans zoom in on when they imagine an alternative to a model prediction are often referred to as fault-lines. Motivated by this, our {CoCoX} model explains decisions made by a {CNN} using fault-lines. Specifically, given an input image I for which a {CNN} classification model M predicts class cpred, our fault-line based explanation identifies the minimal semantic-level features (e.g., stripes on zebra, pointed ears of dog), referred to as explainable concepts, that need to be added to or deleted from I in order to alter the classification category of I by M to another specified class calt. We argue that, due to the conceptual and counterfactual nature of fault-lines, our {CoCoX} explanations are practical and more natural for both expert and non-expert users to understand the internal workings of complex deep learning models. Extensive quantitative and qualitative experiments verify our hypotheses, showing that {CoCoX} significantly outperforms the state-of-the-art explainable {AI} models. Our implementation is available at https://github.com/arjunakula/{CoCoX}}
+      \field{day}{3}
+      \field{issn}{2374-3468, 2159-5399}
+      \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
+      \field{month}{4}
+      \field{number}{3}
+      \field{shortjournal}{{AAAI}}
+      \field{shorttitle}{{CoCoX}}
+      \field{title}{{CoCoX}: Generating Conceptual and Counterfactual Explanations via Fault-Lines}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2594\bibrangedash 2601}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v34i03.5643
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CV2V2A2P\\Akula et al. - 2020 - CoCoX Generating Conceptual and Counterfactual Ex.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
+      \endverb
+    \endentry
     \entry{balloccu_post_2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f48df1fdb195508ab1fcac4bcb9b8868}{%
@@ -288,6 +353,87 @@
       \endverb
       \verb{url}
       \verb https://www.ijcai.org/proceedings/2019/876
+      \endverb
+    \endentry
+    \entry{chen_dark_2023}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f0cff4ebe5799906f36d4b96d3a908d7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ziheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37e5f5213268c0946bc6178f7d89bf4c}{%
+           family={Silvestri},
+           familyi={S\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cc71c54a8625a23e45c057542fe7a9f}{%
+           family={Tolomei},
+           familyi={T\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Taipei Taiwan}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f61e1deed3137df4ecccae3e67831278}
+      \strng{fullhash}{5d033a4a96687cc1612f9dc4735ad125}
+      \strng{bibnamehash}{5d033a4a96687cc1612f9dc4735ad125}
+      \strng{authorbibnamehash}{5d033a4a96687cc1612f9dc4735ad125}
+      \strng{authornamehash}{f61e1deed3137df4ecccae3e67831278}
+      \strng{authorfullhash}{5d033a4a96687cc1612f9dc4735ad125}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{eventtitle}{{SIGIR} '23: The 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-9408-6}
+      \field{journaltitle}{Proceedings of the 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shorttitle}{The Dark Side of Explanations}
+      \field{title}{The Dark Side of Explanations: Poisoning Recommender Systems with Counterfactual Examples}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2426\bibrangedash 2430}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3539618.3592070
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NENJBSSI\\Chen et al. - 2023 - The Dark Side of Explanations Poisoning Recommend.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
       \endverb
     \endentry
     \entry{chiappa_path-specific_2019}{article}{}
@@ -668,6 +814,142 @@
       \verb https://dl.acm.org/doi/10.1145/3583780.3615092
       \endverb
     \endentry
+    \entry{jaimini_causalkg_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=612e598421e138cf864da247ce54ebe0}{%
+           family={Jaimini},
+           familyi={J\bibinitperiod},
+           given={Utkarshani},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44ce79da77c0a025945bff1cb198c1e1}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{fullhash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{bibnamehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{authorbibnamehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{authornamehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{authorfullhash}{0d6d68b2ea645433712fe570d906e242}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{1089-7801, 1941-0131}
+      \field{journaltitle}{{IEEE} Internet Computing}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{{IEEE} Internet Comput.}
+      \field{shorttitle}{{CausalKG}}
+      \field{title}{{CausalKG}: Causal Knowledge Graph Explainability Using Interventional and Counterfactual Reasoning}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{26}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{43\bibrangedash 50}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/MIC.2021.3133551
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\7VYGAGH2\\Jaimini and Sheth - 2022 - CausalKG Causal Knowledge Graph Explainability Us.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9706608/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9706608/
+      \endverb
+    \endentry
+    \entry{watson_good_2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=354197578c9e4fbb7d0b1fc263f4622e}{%
+           family={Keane},
+           familyi={K\bibinitperiod},
+           given={Mark\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccbc3ce6a6d463b4a755eac0e057f7f5}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=5dcab082ad3f13c7b1af8618b9dfe341}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=90bc500759cd14a9d66179e2e52191fc}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Rosina},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{fullhash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{bibnamehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{authorbibnamehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{authornamehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{authorfullhash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{editorbibnamehash}{7ff492330d846177e4de7ec7679dde30}
+      \strng{editornamehash}{7ff492330d846177e4de7ec7679dde30}
+      \strng{editorfullhash}{7ff492330d846177e4de7ec7679dde30}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recently, a groundswell of research has identified the use of counterfactual explanations as a potentially significant solution to the Explainable {AI} ({XAI}) problem. It is argued that (i) technically, these counterfactual cases can be generated by permuting problem-features until a class-change is found, (ii) psychologically, they are much more causally informative than factual explanations, (iii) legally, they are {GDPR}-compliant. However, there are issues around the finding of “good” counterfactuals using current techniques (e.g. sparsity and plausibility). We show that many commonly-used datasets appear to have few “good” counterfactuals for explanation purposes. We propose a new case-based approach for generating counterfactuals, using novel ideas about the counterfactual potential and explanatory coverage of a case-base. The new technique reuses patterns of good counterfactuals, present in a case-base, to generate analogous counterfactuals that can explain new problems and their solutions. Several experiments show how this technique can improve the counterfactual potential and explanatory coverage of case-bases, that were previously found wanting.}
+      \field{booktitle}{Case-Based Reasoning Research and Development}
+      \field{isbn}{978-3-030-58341-5 978-3-030-58342-2}
+      \field{langid}{english}
+      \field{note}{Series Title: Lecture Notes in Computer Science}
+      \field{shorttitle}{Good Counterfactuals and Where to Find Them}
+      \field{title}{Good Counterfactuals and Where to Find Them: A Case-Based Technique for Generating Counterfactuals for Explainable {AI} ({XAI})}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{12311}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{163\bibrangedash 178}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-030-58342-2_11
+      \endverb
+      \verb{file}
+      \verb Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:C\:\\Users\\Celine\\Zotero\\storage\\E5WVAHHF\\Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
+      \endverb
+    \endentry
     \entry{liu_practical_2022}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=18c466c121d4455422b2b316682d7cd8}{%
@@ -753,6 +1035,150 @@
       \verb{url}
       \verb https://dl.acm.org/doi/10.1145/3534678.3539295
       \endverb
+    \endentry
+    \entry{lucic_cf-gnnexplainer_2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=66dff1834a13aea3aa7a76fb9d9ff36c}{%
+           family={Lucic},
+           familyi={L\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd5362747f24f74a83950647c9cec0a6}{%
+           family={Hoeve},
+           familyi={H\bibinitperiod},
+           given={Maartje},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={ter},
+           prefixi={t\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=3cc71c54a8625a23e45c057542fe7a9f}{%
+           family={Tolomei},
+           familyi={T\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce8500c4435316ca20758d1f88f330bb}{%
+           family={Rijke},
+           familyi={R\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=37e5f5213268c0946bc6178f7d89bf4c}{%
+           family={Silvestri},
+           familyi={S\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7bb2f88c8ff29a6c18ef058f5f1ab62}
+      \strng{fullhash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \strng{bibnamehash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \strng{authorbibnamehash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \strng{authornamehash}{e7bb2f88c8ff29a6c18ef058f5f1ab62}
+      \strng{authorfullhash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Given the increasing promise of graph neural networks ({GNNs}) in real-world applications, several methods have been developed for explaining their predictions. Existing methods for interpreting predictions from {GNNs} have primarily focused on generating subgraphs that are especially relevant for a particular prediction. However, such methods are not counterfactual ({CF}) in nature: given a prediction, we want to understand how the prediction can be changed in order to achieve an alternative outcome. In this work, we propose a method for generating {CF} explanations for {GNNs}: the minimal perturbation to the input (graph) data such that the prediction changes. Using only edge deletions, we find that our method, {CF}-{GNNExplainer}, can generate {CF} explanations for the majority of instances across three widely used datasets for {GNN} explanations, while removing less than 3 edges on average, with at least 94{\textbackslash}\% accuracy. This indicates that {CF}-{GNNExplainer} primarily removes edges that are crucial for the original predictions, resulting in minimal {CF} explanations.}
+      \field{note}{Publisher: [object Object] Version Number: 4}
+      \field{shorttitle}{{CF}-{GNNExplainer}}
+      \field{title}{{CF}-{GNNExplainer}: Counterfactual Explanations for Graph Neural Networks}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2102.03322
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\LHWRFQ22\\Lucic et al. - 2021 - CF-GNNExplainer Counterfactual Explanations for G.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2102.03322
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2102.03322
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Machine Learning (cs.{LG})}
+    \endentry
+    \entry{ma_clear_2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9c74031df681717b144d22e3c1eb68a1}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f29057a68744347aa3d67938add46673}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Ruocheng},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b415a1f9574862dd72b8443cdcc5cdc7}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Saumitra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa724c15ceb2e2648528b056220e04bd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Aidong},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65a1a296c495b084e18c6871049b59e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jundong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
+      \strng{fullhash}{95921094985458eba8f8580a3b515616}
+      \strng{bibnamehash}{95921094985458eba8f8580a3b515616}
+      \strng{authorbibnamehash}{95921094985458eba8f8580a3b515616}
+      \strng{authornamehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
+      \strng{authorfullhash}{95921094985458eba8f8580a3b515616}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Counterfactual explanations promote explainability in machine learning models by answering the question "how should an input instance be perturbed to obtain a desired predicted label?". The comparison of this instance before and after perturbation can enhance human interpretation. Most existing studies on counterfactual explanations are limited in tabular data or image data. In this work, we study the problem of counterfactual explanation generation on graphs. A few studies have explored counterfactual explanations on graphs, but many challenges of this problem are still not well-addressed: 1) optimizing in the discrete and disorganized space of graphs; 2) generalizing on unseen graphs; and 3) maintaining the causality in the generated counterfactuals without prior knowledge of the causal model. To tackle these challenges, we propose a novel framework {CLEAR} which aims to generate counterfactual explanations on graphs for graph-level prediction models. Specifically, {CLEAR} leverages a graph variational autoencoder based mechanism to facilitate its optimization and generalization, and promotes causality by leveraging an auxiliary variable to better identify the underlying causal model. Extensive experiments on both synthetic and real-world graphs validate the superiority of {CLEAR} over the state-of-the-art methods in different aspects.}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{shorttitle}{{CLEAR}}
+      \field{title}{{CLEAR}: Generative Counterfactual Explanations on Graphs}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2210.08443
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\7XMGYK7W\\Ma et al. - 2022 - CLEAR Generative Counterfactual Explanations on G.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2210.08443
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2210.08443
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG})}
     \endentry
     \entry{medda_gnnuers_2024}{article}{}
       \name{author}{5}{}{%
@@ -881,6 +1307,7 @@
       \strng{authorbibnamehash}{9264eb95ce5b9ee6a44613e9be73ed6e}
       \strng{authornamehash}{9639267e9f8240da479fff72c719e336}
       \strng{authorfullhash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -914,6 +1341,99 @@
       \endverb
       \verb{url}
       \verb https://dl.acm.org/doi/10.1145/3459637.3482420
+      \endverb
+    \endentry
+    \entry{tan_learning_2022}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Juntao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b08640f38e5ddc30b8bb80b6b0e0307}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d45b288ada8f9bd631225634f1fc361}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shuyuan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bccfb53e1d1e81227f90f7da7bbbf3f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yunqi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event, Lyon France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9639267e9f8240da479fff72c719e336}
+      \strng{fullhash}{b31a07e6f0096418e5d92a804201867c}
+      \strng{bibnamehash}{b31a07e6f0096418e5d92a804201867c}
+      \strng{authorbibnamehash}{b31a07e6f0096418e5d92a804201867c}
+      \strng{authornamehash}{9639267e9f8240da479fff72c719e336}
+      \strng{authorfullhash}{b31a07e6f0096418e5d92a804201867c}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
+      \field{isbn}{978-1-4503-9096-5}
+      \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1018\bibrangedash 1027}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3485447.3511948
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\HND7QZP4\\Tan et al. - 2022 - Learning and Evaluating Graph Neural Network Expla.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
       \endverb
     \endentry
     \entry{tiddi_knowledge_2022}{article}{}
@@ -1099,12 +1619,12 @@
     \endentry
     \entry{wang_explainable_2019}{article}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
+        {{un=1,uniquepart=given,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Xiang},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=181eb68f541c9dae90b87dbe6453fcb7}{%
            family={Wang},
            familyi={W\bibinitperiod},
@@ -1142,11 +1662,11 @@
       \strng{authorbibnamehash}{f73ede44b43826810beaf6b5957c4e2f}
       \strng{authornamehash}{35ac326fad78d42d0760cfb75887ea69}
       \strng{authorfullhash}{f73ede44b43826810beaf6b5957c4e2f}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Incorporating knowledge graph into recommender systems has attracted increasing attention in recent years. By exploring the interlinks within a knowledge graph, the connectivity between users and items can be discovered as paths, which provide rich and complementary information to user-item interactions. Such connectivity not only reveals the semantics of entities and relations, but also helps to comprehend a user’s interest. However, existing efforts have not fully explored this connectivity to infer user preferences, especially in terms of modeling the sequential dependencies within and holistic semantics of a path.In this paper, we contribute a new model named Knowledgeaware Path Recurrent Network ({KPRN}) to exploit knowledge graph for recommendation. {KPRN} can generate path representations by composing the semantics of both entities and relations. By leveraging the sequential dependencies within a path, we allow effective reasoning on paths to infer the underlying rationale of a user-item interaction. Furthermore, we design a new weighted pooling operation to discriminate the strengths of different paths in connecting a user with an item, endowing our model with a certain level of explainability. We conduct extensive experiments on two datasets about movie and music, demonstrating significant improvements over state-of-the-art solutions Collaborative Knowledge Base Embedding and Neural Factorization Machine.}
@@ -1177,6 +1697,144 @@
       \endverb
       \verb{url}
       \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
+      \endverb
+    \endentry
+    \entry{wang_reinforced_2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=1e4aaeee015c80c04039b7d911f14021}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiangmeng},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9885f16be76c4e68e9c2aaf363a53600}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b57ab36dffa913a177ced0a82377a6f6}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dianer},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06023c96555b95e222d92ae0de2c2291}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guandong},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2dbf0d42c7d5ffc5a176987af174d812}
+      \strng{fullhash}{27891845dd5ea1486a7d2e815d346830}
+      \strng{bibnamehash}{27891845dd5ea1486a7d2e815d346830}
+      \strng{authorbibnamehash}{27891845dd5ea1486a7d2e815d346830}
+      \strng{authornamehash}{2dbf0d42c7d5ffc5a176987af174d812}
+      \strng{authorfullhash}{27891845dd5ea1486a7d2e815d346830}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1041-4347, 1558-2191, 2326-3865}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
+      \field{title}{Reinforced Path Reasoning for Counterfactual Explainable Recommendation}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/TKDE.2024.3354077
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Y4DVTXI2\\Wang et al. - 2024 - Reinforced Path Reasoning for Counterfactual Expla.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10399934/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10399934/
+      \endverb
+    \endentry
+    \entry{wang_incorporating_2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=6902e239f52bd586d8d874917fb9a5e9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zikang},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=79907a6be02beffa2d1b7b582bdb5234}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Linjing},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=510c9ed1656d5f53aabf3eb8b57c2480}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3554b7b482d522dc08cfee13f5099f70}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaofei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8edd7217deb7ff2e3fda48d0929142d3}
+      \strng{fullhash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \strng{bibnamehash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \strng{authorbibnamehash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \strng{authornamehash}{8edd7217deb7ff2e3fda48d0929142d3}
+      \strng{authorfullhash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09507051}
+      \field{journaltitle}{Knowledge-Based Systems}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shortjournal}{Knowledge-Based Systems}
+      \field{title}{Incorporating prior knowledge from counterfactuals into knowledge graph reasoning}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{223}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107035}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.knosys.2021.107035
+      \endverb
+      \verb{file}
+      \verb Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:C\:\\Users\\Celine\\Zotero\\storage\\WCFXMK6V\\Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
       \endverb
     \endentry
     \entry{wei_model-agnostic_2021}{article}{}
@@ -1683,6 +2341,63 @@
       \verb https://arxiv.org/abs/2109.02444
       \endverb
       \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Artificial Intelligence (cs.{AI})}
+    \endentry
+    \entry{zellinger_counterfactual_2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c7472e0aa143cfb73cd05b1a5fc9153f}{%
+           family={Zellinger},
+           familyi={Z\bibinitperiod},
+           given={Lena},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6da9e8321639008a2398eb9bcefc99f5}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cec67c99a5ca018b7cb4e93e1aa60e98}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44aef1586c12fc12f88e2647224d6c84}
+      \strng{fullhash}{e984cc495d75654319ac3d60936ac946}
+      \strng{bibnamehash}{e984cc495d75654319ac3d60936ac946}
+      \strng{authorbibnamehash}{e984cc495d75654319ac3d60936ac946}
+      \strng{authornamehash}{44aef1586c12fc12f88e2647224d6c84}
+      \strng{authorfullhash}{e984cc495d75654319ac3d60936ac946}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Knowledge graph embeddings ({KGEs}) were originally developed to infer true but missing facts in incomplete knowledge repositories. In this paper, we link knowledge graph completion and counterfactual reasoning via our new task {CFKGR}. We model the original world state as a knowledge graph, hypothetical scenarios as edges added to the graph, and plausible changes to the graph as inferences from logical rules. We create corresponding benchmark datasets, which contain diverse hypothetical scenarios with plausible changes to the original knowledge graph and facts that should be retained. We develop {COULDD}, a general method for adapting existing knowledge graph embeddings given a hypothetical premise, and evaluate it on our benchmark. Our results indicate that {KGEs} learn patterns in the graph without explicit training. We further observe that {KGEs} adapted with {COULDD} solidly detect plausible counterfactual changes to the graph that follow these patterns. An evaluation on human-annotated data reveals that {KGEs} adapted with {COULDD} are mostly unable to recognize changes to the graph that do not follow learned inference rules. In contrast, {ChatGPT} mostly outperforms {KGEs} in detecting plausible changes to the graph but has poor knowledge retention. In summary, {CFKGR} connects two previously distinct areas, namely {KG} completion and counterfactual reasoning.}
+      \field{note}{Publisher: [object Object] Version Number: 1}
+      \field{title}{Counterfactual Reasoning with Knowledge Graph Embeddings}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2403.06936
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YD4NR66Y\\Zellinger et al. - 2024 - Counterfactual Reasoning with Knowledge Graph Embe.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.06936
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.06936
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Computation and Language (cs.{CL}),Machine Learning (cs.{LG})}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -1757,6 +2472,71 @@
       \verb http://www.mdpi.com/1999-4893/11/9/137
       \endverb
     \endentry
+    \entry{akula_cocox_2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f2c525078278d937d50b01d17fe6fa09}{%
+           family={Akula},
+           familyi={A\bibinitperiod},
+           given={Arjun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d40715daabe18f3238281befdb32fb12}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b4356508155ef61bbcbb2e10e2c918b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Song-Chun},
+           giveni={S\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cdb0346f1c6bf58712459b0d83d9dcf1}
+      \strng{fullhash}{e9451ddee9851d089db7c4169a3bf255}
+      \strng{bibnamehash}{e9451ddee9851d089db7c4169a3bf255}
+      \strng{authorbibnamehash}{e9451ddee9851d089db7c4169a3bf255}
+      \strng{authornamehash}{cdb0346f1c6bf58712459b0d83d9dcf1}
+      \strng{authorfullhash}{e9451ddee9851d089db7c4169a3bf255}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present {CoCoX} (short for Conceptual and Counterfactual Explanations), a model for explaining decisions made by a deep convolutional neural network ({CNN}). In Cognitive Psychology, the factors (or semantic-level features) that humans zoom in on when they imagine an alternative to a model prediction are often referred to as fault-lines. Motivated by this, our {CoCoX} model explains decisions made by a {CNN} using fault-lines. Specifically, given an input image I for which a {CNN} classification model M predicts class cpred, our fault-line based explanation identifies the minimal semantic-level features (e.g., stripes on zebra, pointed ears of dog), referred to as explainable concepts, that need to be added to or deleted from I in order to alter the classification category of I by M to another specified class calt. We argue that, due to the conceptual and counterfactual nature of fault-lines, our {CoCoX} explanations are practical and more natural for both expert and non-expert users to understand the internal workings of complex deep learning models. Extensive quantitative and qualitative experiments verify our hypotheses, showing that {CoCoX} significantly outperforms the state-of-the-art explainable {AI} models. Our implementation is available at https://github.com/arjunakula/{CoCoX}}
+      \field{day}{3}
+      \field{issn}{2374-3468, 2159-5399}
+      \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
+      \field{month}{4}
+      \field{number}{3}
+      \field{shortjournal}{{AAAI}}
+      \field{shorttitle}{{CoCoX}}
+      \field{title}{{CoCoX}: Generating Conceptual and Counterfactual Explanations via Fault-Lines}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2594\bibrangedash 2601}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v34i03.5643
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CV2V2A2P\\Akula et al. - 2020 - CoCoX Generating Conceptual and Counterfactual Ex.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
+      \endverb
+    \endentry
     \entry{balloccu_post_2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f48df1fdb195508ab1fcac4bcb9b8868}{%
@@ -1955,6 +2735,87 @@
       \endverb
       \verb{url}
       \verb https://www.ijcai.org/proceedings/2019/876
+      \endverb
+    \endentry
+    \entry{chen_dark_2023}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f0cff4ebe5799906f36d4b96d3a908d7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ziheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37e5f5213268c0946bc6178f7d89bf4c}{%
+           family={Silvestri},
+           familyi={S\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cc71c54a8625a23e45c057542fe7a9f}{%
+           family={Tolomei},
+           familyi={T\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Taipei Taiwan}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f61e1deed3137df4ecccae3e67831278}
+      \strng{fullhash}{5d033a4a96687cc1612f9dc4735ad125}
+      \strng{bibnamehash}{5d033a4a96687cc1612f9dc4735ad125}
+      \strng{authorbibnamehash}{5d033a4a96687cc1612f9dc4735ad125}
+      \strng{authornamehash}{f61e1deed3137df4ecccae3e67831278}
+      \strng{authorfullhash}{5d033a4a96687cc1612f9dc4735ad125}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{eventtitle}{{SIGIR} '23: The 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{isbn}{978-1-4503-9408-6}
+      \field{journaltitle}{Proceedings of the 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shorttitle}{The Dark Side of Explanations}
+      \field{title}{The Dark Side of Explanations: Poisoning Recommender Systems with Counterfactual Examples}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2426\bibrangedash 2430}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3539618.3592070
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NENJBSSI\\Chen et al. - 2023 - The Dark Side of Explanations Poisoning Recommend.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
       \endverb
     \endentry
     \entry{chiappa_path-specific_2019}{article}{}
@@ -2335,6 +3196,142 @@
       \verb https://dl.acm.org/doi/10.1145/3583780.3615092
       \endverb
     \endentry
+    \entry{jaimini_causalkg_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=612e598421e138cf864da247ce54ebe0}{%
+           family={Jaimini},
+           familyi={J\bibinitperiod},
+           given={Utkarshani},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44ce79da77c0a025945bff1cb198c1e1}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{fullhash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{bibnamehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{authorbibnamehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{authornamehash}{0d6d68b2ea645433712fe570d906e242}
+      \strng{authorfullhash}{0d6d68b2ea645433712fe570d906e242}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{1089-7801, 1941-0131}
+      \field{journaltitle}{{IEEE} Internet Computing}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{{IEEE} Internet Comput.}
+      \field{shorttitle}{{CausalKG}}
+      \field{title}{{CausalKG}: Causal Knowledge Graph Explainability Using Interventional and Counterfactual Reasoning}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{26}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{43\bibrangedash 50}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/MIC.2021.3133551
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\7VYGAGH2\\Jaimini and Sheth - 2022 - CausalKG Causal Knowledge Graph Explainability Us.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9706608/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9706608/
+      \endverb
+    \endentry
+    \entry{watson_good_2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=354197578c9e4fbb7d0b1fc263f4622e}{%
+           family={Keane},
+           familyi={K\bibinitperiod},
+           given={Mark\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccbc3ce6a6d463b4a755eac0e057f7f5}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=5dcab082ad3f13c7b1af8618b9dfe341}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=90bc500759cd14a9d66179e2e52191fc}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Rosina},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{fullhash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{bibnamehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{authorbibnamehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{authornamehash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{authorfullhash}{49331e542977bf5a081cbdcb153841a7}
+      \strng{editorbibnamehash}{7ff492330d846177e4de7ec7679dde30}
+      \strng{editornamehash}{7ff492330d846177e4de7ec7679dde30}
+      \strng{editorfullhash}{7ff492330d846177e4de7ec7679dde30}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recently, a groundswell of research has identified the use of counterfactual explanations as a potentially significant solution to the Explainable {AI} ({XAI}) problem. It is argued that (i) technically, these counterfactual cases can be generated by permuting problem-features until a class-change is found, (ii) psychologically, they are much more causally informative than factual explanations, (iii) legally, they are {GDPR}-compliant. However, there are issues around the finding of “good” counterfactuals using current techniques (e.g. sparsity and plausibility). We show that many commonly-used datasets appear to have few “good” counterfactuals for explanation purposes. We propose a new case-based approach for generating counterfactuals, using novel ideas about the counterfactual potential and explanatory coverage of a case-base. The new technique reuses patterns of good counterfactuals, present in a case-base, to generate analogous counterfactuals that can explain new problems and their solutions. Several experiments show how this technique can improve the counterfactual potential and explanatory coverage of case-bases, that were previously found wanting.}
+      \field{booktitle}{Case-Based Reasoning Research and Development}
+      \field{isbn}{978-3-030-58341-5 978-3-030-58342-2}
+      \field{langid}{english}
+      \field{note}{Series Title: Lecture Notes in Computer Science}
+      \field{shorttitle}{Good Counterfactuals and Where to Find Them}
+      \field{title}{Good Counterfactuals and Where to Find Them: A Case-Based Technique for Generating Counterfactuals for Explainable {AI} ({XAI})}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{12311}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{163\bibrangedash 178}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-030-58342-2_11
+      \endverb
+      \verb{file}
+      \verb Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:C\:\\Users\\Celine\\Zotero\\storage\\E5WVAHHF\\Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
+      \endverb
+    \endentry
     \entry{liu_practical_2022}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=18c466c121d4455422b2b316682d7cd8}{%
@@ -2421,6 +3418,150 @@
       \verb https://dl.acm.org/doi/10.1145/3534678.3539295
       \endverb
     \endentry
+    \entry{lucic_cf-gnnexplainer_2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=66dff1834a13aea3aa7a76fb9d9ff36c}{%
+           family={Lucic},
+           familyi={L\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd5362747f24f74a83950647c9cec0a6}{%
+           family={Hoeve},
+           familyi={H\bibinitperiod},
+           given={Maartje},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={ter},
+           prefixi={t\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=3cc71c54a8625a23e45c057542fe7a9f}{%
+           family={Tolomei},
+           familyi={T\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce8500c4435316ca20758d1f88f330bb}{%
+           family={Rijke},
+           familyi={R\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=37e5f5213268c0946bc6178f7d89bf4c}{%
+           family={Silvestri},
+           familyi={S\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7bb2f88c8ff29a6c18ef058f5f1ab62}
+      \strng{fullhash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \strng{bibnamehash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \strng{authorbibnamehash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \strng{authornamehash}{e7bb2f88c8ff29a6c18ef058f5f1ab62}
+      \strng{authorfullhash}{d4dd92b5d3bff4df2c28675f2b82c003}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Given the increasing promise of graph neural networks ({GNNs}) in real-world applications, several methods have been developed for explaining their predictions. Existing methods for interpreting predictions from {GNNs} have primarily focused on generating subgraphs that are especially relevant for a particular prediction. However, such methods are not counterfactual ({CF}) in nature: given a prediction, we want to understand how the prediction can be changed in order to achieve an alternative outcome. In this work, we propose a method for generating {CF} explanations for {GNNs}: the minimal perturbation to the input (graph) data such that the prediction changes. Using only edge deletions, we find that our method, {CF}-{GNNExplainer}, can generate {CF} explanations for the majority of instances across three widely used datasets for {GNN} explanations, while removing less than 3 edges on average, with at least 94{\textbackslash}\% accuracy. This indicates that {CF}-{GNNExplainer} primarily removes edges that are crucial for the original predictions, resulting in minimal {CF} explanations.}
+      \field{note}{Publisher: [object Object] Version Number: 4}
+      \field{shorttitle}{{CF}-{GNNExplainer}}
+      \field{title}{{CF}-{GNNExplainer}: Counterfactual Explanations for Graph Neural Networks}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2102.03322
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\LHWRFQ22\\Lucic et al. - 2021 - CF-GNNExplainer Counterfactual Explanations for G.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2102.03322
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2102.03322
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Machine Learning (cs.{LG})}
+    \endentry
+    \entry{ma_clear_2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9c74031df681717b144d22e3c1eb68a1}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f29057a68744347aa3d67938add46673}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Ruocheng},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b415a1f9574862dd72b8443cdcc5cdc7}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Saumitra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa724c15ceb2e2648528b056220e04bd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Aidong},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65a1a296c495b084e18c6871049b59e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jundong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
+      \strng{fullhash}{95921094985458eba8f8580a3b515616}
+      \strng{bibnamehash}{95921094985458eba8f8580a3b515616}
+      \strng{authorbibnamehash}{95921094985458eba8f8580a3b515616}
+      \strng{authornamehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
+      \strng{authorfullhash}{95921094985458eba8f8580a3b515616}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Counterfactual explanations promote explainability in machine learning models by answering the question "how should an input instance be perturbed to obtain a desired predicted label?". The comparison of this instance before and after perturbation can enhance human interpretation. Most existing studies on counterfactual explanations are limited in tabular data or image data. In this work, we study the problem of counterfactual explanation generation on graphs. A few studies have explored counterfactual explanations on graphs, but many challenges of this problem are still not well-addressed: 1) optimizing in the discrete and disorganized space of graphs; 2) generalizing on unseen graphs; and 3) maintaining the causality in the generated counterfactuals without prior knowledge of the causal model. To tackle these challenges, we propose a novel framework {CLEAR} which aims to generate counterfactual explanations on graphs for graph-level prediction models. Specifically, {CLEAR} leverages a graph variational autoencoder based mechanism to facilitate its optimization and generalization, and promotes causality by leveraging an auxiliary variable to better identify the underlying causal model. Extensive experiments on both synthetic and real-world graphs validate the superiority of {CLEAR} over the state-of-the-art methods in different aspects.}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{shorttitle}{{CLEAR}}
+      \field{title}{{CLEAR}: Generative Counterfactual Explanations on Graphs}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2210.08443
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\7XMGYK7W\\Ma et al. - 2022 - CLEAR Generative Counterfactual Explanations on G.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2210.08443
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2210.08443
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG})}
+    \endentry
     \entry{medda_gnnuers_2024}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=345ae0ead031e439f8cc012a6438a25d}{%
@@ -2497,6 +3638,99 @@
       \verb https://dl.acm.org/doi/10.1145/3655631
       \endverb
     \endentry
+    \entry{tan_learning_2022}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Juntao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b08640f38e5ddc30b8bb80b6b0e0307}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1eaf6f9f7f306fe14c70aab776f1d5}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Zuohui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da28b729cdffa08e807a83178fe130c7}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yingqiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d45b288ada8f9bd631225634f1fc361}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shuyuan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bccfb53e1d1e81227f90f7da7bbbf3f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yunqi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd8216a36735a9f3107aef444551ecb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event, Lyon France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9639267e9f8240da479fff72c719e336}
+      \strng{fullhash}{b31a07e6f0096418e5d92a804201867c}
+      \strng{bibnamehash}{b31a07e6f0096418e5d92a804201867c}
+      \strng{authorbibnamehash}{b31a07e6f0096418e5d92a804201867c}
+      \strng{authornamehash}{9639267e9f8240da479fff72c719e336}
+      \strng{authorfullhash}{b31a07e6f0096418e5d92a804201867c}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
+      \field{isbn}{978-1-4503-9096-5}
+      \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1018\bibrangedash 1027}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3485447.3511948
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\HND7QZP4\\Tan et al. - 2022 - Learning and Evaluating Graph Neural Network Expla.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
+      \endverb
+    \endentry
     \entry{tan_counterfactual_2021}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=54f5c8d08b447b0927665163d7d68bbc}{%
@@ -2548,6 +3782,7 @@
       \strng{authorbibnamehash}{9264eb95ce5b9ee6a44613e9be73ed6e}
       \strng{authornamehash}{9639267e9f8240da479fff72c719e336}
       \strng{authorfullhash}{9264eb95ce5b9ee6a44613e9be73ed6e}
+      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -2766,12 +4001,12 @@
     \endentry
     \entry{wang_explainable_2019}{article}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
+        {{un=1,uniquepart=given,hash=8fde8559617f603b3e2b3cf30cb48e9b}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Xiang},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=181eb68f541c9dae90b87dbe6453fcb7}{%
            family={Wang},
            familyi={W\bibinitperiod},
@@ -2809,11 +4044,11 @@
       \strng{authorbibnamehash}{f73ede44b43826810beaf6b5957c4e2f}
       \strng{authornamehash}{35ac326fad78d42d0760cfb75887ea69}
       \strng{authorfullhash}{f73ede44b43826810beaf6b5957c4e2f}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Incorporating knowledge graph into recommender systems has attracted increasing attention in recent years. By exploring the interlinks within a knowledge graph, the connectivity between users and items can be discovered as paths, which provide rich and complementary information to user-item interactions. Such connectivity not only reveals the semantics of entities and relations, but also helps to comprehend a user’s interest. However, existing efforts have not fully explored this connectivity to infer user preferences, especially in terms of modeling the sequential dependencies within and holistic semantics of a path.In this paper, we contribute a new model named Knowledgeaware Path Recurrent Network ({KPRN}) to exploit knowledge graph for recommendation. {KPRN} can generate path representations by composing the semantics of both entities and relations. By leveraging the sequential dependencies within a path, we allow effective reasoning on paths to infer the underlying rationale of a user-item interaction. Furthermore, we design a new weighted pooling operation to discriminate the strengths of different paths in connecting a user with an item, endowing our model with a certain level of explainability. We conduct extensive experiments on two datasets about movie and music, demonstrating significant improvements over state-of-the-art solutions Collaborative Knowledge Base Embedding and Neural Factorization Machine.}
@@ -2844,6 +4079,144 @@
       \endverb
       \verb{url}
       \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
+      \endverb
+    \endentry
+    \entry{wang_reinforced_2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=1e4aaeee015c80c04039b7d911f14021}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiangmeng},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9885f16be76c4e68e9c2aaf363a53600}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b57ab36dffa913a177ced0a82377a6f6}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dianer},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06023c96555b95e222d92ae0de2c2291}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guandong},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2dbf0d42c7d5ffc5a176987af174d812}
+      \strng{fullhash}{27891845dd5ea1486a7d2e815d346830}
+      \strng{bibnamehash}{27891845dd5ea1486a7d2e815d346830}
+      \strng{authorbibnamehash}{27891845dd5ea1486a7d2e815d346830}
+      \strng{authornamehash}{2dbf0d42c7d5ffc5a176987af174d812}
+      \strng{authorfullhash}{27891845dd5ea1486a7d2e815d346830}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1041-4347, 1558-2191, 2326-3865}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
+      \field{title}{Reinforced Path Reasoning for Counterfactual Explainable Recommendation}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/TKDE.2024.3354077
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Y4DVTXI2\\Wang et al. - 2024 - Reinforced Path Reasoning for Counterfactual Expla.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10399934/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10399934/
+      \endverb
+    \endentry
+    \entry{wang_incorporating_2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=6902e239f52bd586d8d874917fb9a5e9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zikang},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=79907a6be02beffa2d1b7b582bdb5234}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Linjing},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=510c9ed1656d5f53aabf3eb8b57c2480}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3554b7b482d522dc08cfee13f5099f70}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaofei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8edd7217deb7ff2e3fda48d0929142d3}
+      \strng{fullhash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \strng{bibnamehash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \strng{authorbibnamehash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \strng{authornamehash}{8edd7217deb7ff2e3fda48d0929142d3}
+      \strng{authorfullhash}{9d5a2a105537f9c7cdbe571da392ffbb}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09507051}
+      \field{journaltitle}{Knowledge-Based Systems}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shortjournal}{Knowledge-Based Systems}
+      \field{title}{Incorporating prior knowledge from counterfactuals into knowledge graph reasoning}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{223}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107035}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.knosys.2021.107035
+      \endverb
+      \verb{file}
+      \verb Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:C\:\\Users\\Celine\\Zotero\\storage\\WCFXMK6V\\Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
       \endverb
     \endentry
     \entry{wei_model-agnostic_2021}{article}{}
@@ -3350,6 +4723,63 @@
       \verb https://arxiv.org/abs/2109.02444
       \endverb
       \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Artificial Intelligence (cs.{AI})}
+    \endentry
+    \entry{zellinger_counterfactual_2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c7472e0aa143cfb73cd05b1a5fc9153f}{%
+           family={Zellinger},
+           familyi={Z\bibinitperiod},
+           given={Lena},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6da9e8321639008a2398eb9bcefc99f5}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cec67c99a5ca018b7cb4e93e1aa60e98}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44aef1586c12fc12f88e2647224d6c84}
+      \strng{fullhash}{e984cc495d75654319ac3d60936ac946}
+      \strng{bibnamehash}{e984cc495d75654319ac3d60936ac946}
+      \strng{authorbibnamehash}{e984cc495d75654319ac3d60936ac946}
+      \strng{authornamehash}{44aef1586c12fc12f88e2647224d6c84}
+      \strng{authorfullhash}{e984cc495d75654319ac3d60936ac946}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Knowledge graph embeddings ({KGEs}) were originally developed to infer true but missing facts in incomplete knowledge repositories. In this paper, we link knowledge graph completion and counterfactual reasoning via our new task {CFKGR}. We model the original world state as a knowledge graph, hypothetical scenarios as edges added to the graph, and plausible changes to the graph as inferences from logical rules. We create corresponding benchmark datasets, which contain diverse hypothetical scenarios with plausible changes to the original knowledge graph and facts that should be retained. We develop {COULDD}, a general method for adapting existing knowledge graph embeddings given a hypothetical premise, and evaluate it on our benchmark. Our results indicate that {KGEs} learn patterns in the graph without explicit training. We further observe that {KGEs} adapted with {COULDD} solidly detect plausible counterfactual changes to the graph that follow these patterns. An evaluation on human-annotated data reveals that {KGEs} adapted with {COULDD} are mostly unable to recognize changes to the graph that do not follow learned inference rules. In contrast, {ChatGPT} mostly outperforms {KGEs} in detecting plausible changes to the graph but has poor knowledge retention. In summary, {CFKGR} connects two previously distinct areas, namely {KG} completion and counterfactual reasoning.}
+      \field{note}{Publisher: [object Object] Version Number: 1}
+      \field{title}{Counterfactual Reasoning with Knowledge Graph Embeddings}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2403.06936
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YD4NR66Y\\Zellinger et al. - 2024 - Counterfactual Reasoning with Knowledge Graph Embe.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.06936
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.06936
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Computation and Language (cs.{CL}),Machine Learning (cs.{LG})}
     \endentry
   \enddatalist
 \endrefsection

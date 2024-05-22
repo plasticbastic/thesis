@@ -3072,31 +3072,46 @@
     <bcf:citekey order="11" intorder="1">ai_learning_2018</bcf:citekey>
     <bcf:citekey order="12" intorder="1">ai_learning_2018</bcf:citekey>
     <bcf:citekey order="13" intorder="1">xian_reinforcement_2019</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">wei_causal_2023</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">tran_counterfactual_2021</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">tran_counterfactual_2021</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">liu_practical_2022</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">ghazimatin_prince_2020</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">yang_top-n_2021</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">yang_top-n_2021</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">tan_counterfactual_2021</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">guo_towards_2023</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">guo_towards_2023</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">medda_gnnuers_2024</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">medda_gnnuers_2024</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">wei_model-agnostic_2021</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">wei_model-agnostic_2021</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">xu_adversarial_2020</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">xu_adversarial_2020</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">watson_good_2020</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">watson_good_2020</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">lucic_cf-gnnexplainer_2021</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">jaimini_causalkg_2022</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">jaimini_causalkg_2022</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">akula_cocox_2020</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">akula_cocox_2020</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">tan_learning_2022</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">ma_clear_2022</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">wang_incorporating_2021</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">zellinger_counterfactual_2024</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">wei_causal_2023</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">tran_counterfactual_2021</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">tran_counterfactual_2021</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">liu_practical_2022</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">ghazimatin_prince_2020</bcf:citekey>
     <bcf:citekey order="30" intorder="1">yang_top-n_2021</bcf:citekey>
     <bcf:citekey order="31" intorder="1">yang_top-n_2021</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">chiappa_path-specific_2019</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">chiappa_path-specific_2019</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">balloccu_post_2022</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">balloccu_post_2022</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">ai_learning_2018</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">ai_learning_2018</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">blondel_fast_2008</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">tan_counterfactual_2021</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">chen_dark_2023</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">chen_dark_2023</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">wang_reinforced_2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">wang_reinforced_2024</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">guo_towards_2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">guo_towards_2023</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">medda_gnnuers_2024</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">medda_gnnuers_2024</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">wei_model-agnostic_2021</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">wei_model-agnostic_2021</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">xu_adversarial_2020</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">xu_adversarial_2020</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">yang_top-n_2021</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">yang_top-n_2021</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">chiappa_path-specific_2019</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">chiappa_path-specific_2019</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">balloccu_post_2022</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">balloccu_post_2022</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">ai_learning_2018</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">ai_learning_2018</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">blondel_fast_2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
