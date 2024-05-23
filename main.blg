@@ -1,22 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[126] biber-MSWIN64:340> INFO - === 
-[176] Biber.pm:419> INFO - Reading 'main.bcf'
-[337] Biber.pm:979> INFO - Found 32 citekeys in bib section 0
-[361] Biber.pm:4419> INFO - Processing section 0
-[376] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[454] bibtex.pm:1713> INFO - LaTeX decoding ...
-[543] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[856] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[856] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[856] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[856] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[939] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[939] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[939] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[939] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[993] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1093] bbl.pm:763> INFO - Output to main.bbl
-[1094] Biber.pm:131> WARN - ISBN '978-3-030-58341-5 978-3-030-58342-2' in entry 'watson_good_2020' is invalid - run biber with '--validate_datamodel' for details.
-[1094] Biber.pm:131> WARN - ISBN '9798400701245' in entry 'guo_towards_2023' is invalid - run biber with '--validate_datamodel' for details.
-[1094] Biber.pm:133> INFO - WARNINGS: 2
+[217] biber-MSWIN64:340> INFO - === 
+[272] Biber.pm:419> INFO - Reading 'main.bcf'
+[419] Biber.pm:979> INFO - Found 32 citekeys in bib section 0
+[440] Biber.pm:4419> INFO - Processing section 0
+[466] Biber.pm:4610> INFO - Looking for bibtex file 'references_field_removed.bib' for section 0
+[531] bibtex.pm:1713> INFO - LaTeX decoding ...
+[566] bibtex.pm:1519> INFO - Found BibTeX data source 'references_field_removed.bib'
+[819] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[819] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[820] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[820] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[891] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[891] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[891] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[891] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[930] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[988] bbl.pm:763> INFO - Output to main.bbl

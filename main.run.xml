@@ -86,7 +86,7 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>references_field_removed.bib</file>
     </requires>
   </external>
 </requests>

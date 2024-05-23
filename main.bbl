@@ -59,36 +59,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Providing model-generated explanations in recommender systems is important to user experience. State-of-the-art recommendation algorithms—especially the collaborative filtering ({CF})- based approaches with shallow or deep models—usually work with various unstructured information sources for recommendation, such as textual reviews, visual images, and various implicit or explicit feedbacks. Though structured knowledge bases were considered in content-based approaches, they have been largely ignored recently due to the availability of vast amounts of data and the learning power of many complex models. However, structured knowledge bases exhibit unique advantages in personalized recommendation systems. When the explicit knowledge about users and items is considered for recommendation, the system could provide highly customized recommendations based on users’ historical behaviors and the knowledge is helpful for providing informed explanations regarding the recommended items. A great challenge for using knowledge bases for recommendation is how to integrate large-scale structured and unstructured data, while taking advantage of collaborative filtering for highly accurate performance. Recent achievements in knowledge-base embedding ({KBE}) sheds light on this problem, which makes it possible to learn user and item representations while preserving the structure of their relationship with external knowledge for explanation. In this work, we propose to explain knowledge-base embeddings for explainable recommendation. Specifically, we propose a knowledge-base representation learning framework to embed heterogeneous entities for recommendation, and based on the embedded knowledge base, a soft matching algorithm is proposed to generate personalized explanations for the recommended items. Experimental results on real-world e-commerce datasets verified the superior recommendation performance and the explainability power of our approach compared with state-of-the-art baselines.}
       \field{day}{13}
-      \field{issn}{1999-4893}
       \field{journaltitle}{Algorithms}
-      \field{langid}{english}
       \field{month}{9}
       \field{number}{9}
-      \field{shortjournal}{Algorithms}
       \field{title}{Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation}
-      \field{urlday}{25}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{11}
       \field{year}{2018}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{137}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/a11090137
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\HIFY7I9P\\Ai et al. - 2018 - Learning Heterogeneous Knowledge Base Embeddings f.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.mdpi.com/1999-4893/11/9/137
-      \endverb
-      \verb{url}
-      \verb http://www.mdpi.com/1999-4893/11/9/137
-      \endverb
     \endentry
     \entry{akula_cocox_2020}{article}{}
       \name{author}{3}{}{%
@@ -123,37 +103,17 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We present {CoCoX} (short for Conceptual and Counterfactual Explanations), a model for explaining decisions made by a deep convolutional neural network ({CNN}). In Cognitive Psychology, the factors (or semantic-level features) that humans zoom in on when they imagine an alternative to a model prediction are often referred to as fault-lines. Motivated by this, our {CoCoX} model explains decisions made by a {CNN} using fault-lines. Specifically, given an input image I for which a {CNN} classification model M predicts class cpred, our fault-line based explanation identifies the minimal semantic-level features (e.g., stripes on zebra, pointed ears of dog), referred to as explainable concepts, that need to be added to or deleted from I in order to alter the classification category of I by M to another specified class calt. We argue that, due to the conceptual and counterfactual nature of fault-lines, our {CoCoX} explanations are practical and more natural for both expert and non-expert users to understand the internal workings of complex deep learning models. Extensive quantitative and qualitative experiments verify our hypotheses, showing that {CoCoX} significantly outperforms the state-of-the-art explainable {AI} models. Our implementation is available at https://github.com/arjunakula/{CoCoX}}
+      \field{labeltitlesource}{title}
       \field{day}{3}
-      \field{issn}{2374-3468, 2159-5399}
       \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
       \field{month}{4}
       \field{number}{3}
-      \field{shortjournal}{{AAAI}}
-      \field{shorttitle}{{CoCoX}}
       \field{title}{{CoCoX}: Generating Conceptual and Counterfactual Explanations via Fault-Lines}
-      \field{urlday}{11}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{volume}{34}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{2594\bibrangedash 2601}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1609/aaai.v34i03.5643
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CV2V2A2P\\Akula et al. - 2020 - CoCoX Generating Conceptual and Counterfactual Ex.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
-      \endverb
-      \verb{url}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
-      \endverb
     \endentry
     \entry{balloccu_post_2022}{article}{}
       \name{author}{4}{}{%
@@ -182,9 +142,6 @@
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Madrid Spain}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -202,32 +159,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{6}
-      \field{eventtitle}{{SIGIR} '22: The 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-8732-3}
       \field{journaltitle}{Proceedings of the 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
       \field{title}{Post Processing Recommender Systems with Knowledge Graphs for Recency, Popularity, and Diversity of Explanations}
-      \field{urlday}{12}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{646\bibrangedash 656}
       \range{pages}{11}
-      \verb{doi}
-      \verb 10.1145/3477495.3532041
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\5WC4GK63\\Balloccu et al. - 2022 - Post Processing Recommender Systems with Knowledge.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
-      \endverb
     \endentry
     \entry{blondel_fast_2008}{article}{}
       \name{author}{4}{}{%
@@ -270,33 +208,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{9}
-      \field{issn}{1742-5468}
       \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
       \field{month}{10}
       \field{number}{10}
-      \field{shortjournal}{J. Stat. Mech.}
       \field{title}{Fast unfolding of communities in large networks}
-      \field{urlday}{18}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{2008}
       \field{year}{2008}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{P10008}
       \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1742-5468/2008/10/P10008
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\VVVC8ESR\\Blondel et al. - 2008 - Fast unfolding of communities in large networks.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
-      \endverb
-      \verb{url}
-      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
-      \endverb
     \endentry
     \entry{byrne_counterfactuals_2019}{article}{}
       \name{author}{1}{}{%
@@ -306,9 +226,6 @@
            given={Ruth\bibnamedelimb M.\bibnamedelimi J.},
            giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Macao, China}%
       }
       \list{publisher}{1}{%
         {International Joint Conferences on Artificial Intelligence Organization}%
@@ -325,35 +242,14 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Counterfactuals about what could have happened are increasingly used in an array of Artificial Intelligence ({AI}) applications, and especially in explainable {AI} ({XAI}). Counterfactuals can aid the provision of interpretable models to make the decisions of inscrutable systems intelligible to developers and users. However, not all counterfactuals are equally helpful in assisting human comprehension. Discoveries about the nature of the counterfactuals that humans create are a helpful guide to maximize the effectiveness of counterfactual use in {AI}.}
-      \field{eventtitle}{Twenty-Eighth International Joint Conference on Artificial Intelligence \{{IJCAI}-19\}}
-      \field{isbn}{978-0-9992411-4-1}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence}
-      \field{langid}{english}
       \field{month}{8}
-      \field{shorttitle}{Counterfactuals in Explainable Artificial Intelligence ({XAI})}
       \field{title}{Counterfactuals in Explainable Artificial Intelligence ({XAI}): Evidence from Human Reasoning}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{6276\bibrangedash 6282}
       \range{pages}{7}
-      \verb{doi}
-      \verb 10.24963/ijcai.2019/876
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CG8ULPSN\\Byrne - 2019 - Counterfactuals in Explainable Artificial Intellig.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ijcai.org/proceedings/2019/876
-      \endverb
-      \verb{url}
-      \verb https://www.ijcai.org/proceedings/2019/876
-      \endverb
     \endentry
     \entry{chen_dark_2023}{article}{}
       \name{author}{5}{}{%
@@ -388,9 +284,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Taipei Taiwan}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -406,35 +299,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{19}
-      \field{eventtitle}{{SIGIR} '23: The 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-9408-6}
       \field{journaltitle}{Proceedings of the 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
-      \field{shorttitle}{The Dark Side of Explanations}
       \field{title}{The Dark Side of Explanations: Poisoning Recommender Systems with Counterfactual Examples}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{2426\bibrangedash 2430}
       \range{pages}{5}
-      \verb{doi}
-      \verb 10.1145/3539618.3592070
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NENJBSSI\\Chen et al. - 2023 - The Dark Side of Explanations Poisoning Recommend.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
-      \endverb
     \endentry
     \entry{chiappa_path-specific_2019}{article}{}
       \name{author}{1}{}{%
@@ -458,35 +331,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We consider the problem of learning fair decision systems from data in which a sensitive attribute might affect the decision along both fair and unfair pathways. We introduce a counterfactual approach to disregard effects along unfair pathways that does not incur in the same loss of individual-specific information as previous approaches. Our method corrects observations adversely affected by the sensitive attribute, and uses these to form a decision. We leverage recent developments in deep learning and approximate inference to develop a {VAE}-type method that is widely applicable to complex nonlinear models.}
       \field{day}{17}
-      \field{issn}{2374-3468, 2159-5399}
       \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
       \field{month}{7}
       \field{number}{1}
-      \field{shortjournal}{{AAAI}}
       \field{title}{Path-Specific Counterfactual Fairness}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{33}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{7801\bibrangedash 7808}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1609/aaai.v33i01.33017801
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\3BQAMRUZ\\Chiappa - 2019 - Path-Specific Counterfactual Fairness.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
-      \endverb
-      \verb{url}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
-      \endverb
     \endentry
     \entry{geng_path_2022}{article}{}
       \name{author}{6}{}{%
@@ -527,9 +381,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event, Lyon France}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -547,32 +398,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{25}
-      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
-      \field{isbn}{978-1-4503-9096-5}
       \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
-      \field{langid}{english}
       \field{month}{4}
       \field{title}{Path Language Modeling over Knowledge Graphsfor Explainable Recommendation}
-      \field{urlday}{6}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{946\bibrangedash 955}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3485447.3511937
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\A2R7NW8H\\Geng et al. - 2022 - Path Language Modeling over Knowledge Graphsfor Ex.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
-      \endverb
     \endentry
     \entry{ghazimatin_prince_2020}{article}{}
       \name{author}{4}{}{%
@@ -601,9 +433,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Houston {TX} {USA}}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -619,35 +448,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{20}
-      \field{eventtitle}{{WSDM} '20: The Thirteenth {ACM} International Conference on Web Search and Data Mining}
-      \field{isbn}{978-1-4503-6822-3}
       \field{journaltitle}{Proceedings of the 13th International Conference on Web Search and Data Mining}
-      \field{langid}{english}
       \field{month}{1}
-      \field{shorttitle}{{PRINCE}}
       \field{title}{{PRINCE}: Provider-side Interpretability with Counterfactual Explanations in Recommender Systems}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{196\bibrangedash 204}
       \range{pages}{9}
-      \verb{doi}
-      \verb 10.1145/3336191.3371824
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\ZNU5FLZZ\\Ghazimatin et al. - 2020 - PRINCE Provider-side Interpretability with Counte.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
-      \endverb
     \endentry
     \entry{guo_survey_2020}{article}{}
       \name{author}{7}{}{%
@@ -707,33 +516,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{7}
-      \field{issn}{1041-4347, 1558-2191, 2326-3865}
       \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
       \field{month}{10}
       \field{number}{8}
-      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
       \field{title}{A Survey on Knowledge Graph-Based Recommender Systems}
-      \field{urlday}{13}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{34}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{3549\bibrangedash 3568}
       \range{pages}{20}
-      \verb{doi}
-      \verb 10.1109/TKDE.2020.3028705
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\8EVEK4S6\\Guo et al. - 2022 - A Survey on Knowledge Graph-Based Recommender Syst.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9216015/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9216015/
-      \endverb
     \endentry
     \entry{guo_towards_2023}{article}{}
       \name{author}{5}{}{%
@@ -768,9 +559,6 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Birmingham United Kingdom}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -787,32 +575,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{21}
-      \field{eventtitle}{{CIKM} '23: The 32nd {ACM} International Conference on Information and Knowledge Management}
-      \field{isbn}{9798400701245}
       \field{journaltitle}{Proceedings of the 32nd {ACM} International Conference on Information and Knowledge Management}
-      \field{langid}{english}
       \field{month}{10}
       \field{title}{Towards Fair Graph Neural Networks via Graph Counterfactual}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{669\bibrangedash 678}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3583780.3615092
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Z8E6ISDA\\Guo et al. - 2023 - Towards Fair Graph Neural Networks via Graph Count.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
-      \endverb
     \endentry
     \entry{jaimini_causalkg_2022}{article}{}
       \name{author}{2}{}{%
@@ -841,36 +610,17 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{1}
-      \field{issn}{1089-7801, 1941-0131}
       \field{journaltitle}{{IEEE} Internet Computing}
       \field{month}{1}
       \field{number}{1}
-      \field{shortjournal}{{IEEE} Internet Comput.}
-      \field{shorttitle}{{CausalKG}}
       \field{title}{{CausalKG}: Causal Knowledge Graph Explainability Using Interventional and Counterfactual Reasoning}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{26}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{43\bibrangedash 50}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/MIC.2021.3133551
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\7VYGAGH2\\Jaimini and Sheth - 2022 - CausalKG Causal Knowledge Graph Explainability Us.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9706608/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9706608/
-      \endverb
     \endentry
     \entry{watson_good_2020}{inbook}{}
       \name{author}{2}{}{%
@@ -887,21 +637,6 @@
            giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=5dcab082ad3f13c7b1af8618b9dfe341}{%
-           family={Watson},
-           familyi={W\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-        {{hash=90bc500759cd14a9d66179e2e52191fc}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={Rosina},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
       \list{publisher}{1}{%
         {Springer International Publishing}%
       }
@@ -911,44 +646,20 @@
       \strng{authorbibnamehash}{49331e542977bf5a081cbdcb153841a7}
       \strng{authornamehash}{49331e542977bf5a081cbdcb153841a7}
       \strng{authorfullhash}{49331e542977bf5a081cbdcb153841a7}
-      \strng{editorbibnamehash}{7ff492330d846177e4de7ec7679dde30}
-      \strng{editornamehash}{7ff492330d846177e4de7ec7679dde30}
-      \strng{editorfullhash}{7ff492330d846177e4de7ec7679dde30}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Recently, a groundswell of research has identified the use of counterfactual explanations as a potentially significant solution to the Explainable {AI} ({XAI}) problem. It is argued that (i) technically, these counterfactual cases can be generated by permuting problem-features until a class-change is found, (ii) psychologically, they are much more causally informative than factual explanations, (iii) legally, they are {GDPR}-compliant. However, there are issues around the finding of “good” counterfactuals using current techniques (e.g. sparsity and plausibility). We show that many commonly-used datasets appear to have few “good” counterfactuals for explanation purposes. We propose a new case-based approach for generating counterfactuals, using novel ideas about the counterfactual potential and explanatory coverage of a case-base. The new technique reuses patterns of good counterfactuals, present in a case-base, to generate analogous counterfactuals that can explain new problems and their solutions. Several experiments show how this technique can improve the counterfactual potential and explanatory coverage of case-bases, that were previously found wanting.}
+      \field{labeltitlesource}{title}
       \field{booktitle}{Case-Based Reasoning Research and Development}
-      \field{isbn}{978-3-030-58341-5 978-3-030-58342-2}
-      \field{langid}{english}
-      \field{note}{Series Title: Lecture Notes in Computer Science}
-      \field{shorttitle}{Good Counterfactuals and Where to Find Them}
       \field{title}{Good Counterfactuals and Where to Find Them: A Case-Based Technique for Generating Counterfactuals for Explainable {AI} ({XAI})}
-      \field{urlday}{11}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{volume}{12311}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{163\bibrangedash 178}
       \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/978-3-030-58342-2_11
-      \endverb
-      \verb{file}
-      \verb Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:C\:\\Users\\Celine\\Zotero\\storage\\E5WVAHHF\\Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
-      \endverb
     \endentry
     \entry{liu_practical_2022}{article}{}
       \name{author}{6}{}{%
@@ -989,9 +700,6 @@
            giveni={C\bibinithyphendelim J\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Washington {DC} {USA}}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -1009,32 +717,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
-      \field{eventtitle}{{KDD} '22: The 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
-      \field{isbn}{978-1-4503-9385-0}
       \field{journaltitle}{Proceedings of the 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
-      \field{langid}{english}
       \field{month}{8}
       \field{title}{Practical Counterfactual Policy Learning for Top-K Recommendations}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1141\bibrangedash 1151}
       \range{pages}{11}
-      \verb{doi}
-      \verb 10.1145/3534678.3539295
-      \endverb
-      \verb{file}
-      \verb Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:C\:\\Users\\Celine\\Zotero\\storage\\XH43KA7J\\Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
-      \endverb
     \endentry
     \entry{lucic_cf-gnnexplainer_2021}{article}{}
       \name{author}{5}{}{%
@@ -1085,30 +774,10 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Given the increasing promise of graph neural networks ({GNNs}) in real-world applications, several methods have been developed for explaining their predictions. Existing methods for interpreting predictions from {GNNs} have primarily focused on generating subgraphs that are especially relevant for a particular prediction. However, such methods are not counterfactual ({CF}) in nature: given a prediction, we want to understand how the prediction can be changed in order to achieve an alternative outcome. In this work, we propose a method for generating {CF} explanations for {GNNs}: the minimal perturbation to the input (graph) data such that the prediction changes. Using only edge deletions, we find that our method, {CF}-{GNNExplainer}, can generate {CF} explanations for the majority of instances across three widely used datasets for {GNN} explanations, while removing less than 3 edges on average, with at least 94{\textbackslash}\% accuracy. This indicates that {CF}-{GNNExplainer} primarily removes edges that are crucial for the original predictions, resulting in minimal {CF} explanations.}
-      \field{note}{Publisher: [object Object] Version Number: 4}
-      \field{shorttitle}{{CF}-{GNNExplainer}}
+      \field{labeltitlesource}{title}
       \field{title}{{CF}-{GNNExplainer}: Counterfactual Explanations for Graph Neural Networks}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2102.03322
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\LHWRFQ22\\Lucic et al. - 2021 - CF-GNNExplainer Counterfactual Explanations for G.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2102.03322
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2102.03322
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Machine Learning (cs.{LG})}
     \endentry
     \entry{ma_clear_2022}{article}{}
       \name{author}{5}{}{%
@@ -1155,30 +824,10 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Counterfactual explanations promote explainability in machine learning models by answering the question "how should an input instance be perturbed to obtain a desired predicted label?". The comparison of this instance before and after perturbation can enhance human interpretation. Most existing studies on counterfactual explanations are limited in tabular data or image data. In this work, we study the problem of counterfactual explanation generation on graphs. A few studies have explored counterfactual explanations on graphs, but many challenges of this problem are still not well-addressed: 1) optimizing in the discrete and disorganized space of graphs; 2) generalizing on unseen graphs; and 3) maintaining the causality in the generated counterfactuals without prior knowledge of the causal model. To tackle these challenges, we propose a novel framework {CLEAR} which aims to generate counterfactual explanations on graphs for graph-level prediction models. Specifically, {CLEAR} leverages a graph variational autoencoder based mechanism to facilitate its optimization and generalization, and promotes causality by leveraging an auxiliary variable to better identify the underlying causal model. Extensive experiments on both synthetic and real-world graphs validate the superiority of {CLEAR} over the state-of-the-art methods in different aspects.}
-      \field{note}{Publisher: [object Object] Version Number: 2}
-      \field{shorttitle}{{CLEAR}}
+      \field{labeltitlesource}{title}
       \field{title}{{CLEAR}: Generative Counterfactual Explanations on Graphs}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2210.08443
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\7XMGYK7W\\Ma et al. - 2022 - CLEAR Generative Counterfactual Explanations on G.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2210.08443
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2210.08443
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG})}
     \endentry
     \entry{medda_gnnuers_2024}{article}{}
       \name{author}{5}{}{%
@@ -1225,36 +874,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Nowadays, research into personalization has been focusing on explainability and fairness. Several approaches proposed in recent works are able to explain individual recommendations in a post-hoc manner or by explanation paths. However, explainability techniques applied to unfairness in recommendation have been limited to finding user/item features mostly related to biased recommendations. In this paper, we devised a novel algorithm that leverages counterfactuality methods to discover user unfairness explanations in the form of user-item interactions. In our counterfactual framework, interactions are represented as edges in a bipartite graph, with users and items as nodes. Our bipartite graph explainer perturbs the topological structure to find an altered version that minimizes the disparity in utility between the protected and unprotected demographic groups. Experiments on four real-world graphs coming from various domains showed that our method can systematically explain user unfairness on three state-of-the-art {GNN}-based recommendation models. Moreover, an empirical evaluation of the perturbed network uncovered relevant patterns that justify the nature of the unfairness discovered by the generated explanations. The source code and the preprocessed data sets are available at https://github.com/jackmedda/{RS}-{BGExplainer}.}
+      \field{labeltitlesource}{title}
       \field{day}{3}
-      \field{issn}{2157-6904, 2157-6912}
       \field{journaltitle}{{ACM} Transactions on Intelligent Systems and Technology}
-      \field{langid}{english}
       \field{month}{4}
-      \field{shortjournal}{{ACM} Trans. Intell. Syst. Technol.}
-      \field{shorttitle}{{GNNUERS}}
       \field{title}{{GNNUERS}: Fairness Explanation in {GNNs} for Recommendation via Counterfactual Reasoning}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2024}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{3655631}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1145/3655631
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\P7ERWIY9\\Medda et al. - 2024 - GNNUERS Fairness Explanation in GNNs for Recommen.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3655631
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3655631
-      \endverb
     \endentry
     \entry{tan_counterfactual_2021}{article}{}
       \name{author}{6}{}{%
@@ -1295,9 +923,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Queensland Australia}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -1316,32 +941,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{26}
-      \field{eventtitle}{{CIKM} '21: The 30th {ACM} International Conference on Information and Knowledge Management}
-      \field{isbn}{978-1-4503-8446-9}
       \field{journaltitle}{Proceedings of the 30th {ACM} International Conference on Information \& Knowledge Management}
-      \field{langid}{english}
       \field{month}{10}
       \field{title}{Counterfactual Explainable Recommendation}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1784\bibrangedash 1793}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3459637.3482420
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\4B33ZZHV\\Tan et al. - 2021 - Counterfactual Explainable Recommendation.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
-      \endverb
     \endentry
     \entry{tan_learning_2022}{article}{}
       \name{author}{7}{}{%
@@ -1388,9 +994,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event, Lyon France}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -1409,32 +1012,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{25}
-      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
-      \field{isbn}{978-1-4503-9096-5}
       \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
-      \field{langid}{english}
       \field{month}{4}
       \field{title}{Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1018\bibrangedash 1027}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3485447.3511948
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\HND7QZP4\\Tan et al. - 2022 - Learning and Evaluating Graph Neural Network Expla.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
-      \endverb
     \endentry
     \entry{tiddi_knowledge_2022}{article}{}
       \name{author}{2}{}{%
@@ -1463,32 +1047,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{00043702}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Artificial Intelligence}
-      \field{langid}{english}
       \field{month}{1}
-      \field{shortjournal}{Artificial Intelligence}
-      \field{shorttitle}{Knowledge graphs as tools for explainable machine learning}
       \field{title}{Knowledge graphs as tools for explainable machine learning: A survey}
-      \field{urlday}{19}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{302}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{103627}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.artint.2021.103627
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
-      \endverb
     \endentry
     \entry{tran_counterfactual_2021}{article}{}
       \name{author}{3}{}{%
@@ -1511,9 +1078,6 @@
            giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Canada}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -1531,32 +1095,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{11}
-      \field{eventtitle}{{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-8037-9}
       \field{journaltitle}{Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
       \field{title}{Counterfactual Explanations for Neural Recommenders}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1627\bibrangedash 1631}
       \range{pages}{5}
-      \verb{doi}
-      \verb 10.1145/3404835.3463005
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CDQRSJ7P\\Tran et al. - 2021 - Counterfactual Explanations for Neural Recommender.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
-      \endverb
     \endentry
     \entry{vultureanu-albisi_recommender_2021}{article}{}
       \name{author}{2}{}{%
@@ -1573,9 +1118,6 @@
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Kocaeli, Turkey}%
-      }
       \list{publisher}{1}{%
         {IEEE}%
       }
@@ -1591,31 +1133,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{25}
-      \field{eventtitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
-      \field{isbn}{978-1-66543-603-8}
       \field{journaltitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
       \field{month}{8}
-      \field{shorttitle}{Recommender Systems}
       \field{title}{Recommender Systems: An Explainable {AI} Perspective}
-      \field{urlday}{19}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/INISTA52262.2021.9548125
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9548125/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9548125/
-      \endverb
     \endentry
     \entry{wang_explainable_2019}{article}{}
       \name{author}{6}{}{%
@@ -1669,35 +1195,16 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Incorporating knowledge graph into recommender systems has attracted increasing attention in recent years. By exploring the interlinks within a knowledge graph, the connectivity between users and items can be discovered as paths, which provide rich and complementary information to user-item interactions. Such connectivity not only reveals the semantics of entities and relations, but also helps to comprehend a user’s interest. However, existing efforts have not fully explored this connectivity to infer user preferences, especially in terms of modeling the sequential dependencies within and holistic semantics of a path.In this paper, we contribute a new model named Knowledgeaware Path Recurrent Network ({KPRN}) to exploit knowledge graph for recommendation. {KPRN} can generate path representations by composing the semantics of both entities and relations. By leveraging the sequential dependencies within a path, we allow effective reasoning on paths to infer the underlying rationale of a user-item interaction. Furthermore, we design a new weighted pooling operation to discriminate the strengths of different paths in connecting a user with an item, endowing our model with a certain level of explainability. We conduct extensive experiments on two datasets about movie and music, demonstrating significant improvements over state-of-the-art solutions Collaborative Knowledge Base Embedding and Neural Factorization Machine.}
       \field{day}{17}
-      \field{issn}{2374-3468, 2159-5399}
       \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
       \field{month}{7}
       \field{number}{1}
-      \field{shortjournal}{{AAAI}}
       \field{title}{Explainable Reasoning over Knowledge Graphs for Recommendation}
-      \field{urlday}{20}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{33}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{5329\bibrangedash 5336}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1609/aaai.v33i01.33015329
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CKCXZV5V\\Wang et al. - 2019 - Explainable Reasoning over Knowledge Graphs for Re.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
-      \endverb
-      \verb{url}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
-      \endverb
     \endentry
     \entry{wang_reinforced_2024}{article}{}
       \name{author}{5}{}{%
@@ -1745,30 +1252,12 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1041-4347, 1558-2191, 2326-3865}
       \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
-      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
       \field{title}{Reinforced Path Reasoning for Counterfactual Explainable Recommendation}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2024}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 17}
       \range{pages}{17}
-      \verb{doi}
-      \verb 10.1109/TKDE.2024.3354077
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Y4DVTXI2\\Wang et al. - 2024 - Reinforced Path Reasoning for Counterfactual Expla.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10399934/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10399934/
-      \endverb
     \endentry
     \entry{wang_incorporating_2021}{article}{}
       \name{author}{4}{}{%
@@ -1809,33 +1298,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{09507051}
       \field{journaltitle}{Knowledge-Based Systems}
-      \field{langid}{english}
       \field{month}{7}
-      \field{shortjournal}{Knowledge-Based Systems}
       \field{title}{Incorporating prior knowledge from counterfactuals into knowledge graph reasoning}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{223}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{107035}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.knosys.2021.107035
-      \endverb
-      \verb{file}
-      \verb Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:C\:\\Users\\Celine\\Zotero\\storage\\WCFXMK6V\\Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
-      \endverb
     \endentry
     \entry{wei_model-agnostic_2021}{article}{}
       \name{author}{6}{}{%
@@ -1876,9 +1346,6 @@
            giveni={X\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Singapore}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -1895,32 +1362,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
-      \field{eventtitle}{{KDD} '21: The 27th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
-      \field{isbn}{978-1-4503-8332-5}
       \field{journaltitle}{Proceedings of the 27th {ACM} {SIGKDD} Conference on Knowledge Discovery \& Data Mining}
-      \field{langid}{english}
       \field{month}{8}
       \field{title}{Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1791\bibrangedash 1800}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3447548.3467289
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NL6UHIYH\\Wei et al. - 2021 - Model-Agnostic Counterfactual Reasoning for Elimin.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
-      \endverb
     \endentry
     \entry{wei_causal_2023}{article}{}
       \name{author}{6}{}{%
@@ -1974,33 +1422,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
-      \field{issn}{1041-4347, 1558-2191, 2326-3865}
       \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
       \field{month}{11}
       \field{number}{11}
-      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
       \field{title}{Causal Inference for Knowledge Graph Based Recommendation}
-      \field{urlday}{20}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{35}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{11153\bibrangedash 11164}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TKDE.2022.3231352
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\CFTJYLCR\\Wei et al. - 2023 - Causal Inference for Knowledge Graph Based Recomme.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9996555/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9996555/
-      \endverb
     \endentry
     \entry{xian_reinforcement_2019}{article}{}
       \name{author}{5}{}{%
@@ -2035,9 +1465,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Paris France}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -2056,32 +1483,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{18}
-      \field{eventtitle}{{SIGIR} '19: The 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-6172-9}
       \field{journaltitle}{Proceedings of the 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
       \field{title}{Reinforcement Knowledge Graph Reasoning for Explainable Recommendation}
-      \field{urlday}{17}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{285\bibrangedash 294}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3331184.3331203
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\56IHWS7C\\Xian et al. - 2019 - Reinforcement Knowledge Graph Reasoning for Explai.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
-      \endverb
     \endentry
     \entry{xian_cafe_2020}{article}{}
       \name{author}{11}{}{%
@@ -2152,9 +1560,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Ireland}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -2171,35 +1576,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{19}
-      \field{eventtitle}{{CIKM} '20: The 29th {ACM} International Conference on Information and Knowledge Management}
-      \field{isbn}{978-1-4503-6859-9}
       \field{journaltitle}{Proceedings of the 29th {ACM} International Conference on Information \& Knowledge Management}
-      \field{langid}{english}
       \field{month}{10}
-      \field{shorttitle}{{CAFE}}
       \field{title}{{CAFE}: Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation}
-      \field{urlday}{17}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1645\bibrangedash 1654}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3340531.3412038
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\2BMXT2LQ\\Xian et al. - 2020 - CAFE Coarse-to-Fine Neural Symbolic Reasoning for.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
-      \endverb
     \endentry
     \entry{xu_adversarial_2020}{article}{}
       \name{author}{5}{}{%
@@ -2247,25 +1632,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The feedback data of recommender systems are often subject to what was exposed to the users; however, most learning and evaluation methods do not account for the underlying exposure mechanism. We first show in theory that applying supervised learning to detect user preferences may end up with inconsistent results in the absence of exposure information. The counterfactual propensity-weighting approach from causal inference can account for the exposure mechanism; nevertheless, the partial-observation nature of the feedback data can cause identifiability issues. We propose a principled solution by introducing a minimax empirical risk formulation. We show that the relaxation of the dual problem can be converted to an adversarial game between two recommendation models, where the opponent of the candidate model characterizes the underlying exposure mechanism. We provide learning bounds and conduct extensive simulation studies to illustrate and justify the proposed approach over a broad range of recommendation settings, which shed insights on the various benefits of the proposed approach.}
-      \field{note}{Publisher: {arXiv} Version Number: 1}
       \field{title}{Adversarial Counterfactual Learning and Evaluation for Recommender System}
-      \field{urlday}{12}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2012.02295
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2012.02295
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2012.02295
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Machine Learning (cs.{LG}),Machine Learning (stat.{ML})}
     \endentry
     \entry{yang_top-n_2021}{article}{}
       \name{author}{6}{}{%
@@ -2319,28 +1688,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Top-N recommendation, which aims to learn user ranking-based preference, has long been a fundamental problem in a wide range of applications. Traditional models usually motivate themselves by designing complex or tailored architectures based on different assumptions. However, the training data of recommender system can be extremely sparse and imbalanced, which poses great challenges for boosting the recommendation performance. To alleviate this problem, in this paper, we propose to reformulate the recommendation task within the causal inference framework, which enables us to counterfactually simulate user ranking-based preferences to handle the data scarce problem. The core of our model lies in the counterfactual question: "what would be the user's decision if the recommended items had been different?". To answer this question, we firstly formulate the recommendation process with a series of structural equation models ({SEMs}), whose parameters are optimized based on the observed data. Then, we actively indicate many recommendation lists (called intervention in the causal inference terminology) which are not recorded in the dataset, and simulate user feedback according to the learned {SEMs} for generating new training samples. Instead of randomly intervening on the recommendation list, we design a learning-based method to discover more informative training samples. Considering that the learned {SEMs} can be not perfect, we, at last, theoretically analyze the relation between the number of generated samples and the model prediction error, based on which a heuristic method is designed to control the negative effect brought by the prediction error. Extensive experiments are conducted based on both synthetic and real-world datasets to demonstrate the effectiveness of our framework.}
-      \field{note}{Publisher: [object Object] Version Number: 2}
       \field{title}{Top-N Recommendation with Counterfactual User Preference Simulation}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2109.02444
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YFDFGTL7\\Yang et al. - 2021 - Top-N Recommendation with Counterfactual User Pref.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2109.02444
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2109.02444
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Artificial Intelligence (cs.{AI})}
     \endentry
     \entry{zellinger_counterfactual_2024}{article}{}
       \name{author}{3}{}{%
@@ -2376,28 +1726,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Knowledge graph embeddings ({KGEs}) were originally developed to infer true but missing facts in incomplete knowledge repositories. In this paper, we link knowledge graph completion and counterfactual reasoning via our new task {CFKGR}. We model the original world state as a knowledge graph, hypothetical scenarios as edges added to the graph, and plausible changes to the graph as inferences from logical rules. We create corresponding benchmark datasets, which contain diverse hypothetical scenarios with plausible changes to the original knowledge graph and facts that should be retained. We develop {COULDD}, a general method for adapting existing knowledge graph embeddings given a hypothetical premise, and evaluate it on our benchmark. Our results indicate that {KGEs} learn patterns in the graph without explicit training. We further observe that {KGEs} adapted with {COULDD} solidly detect plausible counterfactual changes to the graph that follow these patterns. An evaluation on human-annotated data reveals that {KGEs} adapted with {COULDD} are mostly unable to recognize changes to the graph that do not follow learned inference rules. In contrast, {ChatGPT} mostly outperforms {KGEs} in detecting plausible changes to the graph but has poor knowledge retention. In summary, {CFKGR} connects two previously distinct areas, namely {KG} completion and counterfactual reasoning.}
-      \field{note}{Publisher: [object Object] Version Number: 1}
       \field{title}{Counterfactual Reasoning with Knowledge Graph Embeddings}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2024}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2403.06936
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YD4NR66Y\\Zellinger et al. - 2024 - Counterfactual Reasoning with Knowledge Graph Embe.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2403.06936
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2403.06936
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Computation and Language (cs.{CL}),Machine Learning (cs.{LG})}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -2441,36 +1772,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Providing model-generated explanations in recommender systems is important to user experience. State-of-the-art recommendation algorithms—especially the collaborative filtering ({CF})- based approaches with shallow or deep models—usually work with various unstructured information sources for recommendation, such as textual reviews, visual images, and various implicit or explicit feedbacks. Though structured knowledge bases were considered in content-based approaches, they have been largely ignored recently due to the availability of vast amounts of data and the learning power of many complex models. However, structured knowledge bases exhibit unique advantages in personalized recommendation systems. When the explicit knowledge about users and items is considered for recommendation, the system could provide highly customized recommendations based on users’ historical behaviors and the knowledge is helpful for providing informed explanations regarding the recommended items. A great challenge for using knowledge bases for recommendation is how to integrate large-scale structured and unstructured data, while taking advantage of collaborative filtering for highly accurate performance. Recent achievements in knowledge-base embedding ({KBE}) sheds light on this problem, which makes it possible to learn user and item representations while preserving the structure of their relationship with external knowledge for explanation. In this work, we propose to explain knowledge-base embeddings for explainable recommendation. Specifically, we propose a knowledge-base representation learning framework to embed heterogeneous entities for recommendation, and based on the embedded knowledge base, a soft matching algorithm is proposed to generate personalized explanations for the recommended items. Experimental results on real-world e-commerce datasets verified the superior recommendation performance and the explainability power of our approach compared with state-of-the-art baselines.}
       \field{day}{13}
-      \field{issn}{1999-4893}
       \field{journaltitle}{Algorithms}
-      \field{langid}{english}
       \field{month}{9}
       \field{number}{9}
-      \field{shortjournal}{Algorithms}
       \field{title}{Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation}
-      \field{urlday}{25}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{11}
       \field{year}{2018}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{137}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/a11090137
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\HIFY7I9P\\Ai et al. - 2018 - Learning Heterogeneous Knowledge Base Embeddings f.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.mdpi.com/1999-4893/11/9/137
-      \endverb
-      \verb{url}
-      \verb http://www.mdpi.com/1999-4893/11/9/137
-      \endverb
     \endentry
     \entry{akula_cocox_2020}{article}{}
       \name{author}{3}{}{%
@@ -2505,37 +1816,17 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We present {CoCoX} (short for Conceptual and Counterfactual Explanations), a model for explaining decisions made by a deep convolutional neural network ({CNN}). In Cognitive Psychology, the factors (or semantic-level features) that humans zoom in on when they imagine an alternative to a model prediction are often referred to as fault-lines. Motivated by this, our {CoCoX} model explains decisions made by a {CNN} using fault-lines. Specifically, given an input image I for which a {CNN} classification model M predicts class cpred, our fault-line based explanation identifies the minimal semantic-level features (e.g., stripes on zebra, pointed ears of dog), referred to as explainable concepts, that need to be added to or deleted from I in order to alter the classification category of I by M to another specified class calt. We argue that, due to the conceptual and counterfactual nature of fault-lines, our {CoCoX} explanations are practical and more natural for both expert and non-expert users to understand the internal workings of complex deep learning models. Extensive quantitative and qualitative experiments verify our hypotheses, showing that {CoCoX} significantly outperforms the state-of-the-art explainable {AI} models. Our implementation is available at https://github.com/arjunakula/{CoCoX}}
+      \field{labeltitlesource}{title}
       \field{day}{3}
-      \field{issn}{2374-3468, 2159-5399}
       \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
       \field{month}{4}
       \field{number}{3}
-      \field{shortjournal}{{AAAI}}
-      \field{shorttitle}{{CoCoX}}
       \field{title}{{CoCoX}: Generating Conceptual and Counterfactual Explanations via Fault-Lines}
-      \field{urlday}{11}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{volume}{34}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{2594\bibrangedash 2601}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1609/aaai.v34i03.5643
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CV2V2A2P\\Akula et al. - 2020 - CoCoX Generating Conceptual and Counterfactual Ex.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
-      \endverb
-      \verb{url}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/5643
-      \endverb
     \endentry
     \entry{balloccu_post_2022}{article}{}
       \name{author}{4}{}{%
@@ -2564,9 +1855,6 @@
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Madrid Spain}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -2584,32 +1872,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{6}
-      \field{eventtitle}{{SIGIR} '22: The 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-8732-3}
       \field{journaltitle}{Proceedings of the 45th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
       \field{title}{Post Processing Recommender Systems with Knowledge Graphs for Recency, Popularity, and Diversity of Explanations}
-      \field{urlday}{12}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{646\bibrangedash 656}
       \range{pages}{11}
-      \verb{doi}
-      \verb 10.1145/3477495.3532041
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\5WC4GK63\\Balloccu et al. - 2022 - Post Processing Recommender Systems with Knowledge.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3477495.3532041
-      \endverb
     \endentry
     \entry{blondel_fast_2008}{article}{}
       \name{author}{4}{}{%
@@ -2652,33 +1921,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{9}
-      \field{issn}{1742-5468}
       \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
       \field{month}{10}
       \field{number}{10}
-      \field{shortjournal}{J. Stat. Mech.}
       \field{title}{Fast unfolding of communities in large networks}
-      \field{urlday}{18}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{2008}
       \field{year}{2008}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{P10008}
       \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1742-5468/2008/10/P10008
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\VVVC8ESR\\Blondel et al. - 2008 - Fast unfolding of communities in large networks.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
-      \endverb
-      \verb{url}
-      \verb https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008
-      \endverb
     \endentry
     \entry{byrne_counterfactuals_2019}{article}{}
       \name{author}{1}{}{%
@@ -2688,9 +1939,6 @@
            given={Ruth\bibnamedelimb M.\bibnamedelimi J.},
            giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Macao, China}%
       }
       \list{publisher}{1}{%
         {International Joint Conferences on Artificial Intelligence Organization}%
@@ -2707,35 +1955,14 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Counterfactuals about what could have happened are increasingly used in an array of Artificial Intelligence ({AI}) applications, and especially in explainable {AI} ({XAI}). Counterfactuals can aid the provision of interpretable models to make the decisions of inscrutable systems intelligible to developers and users. However, not all counterfactuals are equally helpful in assisting human comprehension. Discoveries about the nature of the counterfactuals that humans create are a helpful guide to maximize the effectiveness of counterfactual use in {AI}.}
-      \field{eventtitle}{Twenty-Eighth International Joint Conference on Artificial Intelligence \{{IJCAI}-19\}}
-      \field{isbn}{978-0-9992411-4-1}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence}
-      \field{langid}{english}
       \field{month}{8}
-      \field{shorttitle}{Counterfactuals in Explainable Artificial Intelligence ({XAI})}
       \field{title}{Counterfactuals in Explainable Artificial Intelligence ({XAI}): Evidence from Human Reasoning}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{6276\bibrangedash 6282}
       \range{pages}{7}
-      \verb{doi}
-      \verb 10.24963/ijcai.2019/876
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CG8ULPSN\\Byrne - 2019 - Counterfactuals in Explainable Artificial Intellig.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ijcai.org/proceedings/2019/876
-      \endverb
-      \verb{url}
-      \verb https://www.ijcai.org/proceedings/2019/876
-      \endverb
     \endentry
     \entry{chen_dark_2023}{article}{}
       \name{author}{5}{}{%
@@ -2770,9 +1997,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Taipei Taiwan}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -2788,35 +2012,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{19}
-      \field{eventtitle}{{SIGIR} '23: The 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-9408-6}
       \field{journaltitle}{Proceedings of the 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
-      \field{shorttitle}{The Dark Side of Explanations}
       \field{title}{The Dark Side of Explanations: Poisoning Recommender Systems with Counterfactual Examples}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{2426\bibrangedash 2430}
       \range{pages}{5}
-      \verb{doi}
-      \verb 10.1145/3539618.3592070
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NENJBSSI\\Chen et al. - 2023 - The Dark Side of Explanations Poisoning Recommend.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3539618.3592070
-      \endverb
     \endentry
     \entry{chiappa_path-specific_2019}{article}{}
       \name{author}{1}{}{%
@@ -2840,35 +2044,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We consider the problem of learning fair decision systems from data in which a sensitive attribute might affect the decision along both fair and unfair pathways. We introduce a counterfactual approach to disregard effects along unfair pathways that does not incur in the same loss of individual-specific information as previous approaches. Our method corrects observations adversely affected by the sensitive attribute, and uses these to form a decision. We leverage recent developments in deep learning and approximate inference to develop a {VAE}-type method that is widely applicable to complex nonlinear models.}
       \field{day}{17}
-      \field{issn}{2374-3468, 2159-5399}
       \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
       \field{month}{7}
       \field{number}{1}
-      \field{shortjournal}{{AAAI}}
       \field{title}{Path-Specific Counterfactual Fairness}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{33}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{7801\bibrangedash 7808}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1609/aaai.v33i01.33017801
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\3BQAMRUZ\\Chiappa - 2019 - Path-Specific Counterfactual Fairness.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
-      \endverb
-      \verb{url}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4777
-      \endverb
     \endentry
     \entry{geng_path_2022}{article}{}
       \name{author}{6}{}{%
@@ -2909,9 +2094,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event, Lyon France}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -2929,32 +2111,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{25}
-      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
-      \field{isbn}{978-1-4503-9096-5}
       \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
-      \field{langid}{english}
       \field{month}{4}
       \field{title}{Path Language Modeling over Knowledge Graphsfor Explainable Recommendation}
-      \field{urlday}{6}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{946\bibrangedash 955}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3485447.3511937
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\A2R7NW8H\\Geng et al. - 2022 - Path Language Modeling over Knowledge Graphsfor Ex.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511937
-      \endverb
     \endentry
     \entry{ghazimatin_prince_2020}{article}{}
       \name{author}{4}{}{%
@@ -2983,9 +2146,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Houston {TX} {USA}}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -3001,35 +2161,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{20}
-      \field{eventtitle}{{WSDM} '20: The Thirteenth {ACM} International Conference on Web Search and Data Mining}
-      \field{isbn}{978-1-4503-6822-3}
       \field{journaltitle}{Proceedings of the 13th International Conference on Web Search and Data Mining}
-      \field{langid}{english}
       \field{month}{1}
-      \field{shorttitle}{{PRINCE}}
       \field{title}{{PRINCE}: Provider-side Interpretability with Counterfactual Explanations in Recommender Systems}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{196\bibrangedash 204}
       \range{pages}{9}
-      \verb{doi}
-      \verb 10.1145/3336191.3371824
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\ZNU5FLZZ\\Ghazimatin et al. - 2020 - PRINCE Provider-side Interpretability with Counte.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3336191.3371824
-      \endverb
     \endentry
     \entry{guo_survey_2020}{article}{}
       \name{author}{7}{}{%
@@ -3089,33 +2229,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{7}
-      \field{issn}{1041-4347, 1558-2191, 2326-3865}
       \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
       \field{month}{10}
       \field{number}{8}
-      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
       \field{title}{A Survey on Knowledge Graph-Based Recommender Systems}
-      \field{urlday}{13}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{34}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{3549\bibrangedash 3568}
       \range{pages}{20}
-      \verb{doi}
-      \verb 10.1109/TKDE.2020.3028705
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\8EVEK4S6\\Guo et al. - 2022 - A Survey on Knowledge Graph-Based Recommender Syst.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9216015/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9216015/
-      \endverb
     \endentry
     \entry{guo_towards_2023}{article}{}
       \name{author}{5}{}{%
@@ -3150,9 +2272,6 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Birmingham United Kingdom}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -3169,32 +2288,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{21}
-      \field{eventtitle}{{CIKM} '23: The 32nd {ACM} International Conference on Information and Knowledge Management}
-      \field{isbn}{9798400701245}
       \field{journaltitle}{Proceedings of the 32nd {ACM} International Conference on Information and Knowledge Management}
-      \field{langid}{english}
       \field{month}{10}
       \field{title}{Towards Fair Graph Neural Networks via Graph Counterfactual}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{669\bibrangedash 678}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3583780.3615092
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Z8E6ISDA\\Guo et al. - 2023 - Towards Fair Graph Neural Networks via Graph Count.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3583780.3615092
-      \endverb
     \endentry
     \entry{jaimini_causalkg_2022}{article}{}
       \name{author}{2}{}{%
@@ -3223,36 +2323,17 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{1}
-      \field{issn}{1089-7801, 1941-0131}
       \field{journaltitle}{{IEEE} Internet Computing}
       \field{month}{1}
       \field{number}{1}
-      \field{shortjournal}{{IEEE} Internet Comput.}
-      \field{shorttitle}{{CausalKG}}
       \field{title}{{CausalKG}: Causal Knowledge Graph Explainability Using Interventional and Counterfactual Reasoning}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{26}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{43\bibrangedash 50}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/MIC.2021.3133551
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\7VYGAGH2\\Jaimini and Sheth - 2022 - CausalKG Causal Knowledge Graph Explainability Us.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9706608/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9706608/
-      \endverb
     \endentry
     \entry{watson_good_2020}{inbook}{}
       \name{author}{2}{}{%
@@ -3269,21 +2350,6 @@
            giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=5dcab082ad3f13c7b1af8618b9dfe341}{%
-           family={Watson},
-           familyi={W\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-        {{hash=90bc500759cd14a9d66179e2e52191fc}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={Rosina},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
       \list{publisher}{1}{%
         {Springer International Publishing}%
       }
@@ -3293,44 +2359,20 @@
       \strng{authorbibnamehash}{49331e542977bf5a081cbdcb153841a7}
       \strng{authornamehash}{49331e542977bf5a081cbdcb153841a7}
       \strng{authorfullhash}{49331e542977bf5a081cbdcb153841a7}
-      \strng{editorbibnamehash}{7ff492330d846177e4de7ec7679dde30}
-      \strng{editornamehash}{7ff492330d846177e4de7ec7679dde30}
-      \strng{editorfullhash}{7ff492330d846177e4de7ec7679dde30}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Recently, a groundswell of research has identified the use of counterfactual explanations as a potentially significant solution to the Explainable {AI} ({XAI}) problem. It is argued that (i) technically, these counterfactual cases can be generated by permuting problem-features until a class-change is found, (ii) psychologically, they are much more causally informative than factual explanations, (iii) legally, they are {GDPR}-compliant. However, there are issues around the finding of “good” counterfactuals using current techniques (e.g. sparsity and plausibility). We show that many commonly-used datasets appear to have few “good” counterfactuals for explanation purposes. We propose a new case-based approach for generating counterfactuals, using novel ideas about the counterfactual potential and explanatory coverage of a case-base. The new technique reuses patterns of good counterfactuals, present in a case-base, to generate analogous counterfactuals that can explain new problems and their solutions. Several experiments show how this technique can improve the counterfactual potential and explanatory coverage of case-bases, that were previously found wanting.}
+      \field{labeltitlesource}{title}
       \field{booktitle}{Case-Based Reasoning Research and Development}
-      \field{isbn}{978-3-030-58341-5 978-3-030-58342-2}
-      \field{langid}{english}
-      \field{note}{Series Title: Lecture Notes in Computer Science}
-      \field{shorttitle}{Good Counterfactuals and Where to Find Them}
       \field{title}{Good Counterfactuals and Where to Find Them: A Case-Based Technique for Generating Counterfactuals for Explainable {AI} ({XAI})}
-      \field{urlday}{11}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{volume}{12311}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{163\bibrangedash 178}
       \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/978-3-030-58342-2_11
-      \endverb
-      \verb{file}
-      \verb Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:C\:\\Users\\Celine\\Zotero\\storage\\E5WVAHHF\\Keane and Smyth - 2020 - Good Counterfactuals and Where to Find Them A Cas.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-030-58342-2_11
-      \endverb
     \endentry
     \entry{liu_practical_2022}{article}{}
       \name{author}{6}{}{%
@@ -3371,9 +2413,6 @@
            giveni={C\bibinithyphendelim J\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Washington {DC} {USA}}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -3391,32 +2430,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
-      \field{eventtitle}{{KDD} '22: The 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
-      \field{isbn}{978-1-4503-9385-0}
       \field{journaltitle}{Proceedings of the 28th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
-      \field{langid}{english}
       \field{month}{8}
       \field{title}{Practical Counterfactual Policy Learning for Top-K Recommendations}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1141\bibrangedash 1151}
       \range{pages}{11}
-      \verb{doi}
-      \verb 10.1145/3534678.3539295
-      \endverb
-      \verb{file}
-      \verb Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:C\:\\Users\\Celine\\Zotero\\storage\\XH43KA7J\\Liu et al. - 2022 - Practical Counterfactual Policy Learning for Top-K.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3534678.3539295
-      \endverb
     \endentry
     \entry{lucic_cf-gnnexplainer_2021}{article}{}
       \name{author}{5}{}{%
@@ -3467,30 +2487,10 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Given the increasing promise of graph neural networks ({GNNs}) in real-world applications, several methods have been developed for explaining their predictions. Existing methods for interpreting predictions from {GNNs} have primarily focused on generating subgraphs that are especially relevant for a particular prediction. However, such methods are not counterfactual ({CF}) in nature: given a prediction, we want to understand how the prediction can be changed in order to achieve an alternative outcome. In this work, we propose a method for generating {CF} explanations for {GNNs}: the minimal perturbation to the input (graph) data such that the prediction changes. Using only edge deletions, we find that our method, {CF}-{GNNExplainer}, can generate {CF} explanations for the majority of instances across three widely used datasets for {GNN} explanations, while removing less than 3 edges on average, with at least 94{\textbackslash}\% accuracy. This indicates that {CF}-{GNNExplainer} primarily removes edges that are crucial for the original predictions, resulting in minimal {CF} explanations.}
-      \field{note}{Publisher: [object Object] Version Number: 4}
-      \field{shorttitle}{{CF}-{GNNExplainer}}
+      \field{labeltitlesource}{title}
       \field{title}{{CF}-{GNNExplainer}: Counterfactual Explanations for Graph Neural Networks}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2102.03322
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\LHWRFQ22\\Lucic et al. - 2021 - CF-GNNExplainer Counterfactual Explanations for G.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2102.03322
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2102.03322
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Machine Learning (cs.{LG})}
     \endentry
     \entry{ma_clear_2022}{article}{}
       \name{author}{5}{}{%
@@ -3537,30 +2537,10 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Counterfactual explanations promote explainability in machine learning models by answering the question "how should an input instance be perturbed to obtain a desired predicted label?". The comparison of this instance before and after perturbation can enhance human interpretation. Most existing studies on counterfactual explanations are limited in tabular data or image data. In this work, we study the problem of counterfactual explanation generation on graphs. A few studies have explored counterfactual explanations on graphs, but many challenges of this problem are still not well-addressed: 1) optimizing in the discrete and disorganized space of graphs; 2) generalizing on unseen graphs; and 3) maintaining the causality in the generated counterfactuals without prior knowledge of the causal model. To tackle these challenges, we propose a novel framework {CLEAR} which aims to generate counterfactual explanations on graphs for graph-level prediction models. Specifically, {CLEAR} leverages a graph variational autoencoder based mechanism to facilitate its optimization and generalization, and promotes causality by leveraging an auxiliary variable to better identify the underlying causal model. Extensive experiments on both synthetic and real-world graphs validate the superiority of {CLEAR} over the state-of-the-art methods in different aspects.}
-      \field{note}{Publisher: [object Object] Version Number: 2}
-      \field{shorttitle}{{CLEAR}}
+      \field{labeltitlesource}{title}
       \field{title}{{CLEAR}: Generative Counterfactual Explanations on Graphs}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2210.08443
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\7XMGYK7W\\Ma et al. - 2022 - CLEAR Generative Counterfactual Explanations on G.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2210.08443
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2210.08443
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG})}
     \endentry
     \entry{medda_gnnuers_2024}{article}{}
       \name{author}{5}{}{%
@@ -3607,36 +2587,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Nowadays, research into personalization has been focusing on explainability and fairness. Several approaches proposed in recent works are able to explain individual recommendations in a post-hoc manner or by explanation paths. However, explainability techniques applied to unfairness in recommendation have been limited to finding user/item features mostly related to biased recommendations. In this paper, we devised a novel algorithm that leverages counterfactuality methods to discover user unfairness explanations in the form of user-item interactions. In our counterfactual framework, interactions are represented as edges in a bipartite graph, with users and items as nodes. Our bipartite graph explainer perturbs the topological structure to find an altered version that minimizes the disparity in utility between the protected and unprotected demographic groups. Experiments on four real-world graphs coming from various domains showed that our method can systematically explain user unfairness on three state-of-the-art {GNN}-based recommendation models. Moreover, an empirical evaluation of the perturbed network uncovered relevant patterns that justify the nature of the unfairness discovered by the generated explanations. The source code and the preprocessed data sets are available at https://github.com/jackmedda/{RS}-{BGExplainer}.}
+      \field{labeltitlesource}{title}
       \field{day}{3}
-      \field{issn}{2157-6904, 2157-6912}
       \field{journaltitle}{{ACM} Transactions on Intelligent Systems and Technology}
-      \field{langid}{english}
       \field{month}{4}
-      \field{shortjournal}{{ACM} Trans. Intell. Syst. Technol.}
-      \field{shorttitle}{{GNNUERS}}
       \field{title}{{GNNUERS}: Fairness Explanation in {GNNs} for Recommendation via Counterfactual Reasoning}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2024}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{3655631}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1145/3655631
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\P7ERWIY9\\Medda et al. - 2024 - GNNUERS Fairness Explanation in GNNs for Recommen.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3655631
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3655631
-      \endverb
     \endentry
     \entry{tan_learning_2022}{article}{}
       \name{author}{7}{}{%
@@ -3683,9 +2642,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event, Lyon France}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -3704,32 +2660,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{25}
-      \field{eventtitle}{{WWW} '22: The {ACM} Web Conference 2022}
-      \field{isbn}{978-1-4503-9096-5}
       \field{journaltitle}{Proceedings of the {ACM} Web Conference 2022}
-      \field{langid}{english}
       \field{month}{4}
       \field{title}{Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1018\bibrangedash 1027}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3485447.3511948
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\HND7QZP4\\Tan et al. - 2022 - Learning and Evaluating Graph Neural Network Expla.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3485447.3511948
-      \endverb
     \endentry
     \entry{tan_counterfactual_2021}{article}{}
       \name{author}{6}{}{%
@@ -3770,9 +2707,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Queensland Australia}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -3791,32 +2725,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{26}
-      \field{eventtitle}{{CIKM} '21: The 30th {ACM} International Conference on Information and Knowledge Management}
-      \field{isbn}{978-1-4503-8446-9}
       \field{journaltitle}{Proceedings of the 30th {ACM} International Conference on Information \& Knowledge Management}
-      \field{langid}{english}
       \field{month}{10}
       \field{title}{Counterfactual Explainable Recommendation}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1784\bibrangedash 1793}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3459637.3482420
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\4B33ZZHV\\Tan et al. - 2021 - Counterfactual Explainable Recommendation.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3459637.3482420
-      \endverb
     \endentry
     \entry{tiddi_knowledge_2022}{article}{}
       \name{author}{2}{}{%
@@ -3845,32 +2760,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{00043702}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Artificial Intelligence}
-      \field{langid}{english}
       \field{month}{1}
-      \field{shortjournal}{Artificial Intelligence}
-      \field{shorttitle}{Knowledge graphs as tools for explainable machine learning}
       \field{title}{Knowledge graphs as tools for explainable machine learning: A survey}
-      \field{urlday}{19}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{302}
       \field{year}{2022}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{103627}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.artint.2021.103627
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0004370221001788
-      \endverb
     \endentry
     \entry{tran_counterfactual_2021}{article}{}
       \name{author}{3}{}{%
@@ -3893,9 +2791,6 @@
            giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Canada}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -3913,32 +2808,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{11}
-      \field{eventtitle}{{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-8037-9}
       \field{journaltitle}{Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
       \field{title}{Counterfactual Explanations for Neural Recommenders}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1627\bibrangedash 1631}
       \range{pages}{5}
-      \verb{doi}
-      \verb 10.1145/3404835.3463005
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CDQRSJ7P\\Tran et al. - 2021 - Counterfactual Explanations for Neural Recommender.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3404835.3463005
-      \endverb
     \endentry
     \entry{vultureanu-albisi_recommender_2021}{article}{}
       \name{author}{2}{}{%
@@ -3955,9 +2831,6 @@
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Kocaeli, Turkey}%
-      }
       \list{publisher}{1}{%
         {IEEE}%
       }
@@ -3973,31 +2846,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{25}
-      \field{eventtitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
-      \field{isbn}{978-1-66543-603-8}
       \field{journaltitle}{2021 International Conference on {INnovations} in Intelligent {SysTems} and Applications ({INISTA})}
       \field{month}{8}
-      \field{shorttitle}{Recommender Systems}
       \field{title}{Recommender Systems: An Explainable {AI} Perspective}
-      \field{urlday}{19}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/INISTA52262.2021.9548125
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9548125/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9548125/
-      \endverb
     \endentry
     \entry{wang_explainable_2019}{article}{}
       \name{author}{6}{}{%
@@ -4051,35 +2908,16 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Incorporating knowledge graph into recommender systems has attracted increasing attention in recent years. By exploring the interlinks within a knowledge graph, the connectivity between users and items can be discovered as paths, which provide rich and complementary information to user-item interactions. Such connectivity not only reveals the semantics of entities and relations, but also helps to comprehend a user’s interest. However, existing efforts have not fully explored this connectivity to infer user preferences, especially in terms of modeling the sequential dependencies within and holistic semantics of a path.In this paper, we contribute a new model named Knowledgeaware Path Recurrent Network ({KPRN}) to exploit knowledge graph for recommendation. {KPRN} can generate path representations by composing the semantics of both entities and relations. By leveraging the sequential dependencies within a path, we allow effective reasoning on paths to infer the underlying rationale of a user-item interaction. Furthermore, we design a new weighted pooling operation to discriminate the strengths of different paths in connecting a user with an item, endowing our model with a certain level of explainability. We conduct extensive experiments on two datasets about movie and music, demonstrating significant improvements over state-of-the-art solutions Collaborative Knowledge Base Embedding and Neural Factorization Machine.}
       \field{day}{17}
-      \field{issn}{2374-3468, 2159-5399}
       \field{journaltitle}{Proceedings of the {AAAI} Conference on Artificial Intelligence}
       \field{month}{7}
       \field{number}{1}
-      \field{shortjournal}{{AAAI}}
       \field{title}{Explainable Reasoning over Knowledge Graphs for Recommendation}
-      \field{urlday}{20}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{33}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{5329\bibrangedash 5336}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1609/aaai.v33i01.33015329
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\CKCXZV5V\\Wang et al. - 2019 - Explainable Reasoning over Knowledge Graphs for Re.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
-      \endverb
-      \verb{url}
-      \verb https://ojs.aaai.org/index.php/AAAI/article/view/4470
-      \endverb
     \endentry
     \entry{wang_reinforced_2024}{article}{}
       \name{author}{5}{}{%
@@ -4127,30 +2965,12 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1041-4347, 1558-2191, 2326-3865}
       \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
-      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
       \field{title}{Reinforced Path Reasoning for Counterfactual Explainable Recommendation}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2024}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 17}
       \range{pages}{17}
-      \verb{doi}
-      \verb 10.1109/TKDE.2024.3354077
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\Y4DVTXI2\\Wang et al. - 2024 - Reinforced Path Reasoning for Counterfactual Expla.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10399934/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10399934/
-      \endverb
     \endentry
     \entry{wang_incorporating_2021}{article}{}
       \name{author}{4}{}{%
@@ -4191,33 +3011,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{09507051}
       \field{journaltitle}{Knowledge-Based Systems}
-      \field{langid}{english}
       \field{month}{7}
-      \field{shortjournal}{Knowledge-Based Systems}
       \field{title}{Incorporating prior knowledge from counterfactuals into knowledge graph reasoning}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{223}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{107035}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.knosys.2021.107035
-      \endverb
-      \verb{file}
-      \verb Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:C\:\\Users\\Celine\\Zotero\\storage\\WCFXMK6V\\Wang et al. - 2021 - Incorporating prior knowledge from counterfactuals.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705121002987
-      \endverb
     \endentry
     \entry{wei_model-agnostic_2021}{article}{}
       \name{author}{6}{}{%
@@ -4258,9 +3059,6 @@
            giveni={X\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Singapore}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -4277,32 +3075,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
-      \field{eventtitle}{{KDD} '21: The 27th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining}
-      \field{isbn}{978-1-4503-8332-5}
       \field{journaltitle}{Proceedings of the 27th {ACM} {SIGKDD} Conference on Knowledge Discovery \& Data Mining}
-      \field{langid}{english}
       \field{month}{8}
       \field{title}{Model-Agnostic Counterfactual Reasoning for Eliminating Popularity Bias in Recommender System}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1791\bibrangedash 1800}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3447548.3467289
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\NL6UHIYH\\Wei et al. - 2021 - Model-Agnostic Counterfactual Reasoning for Elimin.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3447548.3467289
-      \endverb
     \endentry
     \entry{wei_causal_2023}{article}{}
       \name{author}{6}{}{%
@@ -4356,33 +3135,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
-      \field{issn}{1041-4347, 1558-2191, 2326-3865}
       \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
       \field{month}{11}
       \field{number}{11}
-      \field{shortjournal}{{IEEE} Trans. Knowl. Data Eng.}
       \field{title}{Causal Inference for Knowledge Graph Based Recommendation}
-      \field{urlday}{20}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{35}
       \field{year}{2023}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{11153\bibrangedash 11164}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TKDE.2022.3231352
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\CFTJYLCR\\Wei et al. - 2023 - Causal Inference for Knowledge Graph Based Recomme.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9996555/
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9996555/
-      \endverb
     \endentry
     \entry{xian_reinforcement_2019}{article}{}
       \name{author}{5}{}{%
@@ -4417,9 +3178,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Paris France}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -4438,32 +3196,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{18}
-      \field{eventtitle}{{SIGIR} '19: The 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{isbn}{978-1-4503-6172-9}
       \field{journaltitle}{Proceedings of the 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval}
-      \field{langid}{english}
       \field{month}{7}
       \field{title}{Reinforcement Knowledge Graph Reasoning for Explainable Recommendation}
-      \field{urlday}{17}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2019}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{285\bibrangedash 294}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3331184.3331203
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\56IHWS7C\\Xian et al. - 2019 - Reinforcement Knowledge Graph Reasoning for Explai.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3331184.3331203
-      \endverb
     \endentry
     \entry{xian_cafe_2020}{article}{}
       \name{author}{11}{}{%
@@ -4534,9 +3273,6 @@
            giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Virtual Event Ireland}%
-      }
       \list{publisher}{1}{%
         {ACM}%
       }
@@ -4553,35 +3289,15 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{day}{19}
-      \field{eventtitle}{{CIKM} '20: The 29th {ACM} International Conference on Information and Knowledge Management}
-      \field{isbn}{978-1-4503-6859-9}
       \field{journaltitle}{Proceedings of the 29th {ACM} International Conference on Information \& Knowledge Management}
-      \field{langid}{english}
       \field{month}{10}
-      \field{shorttitle}{{CAFE}}
       \field{title}{{CAFE}: Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation}
-      \field{urlday}{17}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1645\bibrangedash 1654}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/3340531.3412038
-      \endverb
-      \verb{file}
-      \verb Submitted Version:C\:\\Users\\Celine\\Zotero\\storage\\2BMXT2LQ\\Xian et al. - 2020 - CAFE Coarse-to-Fine Neural Symbolic Reasoning for.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3340531.3412038
-      \endverb
     \endentry
     \entry{xu_adversarial_2020}{article}{}
       \name{author}{5}{}{%
@@ -4629,25 +3345,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The feedback data of recommender systems are often subject to what was exposed to the users; however, most learning and evaluation methods do not account for the underlying exposure mechanism. We first show in theory that applying supervised learning to detect user preferences may end up with inconsistent results in the absence of exposure information. The counterfactual propensity-weighting approach from causal inference can account for the exposure mechanism; nevertheless, the partial-observation nature of the feedback data can cause identifiability issues. We propose a principled solution by introducing a minimax empirical risk formulation. We show that the relaxation of the dual problem can be converted to an adversarial game between two recommendation models, where the opponent of the candidate model characterizes the underlying exposure mechanism. We provide learning bounds and conduct extensive simulation studies to illustrate and justify the proposed approach over a broad range of recommendation settings, which shed insights on the various benefits of the proposed approach.}
-      \field{note}{Publisher: {arXiv} Version Number: 1}
       \field{title}{Adversarial Counterfactual Learning and Evaluation for Recommender System}
-      \field{urlday}{12}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
       \field{year}{2020}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2012.02295
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2012.02295
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2012.02295
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Machine Learning (cs.{LG}),Machine Learning (stat.{ML})}
     \endentry
     \entry{yang_top-n_2021}{article}{}
       \name{author}{6}{}{%
@@ -4701,28 +3401,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Top-N recommendation, which aims to learn user ranking-based preference, has long been a fundamental problem in a wide range of applications. Traditional models usually motivate themselves by designing complex or tailored architectures based on different assumptions. However, the training data of recommender system can be extremely sparse and imbalanced, which poses great challenges for boosting the recommendation performance. To alleviate this problem, in this paper, we propose to reformulate the recommendation task within the causal inference framework, which enables us to counterfactually simulate user ranking-based preferences to handle the data scarce problem. The core of our model lies in the counterfactual question: "what would be the user's decision if the recommended items had been different?". To answer this question, we firstly formulate the recommendation process with a series of structural equation models ({SEMs}), whose parameters are optimized based on the observed data. Then, we actively indicate many recommendation lists (called intervention in the causal inference terminology) which are not recorded in the dataset, and simulate user feedback according to the learned {SEMs} for generating new training samples. Instead of randomly intervening on the recommendation list, we design a learning-based method to discover more informative training samples. Considering that the learned {SEMs} can be not perfect, we, at last, theoretically analyze the relation between the number of generated samples and the model prediction error, based on which a heuristic method is designed to control the negative effect brought by the prediction error. Extensive experiments are conducted based on both synthetic and real-world datasets to demonstrate the effectiveness of our framework.}
-      \field{note}{Publisher: [object Object] Version Number: 2}
       \field{title}{Top-N Recommendation with Counterfactual User Preference Simulation}
-      \field{urlday}{16}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2109.02444
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YFDFGTL7\\Yang et al. - 2021 - Top-N Recommendation with Counterfactual User Pref.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2109.02444
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2109.02444
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Information Retrieval (cs.{IR}),Artificial Intelligence (cs.{AI})}
     \endentry
     \entry{zellinger_counterfactual_2024}{article}{}
       \name{author}{3}{}{%
@@ -4758,28 +3439,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Knowledge graph embeddings ({KGEs}) were originally developed to infer true but missing facts in incomplete knowledge repositories. In this paper, we link knowledge graph completion and counterfactual reasoning via our new task {CFKGR}. We model the original world state as a knowledge graph, hypothetical scenarios as edges added to the graph, and plausible changes to the graph as inferences from logical rules. We create corresponding benchmark datasets, which contain diverse hypothetical scenarios with plausible changes to the original knowledge graph and facts that should be retained. We develop {COULDD}, a general method for adapting existing knowledge graph embeddings given a hypothetical premise, and evaluate it on our benchmark. Our results indicate that {KGEs} learn patterns in the graph without explicit training. We further observe that {KGEs} adapted with {COULDD} solidly detect plausible counterfactual changes to the graph that follow these patterns. An evaluation on human-annotated data reveals that {KGEs} adapted with {COULDD} are mostly unable to recognize changes to the graph that do not follow learned inference rules. In contrast, {ChatGPT} mostly outperforms {KGEs} in detecting plausible changes to the graph but has poor knowledge retention. In summary, {CFKGR} connects two previously distinct areas, namely {KG} completion and counterfactual reasoning.}
-      \field{note}{Publisher: [object Object] Version Number: 1}
       \field{title}{Counterfactual Reasoning with Knowledge Graph Embeddings}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2024}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2403.06936
-      \endverb
-      \verb{file}
-      \verb Full Text:C\:\\Users\\Celine\\Zotero\\storage\\YD4NR66Y\\Zellinger et al. - 2024 - Counterfactual Reasoning with Knowledge Graph Embe.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2403.06936
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2403.06936
-      \endverb
-      \keyw{{FOS}: Computer and information sciences,Artificial Intelligence (cs.{AI}),Computation and Language (cs.{CL}),Machine Learning (cs.{LG})}
     \endentry
   \enddatalist
 \endrefsection
