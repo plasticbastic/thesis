@@ -120,9 +120,9 @@
 \setlength{\voffset}{-1.5cm}
 \setlength{\headsep}{5pt}
 
-\begin{center}
-    \includegraphics[width=0.6\columnwidth, keepaspectratio]{images/hanzelogo.png}\\
-\end{center}
+% \begin{center}
+%     \includegraphics[width=0.6\columnwidth, keepaspectratio]{images/hanzelogo.png}\\
+% \end{center}
 
 \begin{center}
 	\vspace{4em}
@@ -143,17 +143,17 @@
     \normalsize
     Submitted to
 
-    Hanze University of Applied Sciences
-    \vfill
-    \vspace{1em}
-    in partial fulfillment of the requirements \\
-    for the degree of
-    \vfill
-    \vspace{1em}
-    Master Smart Systems Engineering
+    American University of Armenia
+    % \vfill
+    % \vspace{1em}
+    % in partial fulfillment of the requirements \\
+    % for the degree of
+    % \vfill
+    % \vspace{1em}
+    % Master Smart Systems Engineering
     
-    \vspace{5.5em}
-    Confidential document
+    % \vspace{5.5em}
+    % Confidential document
 
     %Dissertation presented to the School of Technology and Management of Bragança to obtain the Master Degree in \@course.\\
     
@@ -168,9 +168,9 @@
     % \vfill
     
 %     This dissertation does not include the criticisms and suggestions made by the jury
-    \vspace{5.5em}
-	Groningen\\
-	\@courseyear
+    % \vspace{5.5em}
+	% Groningen\\
+	% \@courseyear
 \end{center}
 % \cleardoublepage
 }
