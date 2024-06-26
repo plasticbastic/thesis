@@ -73,7 +73,7 @@ comprising several types of entities and relationships:
 \begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=0.6\columnwidth, keepaspectratio]{images/knowledge_graph_structure.png}
-		\caption{Structure of the Knowledge Graph}
+		\caption{Knowledge Graph Nodes and Relations Types}
 		\label{fig:knowledge_graph_structure}
 	\end{center}
 \end{figure}
@@ -106,29 +106,127 @@ allows the CAFE system to effectively recommend products and offer insights into
 the reasons behind each recommendation, enhancing the system's explainability.
 
 \section{Counterfactual Analysis}
+Following the predictions provided by the recommender system, for the counterfactual
+analsyis of the recommended product, a threshold is determined for the minimum
+score required for a product path to be recommended to a user. This threshold corresponds
+to the path score of the last product in the top 10 recommended products.
+
+The next step involves retreiving the first-level products related to the
+attributes of the recommended product, and through them, extraction of possible
+relevant attributes. This forms the initial layer of attribute selection,
+grounded on the hypothesis that first-level connected items possess possiblly
+relevant attributes. These relevent attributes, after undergoing refinement and filitering processes, 
+make up the counterfactual scnenarios to be analyzed for plausability. 
+
+Since the scoreing of attributes is based on the metapaths defined in the system,
+after the selection of relevant attributes, an appropriate metapath is selected
+based on the type of the attribute. Using the recommender engine, we calculate
+the score for user-product combinations, which incorporates all the products previously
+purchased by the user and the counterfactual attribute in question. If the
+recalculated score for a product, involving the counterfactual attribute,
+exceeds the determined minimum score, the attribute is considered a positive influence
+for a product similar to the recommended one.
+
+This isolated attribute analysis aids in understanding the influence of specific
+attributes on product recommendations and also provides marketing insights. Such
+insights can further be used to enhance the diversity and precision of the recommender
+system.
+
+\section{Attribute Filtering and Knowledge Graph Refinement}
+To select the most relevant counterfactual attributes for the product under
+analysis and ensure they add value to our study, we eliminate outlier nodes from
+the knowledge graph. Additionally, we conduct community detection to restrict attribute
+selection to those within the same community as the product being analyzed.
+
 \subsection{Outlier Nodes Detection and Removal}
+For the purpose of the oulier detection and removal, we use the degree centrality
+of nodes in the knowledge graph. Nodes that exhibit a degree centrality above a
+certain threshold are eliminated. While these highly connected nodes can provide
+valuable insights for counterfactual analysis, they often include unhelpful
+elements such as universally common categories or frequently used words that
+lack distinctive features. Additionally, since they disrupt the modularity of
+communities essential for selecting relevant attributes, these nodes are removed.
 
-The counterfactual analysis starts by removing outlier nodes from the knowledge
-graph. Nodes that exhibit a degree centrality above a certain threshold are eliminated.
-While these highly connected nodes can provide valuable insights for
-counterfactual analysis, they often include unhelpful elements such as universally
-common categories or frequently used words that lack distinctive features.
-Additionally, since they disrupt the modularity of communities essential for selecting
-relevant attributes, these nodes are removed.
-
-% what is degree centrality
-\subsubsection*{Degree Centrality Analysis}
+\subsubsection*{Degree Centrality of Nodes}
 For a given node, degree centrality is the number of edges connected to that node
 \parencite{bloch2023centrality}
-% how I have calculated the degree centrality for the 
+
+The use of degree centrality is justified given the structure of the knowledge
+graph, where node types such as category, brand, and related products are connected
+exclusively to product nodes, as shown in Figure \ref{fig:knowledge_graph_structure}. This measure will determine
+how many products each of these attribute nodes is connected to, which will help
+in deciding whether to retain or remove them as outliers based on a
+predetermined threshold. For word attributes, however, since word nodes are connected
+not only to product nodes but also to user nodes, we apply a modified approach. Rather
+than using degree centrality, we count only the connections between each word
+node and product nodes.
+
+\begin{figure}[h!]
+	\begin{center}
+		% \includegraphics[width=0.6\columnwidth, keepaspectratio]{images/degree_centrality_distributions_by_node_type.png}
+		\includegraphics[width=\columnwidth, keepaspectratio=true]{images/degree_centrality_distributions_by_node_type.png}
+		\caption{Degree Centrality Distributions of Nodes by Node Type}
+		\label{fig:degree_centrality_distributions_by_node_type}
+	\end{center}
+\end{figure}
+The degree centrality of different types of nodes are demonstrated in \fref{fig:degree_centrality_distributions_by_node_type}.
+It is apparent from the plots that some nodes have unusual degree centralities.
+
+\subsubsection*{Determining The Outlier Nodes}
+
+Based on the reasons described, it was necessary to remove the outlier nodes while
+retaining the structure of the original knowledge graph as much as possible.
+Various statistical methods for outlier detection were experimented with, and the
+method that removed the least number of nodes while maintaining the highest community
+resemblance was chosen. Specifically, the knee method was used to identify and remove
+the outlier nodes.
+
+\subsubsection*{Knee Detection}
+For the detection of the knee in the degree centrality of nodes, the Kneedle algorithm
+have been used. The Kneedle algorithm identifies "knee points" in data, which represent
+the points where the rate of improvement in performance begins to level off significantly
+in relation to changes in a tunable system parameter, degree centrality in our
+case. It operates by first calculating a difference curve from normalized data points,
+highlighting the deviations from a direct diagonal line. The algorithm then detects
+local maxima in this difference curve, pinpointing where the rate of change in
+the response variable starts to decrease sharply, indicating the presence of a knee
+\parencite{satopaa_finding_2011}.
+
+In \fref{fig:degree_centralitites_and_knee_point} the degree centralities of all
+nodes with different types are represented in a plot, arranged in decreasing order. The Kneedle
+algorithm is used to detect the knee point in the values of degree centralities.
+This knee point marks a transition where the differences in degree centrality
+become less significant beyond this point compared to those before it.
 
 
-% The graphs of centralities, what that means
 
-% I have experimented with multiple methods, how many nodes are removed, how the modularity changes
-% the elbow method
+\begin{figure}[h!]
+	\begin{center}
+		% \includegraphics[width=0.6\columnwidth, keepaspectratio]{images/degree_centrality_distributions_by_node_type.png}
+		\includegraphics[width=\columnwidth, keepaspectratio=true]{images/degree_centralitites_and_knee_point.png}
+		\caption{Degree Centrality of All Nodes and Knee Point Specified with Kneedle Algorithm}
+		\label{fig:degree_centralitites_and_knee_point}
+	\end{center}
+\end{figure}
 
-% the qurtile...
+In \fref{tab:graph_metrics} the number of nodes removed and consequent changes are represented.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{l c}
+	\hline
+	\textbf{Metric} & \textbf{Value} \\
+	\hline
+	Nodes Removed & 25 \\
+	Number of Communities in Original Graph & 22 \\
+	Number of Communities in Cleaned Graph & 24 \\
+	Number of Nodes in the Original Graph & 42670 \\
+	Number of Nodes in the Cleaned Graph & 42645 \\
+	\hline
+	\end{tabular}
+	\caption{Graph Metrics Before and After Cleaning}
+	\label{tab:graph_metrics}
+	\end{table}
 
 
 \subsection{Community Detection and Graph Analysis Node Filtering}
@@ -137,25 +235,62 @@ Communities are identified using Louvain Method. This helps to cluster entities 
 share significant similarities and interactions. The Louvain Method is a an
 efficient algorithm designed for detecting communities in large-scale networks
 by optimizing modularity, a measure that quantifies the density of links within communities
-relative to those between them introduced in \parencite{blondel_fast_2008}. The algorithm operates
-in two iterative phases: initially, it optimizes modularity locally, evaluating
-potential gains by moving individual nodes into different communities. Nodes are
-shifted to the community that maximizes this gain, and the process is repeated
-until no further improvement is possible, achieving a local maximum of modularity.
-In the second phase, the method aggregates these identified communities into new
-nodes of a reduced network, and the process is reapplied. This hierarchical approach
-allows the algorithm to uncover community structures at multiple levels effectively.
-Notable for its speed, the Louvain Method can handle networks with up to millions
-of nodes efficiently, making it well-suited for modern datasets of substantial
-size. To refine the analysis further, we calculate the degree centrality for
-each type of pair within the graph. Nodes that do not provide significant insight
-are filtered out based on their z-score; specifically, nodes with a z-score exceeding
-	[specific threshold] are removed.
+relative to those between them introduced in \parencite{blondel_fast_2008}. 
+
+In the case of weighted networks the
+modularity $Q$ is defined as:
+
+\begin{equation}
+	\label{eq:modularity}Q = \frac{1}{2m}\sum_{i,j}\left[ A_{ij}- \frac{k_{i} k_{j}}{2m}
+	\right] \delta(c_{i}, c_{j}),
+\end{equation}
+
+where $A_{ij}$ represents the weight of the edge between nodes $i$ and $j$,
+$k_{i} = \sum_{j}A_{ij}$ is the sum of the weights of the edges attached to
+vertex $i$, and $c_{i}$ is the community to which vertex $i$ is assigned. The
+$\delta$-function $\delta(c_{i}, c_{j})$ equals 1 if $c_{i} = c_{j}$ and 0
+otherwise. Here, $m = \frac{1}{2}\sum_{ij}A_{ij}$ represents the sum of the
+weights of all the edges in the network. In the case of unweighted networks,
+where no specific weights are assigned to the edges, each edge is assumed to have
+a weight of 1.
+
+The change in modularity $\Delta Q$ when moving a node $i$ to a different
+community is given by:
+
+\begin{equation}
+	\label{eq:delta_modularity}\Delta Q = \left[ \frac{\sum_{\text{in}}+ k_{i, \text{in}}}{2m}
+	- \left( \frac{\sum_{\text{tot}}+ k_{i}}{2m}\right)^{2}\right] - \left[ \frac{\sum_{\text{in}}}{2m}
+	- \left( \frac{\sum_{\text{tot}}}{2m}\right)^{2}- \left( \frac{k_{i}}{2m}\right
+	)^{2}\right],
+\end{equation}
+
+where $\sum_{\text{in}}$ is the sum of the weights of the edges inside the community,
+$k_{i, \text{in}}$ is the sum of the weights of the edges from node $i$ to other
+nodes in the community, and $\sum_{\text{tot}}$ is the total sum of the weights of
+the edges to nodes in the community. $k_{i}$ represents the degree of node $i$, which
+is the sum of the weights of all edges attached to node $i$. If the network is
+unweighted, the weight $A_{ij}$ is taken to be 1 for all edges.
+
+The algorithm operates in two iterative phases: initially, it optimizes modularity
+locally, evaluating potential gains by moving individual nodes into different
+communities. Nodes are shifted to the community that maximizes this gain, and
+the process is repeated until no further improvement is possible, achieving a local
+maximum of modularity. In the second phase, the method aggregates these identified
+communities into new nodes of a reduced network, and the process is reapplied. This
+hierarchical approach allows the algorithm to uncover community structures at multiple
+levels effectively. Notable for its speed, the Louvain Method can handle networks
+with up to millions of nodes efficiently, making it well-suited for modern
+datasets of substantial size. To refine the analysis further, we calculate the
+degree centrality for each type of pair within the graph. Nodes that do not provide
+significant insight are filtered out based on their z-score; specifically, nodes
+with a z-score exceeding [specific threshold] are removed.
+
 
 \subsection{Attribute Selection}
-Following the predictions provided by the recommender system, a threshold is set
-for the minimum score required for a product path to be recommended to a user, which
-is the path score of the last product recommended in the top 10 recommended products.
+Following the predictions provided by the recommender system, a threshold is determined
+for the minimum score required for a product path to be recommended to a user.
+This threshold corresponds to the path score of the last product in the top 10
+recommended products.
 For the analysis of a recommended path, we retrieve the first-level attributes and
 their related products. This forms the initial layer of attribute selection, predicated
 on the hypothesis that first-level connected items possess more relevant attributes.
@@ -163,18 +298,6 @@ These selected attributes are then evaluated to determine whether they fall
 within the community of the recommended product. If they do, and their z-score
 is within an acceptable range, they are considered for further counterfactual analysis.
 
-\subsection{Performing Counterfactual Analysis}
-For each attribute, an appropriate metapath is selected based on the type of the
-attribute. Using the recommender engine, we calculate the score for a user-product
-combination, which incorporates all the products previously purchased by the user
-and the counterfactual attribute in question. This approach is grounded in the
-assumption that the system discerns the user's preferences through their
-purchase history. If the recalculated score for a product, when considering a
-counterfactual attribute, exceeds the set minimum score, the attribute is
-considered a positive influence for a product similar to the recommended one. This
-isolated attribute analysis not only aids in understanding the influence of specific
-attributes on product recommendations but also provides marketing insights. Such
-insights can further be used to enhance the diversity and precision of the
-recommender system.
+
 
 \section{Case Study}

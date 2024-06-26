@@ -34,9 +34,16 @@
 \setlist{nosep}  % By default the separation is large
 \renewcommand{\glsgroupskip}{}
 
+\usepackage{adjustbox} % Include this in the preamble
+% \usepackage{subcaption}
+
+% \usepackage{subfigure}
+\usepackage{subfig}
+
+
 
 \usepackage{fancyref}  % This allows to use \fref{} command. This is very useful, it allows to easily refer to any \label{}. % See documentation: https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/fancyref/fancyref.pdf.
-
+% \usepackage{cleveref} % Enhanced cross-referencing capabilities
 % \usepackage{showframe}
 
 
@@ -50,22 +57,22 @@
 
 
 \begin{document}
-\beforepreface  % Places the cover page
+\beforepreface  % Places thse cover page
 
 \clearpage
-% Navigate to: chapters/abstract.tex
+% % Navigate to: chapters/abstract.tex
 \input{chapters/abstract}
 
-% \clearpage
+\clearpage
 % Navigate to: chapters/declaration.tex
 % \input{chapters/declaration}
 
 % \clearpage
 % Navigate to: chapters/acknowledgements.tex
-% \input{chapters/acknowledgements}  
+\input{chapters/acknowledgements}  
 
 
-% \cleardoublepage  % Makes sure contents start on correct page
+\cleardoublepage  % Makes sure contents start on correct page
 \afterpreface  % Places contents, list of tables and list of figures
 \bodystart  % This sets stylistic parameters for the following content
 
@@ -85,7 +92,7 @@
 
 \printglossary[type=\acronymtype,title={Definitions and Abbreviations}]
 
-\clearpage
+% \clearpage
 \addcontentsline{toc}{chapter}{References}
 \printbibliography[title={References}]
 

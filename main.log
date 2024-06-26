@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.18)  30 MAY 2024 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.18)  26 JUN 2024 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -895,6 +895,26 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box76
 \enit@count@id=\count498
 \enitdp@description=\count499
+) (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+\tc@llx=\dimen259
+\tc@lly=\dimen260
+\tc@urx=\dimen261
+\tc@ury=\dimen262
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen263
+\adjbox@Height=\dimen264
+\adjbox@Depth=\dimen265
+\adjbox@Totalheight=\dimen266
+\adjbox@pwidth=\dimen267
+\adjbox@pheight=\dimen268
+\adjbox@pdepth=\dimen269
+\adjbox@ptotalheight=\dimen270
 ) (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/fancyref\fancyref.sty
 Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
  (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/tools\varioref.sty
@@ -905,40 +925,40 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'USenglish'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 52.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 59.
  (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
  (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count501
-\scratchdimen=\dimen259
+\scratchdimen=\dimen271
 \scratchbox=\box77
 \nofMPsegments=\count502
 \nofMParguments=\count503
 \everyMPshowfont=\toks42
 \MPscratchCnt=\count504
-\MPscratchDim=\dimen260
+\MPscratchDim=\dimen272
 \MPnumerator=\count505
 \makeMPintoPDFobject=\count506
 \everyMPtoPDFconversion=\toks43
@@ -955,7 +975,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count507
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 59.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1029,8 +1049,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1038,7 +1058,7 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\Celine\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 52.
+Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 59.
  [1
 
 {C:/Users/Celine/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (chapters/abstract.tex)
@@ -1052,8 +1072,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 \@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
                                                   \fi \expandafter \put@me@b...
 ...
-l.69 \afterpreface
-                    % Places contents, list of tables and list of figures [2
+l.66 \clearpage
+                [2
+
+] (chapters/acknowledgements.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
+                                                  \Hy@RestoreLastskip \ifhmo...
+\hyper@anchor #1->\new@pdflink {#1}
+                                   \anchor@spot \pdf@endanchor 
+\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
+                                                  \fi \expandafter \put@me@b...
+...
+l.75 \cleardoublepage
+                       % Makes sure contents start on correct page [3
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
+                                                  \Hy@RestoreLastskip \ifhmo...
+\hyper@anchor #1->\new@pdflink {#1}
+                                   \anchor@spot \pdf@endanchor 
+\@hyper@@anchor ...r@spot \else \hyper@anchor {#1}
+                                                  \fi \expandafter \put@me@b...
+...
+l.75 \cleardoublepage
+                       % Makes sure contents start on correct page [4
 
 ] (main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
@@ -1132,27 +1180,139 @@ Overfull \hbox (37.27066pt too wide) has occurred while \output is active
 [23]
 Chapter 3.
 
-Underfull \vbox (badness 3049) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24
 
-] [25] [26]) (chapters/results.tex [27]
+] [25]
+<images/knowledge_graph_structure.png, id=348, 404.26031pt x 304.13625pt>
+File: images/knowledge_graph_structure.png Graphic file (type png)
+<use images/knowledge_graph_structure.png>
+Package pdftex.def Info: images/knowledge_graph_structure.png  used on input line 75.
+(pdftex.def)             Requested size: 273.14922pt x 205.50122pt.
+<images/metapaths.png, id=351, 620.3175pt x 448.67625pt>
+File: images/metapaths.png Graphic file (type png)
+<use images/metapaths.png>
+Package pdftex.def Info: images/metapaths.png  used on input line 91.
+(pdftex.def)             Requested size: 409.71689pt x 296.34631pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./images/knowledge_graph_structure.png>]
+Underfull \vbox (badness 1331) has occurred while \output is active []
+
+ [27 <./images/metapaths.png>] [28]
+<images/degree_centrality_distributions_by_node_type.png, id=373, 1075.3776pt x 1076.1003pt>
+File: images/degree_centrality_distributions_by_node_type.png Graphic file (type png)
+<use images/degree_centrality_distributions_by_node_type.png>
+Package pdftex.def Info: images/degree_centrality_distributions_by_node_type.png  used on input line 167.
+(pdftex.def)             Requested size: 455.24408pt x 455.55501pt.
+
+Underfull \vbox (badness 1783) has occurred while \output is active []
+
+ [29 <./images/degree_centrality_distributions_by_node_type.png>]
+<images/degree_centralitites_and_knee_point.png, id=383, 499.3857pt x 393.8715pt>
+File: images/degree_centralitites_and_knee_point.png Graphic file (type png)
+<use images/degree_centralitites_and_knee_point.png>
+Package pdftex.def Info: images/degree_centralitites_and_knee_point.png  used on input line 206.
+(pdftex.def)             Requested size: 455.24408pt x 359.06067pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3148) has occurred while \output is active []
+
+ [30] [31{C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./images/degree_centralitites_and_knee_point.png>] [32]) (chapters/results.tex [33]
 Chapter 4.
-) (chapters/conclusion.tex [28
+) (chapters/conclusion.tex [34
 
 ]
 Chapter 5.
 )
 No file main.acr.
-[29
+[35
 
-] [30
+] [36
+
+] [37] [38] (chapters/appendix.tex [39]
+<images/Appendix_A/std_dv_community_sizes_comparison.png, id=453, 608.5134pt x 616.4631pt>
+File: images/Appendix_A/std_dv_community_sizes_comparison.png Graphic file (type png)
+<use images/Appendix_A/std_dv_community_sizes_comparison.png>
+Package pdftex.def Info: images/Appendix_A/std_dv_community_sizes_comparison.png  used on input line 13.
+(pdftex.def)             Requested size: 204.85844pt x 207.53467pt.
+<images/Appendix_A/std_dv_removed_nodes_degree_centrality_distribution.png, id=454, 620.7993pt x 393.8715pt>
+File: images/Appendix_A/std_dv_removed_nodes_degree_centrality_distribution.png Graphic file (type png)
+<use images/Appendix_A/std_dv_removed_nodes_degree_centrality_distribution.png>
+Package pdftex.def Info: images/Appendix_A/std_dv_removed_nodes_degree_centrality_distribution.png  used on input line 16.
+(pdftex.def)             Requested size: 204.85844pt x 129.97198pt.
+<images/Appendix_A/percentile_community_sizes_comparison.png, id=455, 614.295pt x 616.4631pt>
+File: images/Appendix_A/percentile_community_sizes_comparison.png Graphic file (type png)
+<use images/Appendix_A/percentile_community_sizes_comparison.png>
+Package pdftex.def Info: images/Appendix_A/percentile_community_sizes_comparison.png  used on input line 25.
+(pdftex.def)             Requested size: 204.85844pt x 205.57813pt.
+<images/Appendix_A/percentile_removed_nodes_degree_centrality_distribution.png, id=456, 620.7993pt x 393.8715pt>
+File: images/Appendix_A/percentile_removed_nodes_degree_centrality_distribution.png Graphic file (type png)
+<use images/Appendix_A/percentile_removed_nodes_degree_centrality_distribution.png>
+Package pdftex.def Info: images/Appendix_A/percentile_removed_nodes_degree_centrality_distribution.png  used on input line 27.
+(pdftex.def)             Requested size: 204.85844pt x 129.97198pt.
 
 
-] [31] (chapters/appendix.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [32]) [33
+<images/Appendix_A/IQR_community_sizes_comparison.png, id=457, 620.7993pt x 616.4631pt>
+File: images/Appendix_A/IQR_community_sizes_comparison.png Graphic file (type png)
+<use images/Appendix_A/IQR_community_sizes_comparison.png>
+Package pdftex.def Info: images/Appendix_A/IQR_community_sizes_comparison.png  used on input line 36.
+(pdftex.def)             Requested size: 204.85844pt x 203.42404pt.
+<images/Appendix_A/IQR_removed_nodes_degree_centrality_distribution.png, id=458, 620.7993pt x 393.8715pt>
+File: images/Appendix_A/IQR_removed_nodes_degree_centrality_distribution.png Graphic file (type png)
+<use images/Appendix_A/IQR_removed_nodes_degree_centrality_distribution.png>
+Package pdftex.def Info: images/Appendix_A/IQR_removed_nodes_degree_centrality_distribution.png  used on input line 38.
+(pdftex.def)             Requested size: 204.85844pt x 129.97198pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/Appendix_A/knee_community_sizes_comparison.png, id=459, 608.5134pt x 616.4631pt>
+File: images/Appendix_A/knee_community_sizes_comparison.png Graphic file (type png)
+<use images/Appendix_A/knee_community_sizes_comparison.png>
+Package pdftex.def Info: images/Appendix_A/knee_community_sizes_comparison.png  used on input line 47.
+(pdftex.def)             Requested size: 204.85844pt x 207.53467pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]\T1/lmr/m/n/10 (a) |Com-mu-nity Sizes Com-par-i-son (Knee
+ []
+
+<images/Appendix_A/knee_removed_nodes_degree_centrality_distribution.png, id=460, 608.5134pt x 393.8715pt>
+File: images/Appendix_A/knee_removed_nodes_degree_centrality_distribution.png Graphic file (type png)
+<use images/Appendix_A/knee_removed_nodes_degree_centrality_distribution.png>
+Package pdftex.def Info: images/Appendix_A/knee_removed_nodes_degree_centrality_distribution.png  used on input line 49.
+(pdftex.def)             Requested size: 204.85844pt x 132.59834pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/Appendix_A/top20_community_sizes_comparison.png, id=461, 608.5134pt x 616.4631pt>
+File: images/Appendix_A/top20_community_sizes_comparison.png Graphic file (type png)
+<use images/Appendix_A/top20_community_sizes_comparison.png>
+Package pdftex.def Info: images/Appendix_A/top20_community_sizes_comparison.png  used on input line 58.
+(pdftex.def)             Requested size: 204.85844pt x 207.53467pt.
+
+Underfull \hbox (badness 2277) in paragraph at lines 58--58
+[]\T1/lmr/m/n/10 (a) |Com-mu-nity Sizes Com-par-i-son (Top 20
+ []
+
+<images/Appendix_A/top20_removed_nodes_degree_centrality_distribution.png, id=462, 608.5134pt x 393.8715pt>
+File: images/Appendix_A/top20_removed_nodes_degree_centrality_distribution.png Graphic file (type png)
+<use images/Appendix_A/top20_removed_nodes_degree_centrality_distribution.png>
+Package pdftex.def Info: images/Appendix_A/top20_removed_nodes_degree_centrality_distribution.png  used on input line 61.
+(pdftex.def)             Requested size: 204.85844pt x 132.59834pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40
+
+ <./images/Appendix_A/std_dv_community_sizes_comparison.png> <./images/Appendix_A/std_dv_removed_nodes_degree_centrality_distribution.png>] [41 <./images/Appendix_A/percentile_community_sizes_comparison.png> <./images/Appendix_A/percentile_removed_nodes_degree_centrality_distribution.png> <./images/Appendix_A/IQR_community_sizes_comparison.png> <./images/Appendix_A/IQR_removed_nodes_degree_centrality_distribution.png>] [42 <./images/Appendix_A/knee_community_sizes_comparison.png> <./images/Appendix_A/knee_removed_nodes_degree_centrality_distribution.png> <./images/Appendix_A/top20_community_sizes_comparison.png> <./images/Appendix_A/top20_removed_nodes_degree_centrality_distribution.png>]) [43
 
 ] (main.aux)
  ***********
@@ -1160,23 +1320,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0D6A9FD554583AB0EDAC0937F6F8704E;6471.
+(rerunfilecheck)             Checksum: EE052992D247E101B7EA19B069DA5D29;7148.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33338 strings out of 474485
- 644856 string characters out of 5743262
+ 34249 strings out of 474485
+ 666420 string characters out of 5743262
  1937542 words of memory out of 5000000
- 55011 multiletter control sequences out of 15000+600000
- 603078 words of font info for 65 fonts, out of 8000000 for 9000
+ 55863 multiletter control sequences out of 15000+600000
+ 612048 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,6n,133p,2414b,5336s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb>
-Output written on main.pdf (31 pages, 225198 bytes).
+ 109i,10n,133p,2414b,5336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/Celine/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (43 pages, 722005 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 596 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
+ 335 words of extra memory for PDF output out of 10000 (max. 10000000)
 
