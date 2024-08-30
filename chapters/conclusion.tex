@@ -1,2 +1,62 @@
 \chapter{Conclusion}\label{chap:conclusion}
 
+\section{Summary of Key Findings}
+The implementation of counterfactual analysis on the path-based knowledge graph
+recommender system has yielded significant insights into the explainability of
+AI-driven recommendations. Our research demonstrates that by examining alternative
+scenarios and attribute modifications, we can shed light on the decision-making
+process of complex recommender systems. This approach allows us to move beyond the
+"black box" nature of many AI systems and provide clearer explanations for why specific
+products are recommended to users.
+
+A key finding of our study is the identification of influential attributes and path
+types in the recommendation process. By analyzing different path structures, such
+as \texttt{'mentions' -> 'rev\_described\_by'} and \texttt{'purchase' -> 'also\_viewed'
+-> 'rev\_also\_bought'}, we have uncovered the underlying logic driving the
+recommender system's choices. This granular understanding of path influences enhances
+the system's transparency, allowing both developers and users to better
+comprehend the factors contributing to each recommendation.
+
+Moreover, our counterfactual analysis revealed the relative importance of various
+product attributes, including brand associations, descriptive keywords, and
+product relationships. By systematically altering these attributes and observing
+the resulting changes in recommendation scores, we have developed a framework
+for explaining why certain products are recommended over others. This approach not
+only improves the explainability of the recommender system but also provides valuable
+insights into user preferences and decision-making patterns. However, it is important
+to note the limitations of our method, such as the computational complexity and
+the assumption of attribute independence, which present opportunities for future
+research to further refine and expand upon this explainable AI approach in recommender
+systems.
+
+\section{Contributions to Explainable AI in Recommender Systems}
+Our methodology makes several key contributions to the field of explainable AI in
+recommender systems. First, it provides a novel approach to generating "what-if"
+scenarios, allowing for a more comprehensive understanding of the system's
+decision boundaries. This goes beyond traditional explanation methods that focus
+solely on the attributes present in the recommended item.
+
+Second, our approach offers a more nuanced view of feature importance in
+recommendations. By identifying which attributes could lead to the same recommendation,
+we provide insights into the relative influence of different features, enhancing
+the interpretability of the system's decisions.
+
+\section{Marketing and Business Implications}
+From a marketing perspective, our analysis reveals valuable insights for product
+positioning and targeted advertising. The diverse range of brands and categories
+associated with recommended products suggests opportunities for flexible marketing
+strategies. Furthermore, the identification of key descriptive words and related
+products opens avenues for content marketing and cross-promotion strategies.
+
+\section{Future Research Directions}
+Future research in the domain of path-based knowledge graph recommender systems could
+explore the integration of scenarios that involve multiple counterfactual attributes
+simultaneously. This approach would address the complexity of real-world
+decision-making processes where multiple factors are often intertwined, affecting
+user preferences and product recommendations concurrently. By analyzing the
+combined effects of various attributes, researchers could gain a more nuanced understanding
+of their interdependencies and the synergistic effects on recommendation outputs.
+Additionally, dynamic alterations of embeddings represent a promising area for enhancing
+the adaptiveness and accuracy of counterfactual explainability of recommender systems.
+Such efforts would advance the explainability of these systems, enabling clearer
+insights into how and why recommendations change under varied conditions.

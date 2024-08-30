@@ -3,67 +3,65 @@
 
 \section{Explainable AI In Knowledge Graph Recommender Systesm}
 
-Knowledge Graphs (KGs) are pivotal in enhancing the explainability and accuracy of
-recommender systems. These structured, relational frameworks capture complex interactions
+Knowledge Graphs (KGs) are effective tools in enhancing the explainability and accuracy
+of recommender systems. These structured, relational frameworks capture complex interactions
 among users, items, and their attributes, allowing for more nuanced
 recommendations coupled with clear, logical explanations. This literature review
 synthesizes recent advancements in explainable artificial intelligence (XAI)
-that utilize KGs to illustrate how these technologies not only refine
-recommendation quality but also enhance user trust and understanding through
-transparency.
+that utilize KGs to illustrate how these technologies can refine recommendation
+quality, provide layers of transparency to systems and deliver business value in
+various aspects.
 
 \subsection{Path-based Modeling}
 
-Path-based modeling has emerged as a fundamental innovation in the utilization of
-KGs for recommender systems. Techniques such as the Knowledge-aware Path
-Recurrent Network (KPRN) and Path Language Modeling Recommendation (PLM-Rec)
-illustrate this trend's dynamic nature. KPRN leverages LSTM networks to interpret
-paths of entities and relationships, emphasizing those connections that are most
-influential in understanding user preferences. This method enriches the recommendation
+Path-based modeling has emerged as a fundamental innovation in the utilization
+of KGs for recommender systems. Techniques such as the Knowledge-aware Path Recurrent
+Network (KPRN) and Path Language Modeling Recommendation (PLM-Rec) illustrate this
+trend's dynamic nature. KPRN employs LSTM networks to interpret paths of
+entities and relationships, pointing out those connections that are most influential
+in understanding user preferences. This method improves the recommendation
 process by providing a temporal and semantic depth that traditional models lack,
-allowing for a better prediction of user behavior based on past interactions \parencite{wang_explainable_2019}. 
-On the other hand, PLM-Rec employs a novel approach by
-integrating natural language processing techniques to extend KG paths. This model
-treats paths as sentences, using a language model to dynamically predict and
-extend these paths within the KG. Such extensions help the system explore new,
-potentially uncharted areas of the KG, thereby enhancing the system’s ability to
-recommend items that were previously unreachable. This approach addresses the
-inherent limitations of static KG structures and improves the system's recall
-capabilities, making it particularly valuable for discovering long-tail items \parencite{geng_path_2022}. 
-Together, these path-based methods signify a shift towards more dynamic
-and exploratory use of KGs, expanding both the depth and breadth of what
-recommender systems can achieve.
+allowing for a better prediction of user behavior based on past interactions \parencite{wang_explainable_2019}.
+On the other hand, PLM-Rec uses a novel approach by integrating natural language
+processing techniques to extend KG paths. This model treats paths as sentences,
+using a language model to dynamically predict and extend these paths within the
+KG. Such extensions help the system explore new, potentially uncharted areas of
+the KG, thereby enhancing the system’s ability to recommend items that were previously
+unreachable. This approach addresses the inherent limitations of static KG
+structures and improves the system's recall capabilities, making it particularly
+valuable for discovering long-tail items \parencite{geng_path_2022}. Together,
+these path-based methods signify a shift towards more dynamic and exploratory
+use of KGs, expanding both the depth and breadth of what recommender systems can
+achieve. Similarly, the Policy-Guided Path Reasoning (PGPR) model uses reinforcement
+learning to navigate through the KG, selecting paths that not only lead to
+relevant recommendations but are also interpretable. This model provides explicit
+paths that detail the reasoning behind each recommendation, fulfilling the dual
+requirements of accuracy and transparency in the recommendation process
+\parencite{xian_reinforcement_2019}.
 
-\subsection{Integration of User Profiles and Behavior}
+\subsection{Explainability through Symbolic and Logical Reasoning}
 
-The integration of user behavioral data into KGs has significantly refined the personalization
-capabilities of recommender systems. The "Cafe" model by \textcite{xian_cafe_2020} represents
-a sophisticated application of this concept, employing a coarse-to-fine strategy
-where initially broad user profiles help to narrow down and guide the path-finding
-algorithms in KGs. These profiles are crafted from historical data and are instrumental
-in focusing the recommendation process on paths most relevant to individual users,
-thus enhancing both the relevance and personalization of the recommendations. This
-method mirrors strategies used in other models that combine knowledge-base embeddings
-(KBE) with collaborative filtering. By embedding user behaviors and item
+Monotonic GNNs (MGNNs), introduced by Tena et al. (2022), exemplify the trend of
+explainability of systems by ensuring that every transformation within the network
+adheres to a set of logical rules, akin to traditional rule-based systems. This adherence
+guarantees that the network's operations are interpretable and justifiable,
+enhancing user trust by providing comprehensible explanations for the
+recommendations made.
+
+The integration of user behavioral data into KGs has significantly refined the
+personalization capabilities of recommender systems. The "Cafe: CoArse-to-FinE neural
+symbolic reasoning method" model by \textcite{xian_cafe_2020} represents a sophisticated
+application of this concept, employing a coarse-to-fine strategy where initially
+broad user profiles help to narrow down and guide the path-finding algorithms in
+KGs. These profiles are crafted from historical data and are essential in focusing
+the recommendation process on paths most relevant to individual users, thus
+enhancing both the relevance and personalization of the recommendations. This method
+mirrors strategies used in other models that combine knowledge-base embeddings (KBE)
+with collaborative filtering. By embedding user behaviors and item
 characteristics into a unified representation, these models achieve a granular understanding
 of user-item relationships. This integration allows for a tailored
 recommendation experience, where the system's outputs are closely aligned with individual
 preferences and behaviors, as demonstrated in the work by \textcite{ai_learning_2018}.
-
-\subsection{Explainability through Symbolic and Logical Reasoning}
-
-The demand for explainability in AI has driven the adoption of models that
-incorporate transparent, logical reasoning processes. Monotonic GNNs (MGNNs), introduced
-by Tena et al. (2022), exemplify this trend by ensuring that every transformation
-within the network adheres to a set of logical rules, akin to traditional rule-based
-systems. This adherence guarantees that the network's operations are interpretable
-and justifiable, enhancing user trust by providing comprehensible explanations
-for the recommendations made. Similarly, the Policy-Guided Path Reasoning (PGPR)
-model uses reinforcement learning to navigate through the KG, selecting paths that
-not only lead to relevant recommendations but are also interpretable. This model
-provides explicit paths that detail the reasoning behind each recommendation, fulfilling
-the dual requirements of accuracy and transparency in the recommendation process
-\parencite{xian_reinforcement_2019}.
 
 The convergence of these methodologies highlights a crucial trend towards enhancing
 both the predictive accuracy and the interpretability of KG-based systems.
@@ -72,62 +70,60 @@ and logical reasoning, these approaches offer a more profound understanding of t
 intricacies involved in making recommendations. They collectively emphasize a
 shift towards recommender systems that are not only effective in their
 predictions but also provide transparent and understandable explanations, aligning
-with the growing user demand for transparency and accountability in AI systems.
+with the growing user and business demand for transparency and accountability in
+AI systems.
 
 \section{Counterfacutal Reasoning in XAI}
 
-Counterfactuals in Explainable AI (XAI) play a crucial role in ensuring AI
-transparency and adherence to regulations such as GDPR introduced by \textcite{watson_good_2020}. Addressing the challenge
-of generating sparse and plausible counterfactual explanations, this study
-introduces a novel case-based reasoning (CBR) approach that utilizes a curated
-case-base of effective counterfactuals. In this system, each explanation case
-serves as a minimal yet impactful alteration of another, resulting in a different
-class outcome. The method involves identifying and pairing cases within datasets
-to build an explanation case-base. For new queries, counterfactuals are
-generated by retrieving and adapting the most similar case from this base, ensuring
-minimal changes and high plausibility. The generated counterfactuals are
-systematically validated and integrated throughout the experiments to assess the
-model’s explanatory competence. By using the CBR model, this approach
-effectively enhances the quality and applicability of explanations, meeting the critical
-need for actionable counterfactuals in AI systems and enhancing their interpretability
-and trustworthiness.
+Counterfactuals in Explainable AI provide tool to explore the hypotetical
+settings. Addressing the challenge of generating sparse and plausible counterfactual
+explanations, GDPR introduced by \textcite{watson_good_2020} introduces a novel case-based
+reasoning (CBR) approach that uses a curated case-base of effective counterfactuals.
+In this system, each explanation case serves as a minimal yet impactful alteration
+of another, resulting in a different class outcome. The method involves identifying
+and pairing cases within datasets to build an explanation case-base. For new
+queries, counterfactuals are generated by retrieving and adapting the most similar
+case from this base, guaranteeing minimal changes and high plausibility. The generated
+counterfactuals are systematically validated and integrated throughout the experiments
+to assess the model’s explanatory competence. By using the CBR model, this approach
+effectively improves the quality and applicability of explanations, meeting the
+critical need for actionable counterfactuals in AI systems and enhancing their
+interpretability and trustworthiness.
 
-Further enriching the field of counterfactual explanations in graph-based models,
-the CF-GNNExplainer model \parencite{lucic_cf-gnnexplainer_2021} iteratively perturbs the adjacency matrix of a graph,
-typically through edge deletions, to generate counterfactual scenarios that influence
-the predictions made by Graph Neural Networks (GNNs). These counterfactuals help
-evaluate the minimal perturbations needed to effect a change in predictions, employing
-a loss function that delicately balances the change in prediction with the extent
-of the perturbation. This nuanced approach facilitates precise modifications to
-GNN outputs, deepening the understanding of model behavior in graph-based data.
+Further expanding the field of counterfactual explanations in graph-based models,
+the CF-GNNExplainer model \parencite{lucic_cf-gnnexplainer_2021} iteratively
+perturbs the adjacency matrix of a graph, typically through edge deletions, to
+generate counterfactual scenarios that influence the predictions made by Graph
+Neural Networks (GNNs). These counterfactuals help evaluate the minimal perturbations
+needed to effect a change in predictions, employing a loss function that
+delicately balances the change in prediction with the extent of the perturbation.
+This nuanced approach facilitates precise modifications to GNN outputs,
+deepening the understanding of model behavior in graph-based data.
 
+The Causal Knowledge Graph (CausalKG) framework introduced by \textcite{jaimini_causalkg_2022}
+integrates a Causal Bayesian Network (CBN) and a hyper-relational graph representation
+using RDF-star to effectively model complex causal relationships. The central
+neural model, the Causal Bayesian Network, facilitates the manipulation of
+variables to generate counterfactuals by hypothesizing interventions in the CBN
+and observing the resultant effects on connected variables. This approach allows
+the system to predict outcomes under various scenarios. Integrating these
+counterfactuals into experiments aids in evaluating the causal impacts of
+different decisions and also ensures that AI outcomes are contextually relevant
+and more comprehensible, underscoring the value of counterfactual reasoning in making
+AI systems more transparent and understandable.
 
-Counterfactuals have been used in explainable artificial intelligence (XAI) to
-enhance understanding and transparency in decision-making processes. As demonstrated
-by \textcite{jaimini_causalkg_2022} with their Causal Knowledge Graph (CausalKG)
-framework. This framework integrates a Causal Bayesian Network (CBN) and a hyper-relational
-graph representation using RDF-star to effectively model complex causal relationships.
-The central neural model, the Causal Bayesian Network, facilitates the
-manipulation of variables to generate counterfactuals by hypothesizing
-interventions in the CBN and observing the resultant effects on connected
-variables. This approach allows the system to predict outcomes under various scenarios.
-Integrating these counterfactuals into experiments not only aids in evaluating
-the causal impacts of different decisions but also ensures that AI outcomes are
-contextually relevant and more comprehensible, underscoring the value of counterfactual
-reasoning in making AI systems more transparent and understandable.
-
-The CoCoX model, introduced by \textcite{akula_cocox_2020}, represents a notable
-advancement in enhancing the transparency and understandability of decisions
-made by deep convolutional neural networks (CNNs). This model generates both conceptual
-and counterfactual explanations by exploiting cognitive fault-lines—semantically
-significant features that are critical for classification. CoCoX identifies
-minimal changes, such as the addition or removal of specific features like stripes
-or bumps, that could influence the CNN's output. Based on the VGG-16 architecture,
-CoCoX utilizes Grad-CAM for effective feature extraction and K-means clustering
-to pinpoint explainable concepts. These concepts help define the positive and negative
-fault-lines which are crucial for developing counterfactuals. These
-counterfactuals are approached as an optimization problem that aims to modify
-the minimum number of features necessary to change the classification outcome.
+The CoCoX model, introduced by \textcite{akula_cocox_2020}, attempts to expand
+the transparency and understandability of decisions made by deep convolutional
+neural networks (CNNs). This model generates both conceptual and counterfactual explanations
+by exploiting cognitive fault-lines—semantically significant features that are critical
+for classification. CoCoX identifies minimal changes, such as the addition or removal
+of specific features like stripes or bumps, that could influence the CNN's
+output. Based on the VGG-16 architecture, CoCoX utilizes Grad-CAM for effective
+feature extraction and K-means clustering to pinpoint explainable concepts. These
+concepts help define the positive and negative fault-lines which are crucial for
+developing counterfactuals. These counterfactuals are approached as an
+optimization problem that aims to modify the minimum number of features
+necessary to change the classification outcome.
 
 For graph-based models, the CF2 framework addresses the unique challenge of enhancing
 graph-based model explainability by generating counterfactuals that identify necessary
@@ -139,106 +135,101 @@ relaxation techniques, CF2 balances the explanation's complexity and effectivene
 providing iterative refinement to focus on critical graph components that
 significantly impact the GNN's predictions. These insights are crucial for advancing
 the transparency and reliability of GNNs, ultimately enriching the field of
-explainable AI \parencite{tan_learning_2022}. Combined with the aforementioned CoCoX model,
-these developments underscore the breadth of methodologies being pursued in the
-realm of explainable AI, reflecting a robust and multi-dimensional approach to understanding
-and improving the decision-making processes of complex models.
+explainable AI \parencite{tan_learning_2022}. Combined with the aforementioned
+CoCoX model, these developments underscore the breadth of methodologies being pursued
+in the realm of explainable AI, reflecting a robust and multi-dimensional
+approach to understanding and improving the decision-making processes of complex
+models.
 
 The CLEAR framework innovatively generates counterfactual explanations for graph-level
-prediction models by utilizing a graph variational autoencoder (VAE). This
-approach involves encoding the node features and graph structure into a latent
-space, and then decoding from this space to construct counterfactual graphs that
-minimally alter the original while achieving a specific prediction outcome. By
-mapping graphs into a latent space, CLEAR allows for both effective optimization
-and generalization across graphs, while an auxiliary variable enhances the
-model’s ability to adhere to underlying causal relationships. This method significantly
-advances the generation and application of counterfactual explanations in graph data,
-outperforming existing techniques in validity, proximity, and causality \parencite{ma_clear_2022}.
+prediction models by utilizing a graph variational autoencoder (VAE). This approach
+involves encoding the node features and graph structure into a latent space, and
+then decoding from this space to construct counterfactual graphs that minimally
+alter the original while achieving a specific prediction outcome. By mapping graphs
+into a latent space, CLEAR allows for both effective optimization and
+generalization across graphs, while an auxiliary variable enhances the model’s ability
+to adhere to underlying causal relationships. This method advances the
+generation and application of counterfactual explanations in graph data, outperforming
+existing techniques in validity, proximity, and causality \parencite{ma_clear_2022}.
 
-This paper addresses the challenge of enhancing knowledge graph reasoning by
-employing counterfactual scenarios to identify crucial relationships within the
-graph. To tackle this issue, the approach involves generating counterfactuals by
-modifying relationships in factual reasoning paths and observing the resultant
+\textcite{wang_incorporating_2021} address the challenge of enhancing knowledge graph
+reasoning by employing counterfactual scenarios to identify crucial relationships
+within the graph. To tackle this issue, the approach involves generating counterfactuals
+by modifying relationships in factual reasoning paths and observing the resultant
 impacts on reasoning outcomes. These modifications help determine the importance
 of each relationship, which are then assigned weights. This weighted information
-is integrated as prior knowledge into a reinforcement learning-based reasoning model.
-Specifically, it utilizes a policy network that combines these weights with neural
-outputs to guide decision-making. The integration of counterfactual-derived
-weights with the neural model significantly enhances the reasoning capabilities
-of the system, as demonstrated through robust experimental validation across multiple
-large datasets. This method not only boosts performance but also aids in
-maintaining consistent reasoning across varied path lengths, thereby enriching the
-explainability and reliability of knowledge graph-based systems \parencite{wang_incorporating_2021}
+is integrated as prior knowledge into a reinforcement learning-based reasoning
+model. Specifically, it utilizes a policy network that combines these weights
+with neural outputs to guide decision-making. The integration of counterfactual-derived
+weights with the neural model significantly enhances the reasoning capabilities of
+the system, as demonstrated through robust experimental validation across
+multiple large datasets. This method boosts performance and aids in
+maintaining consistent reasoning across varied path lengths, thereby enriching
+the explainability and reliability of knowledge graph-based systems.
 
 Incorporating counterfactual reasoning with knowledge graph completion (KGC), the
-novel task of CounterFactual Knowledge Graph Reasoning (CFKGR) explores hypothetical
-alterations within a knowledge graph. The study introduces a neural model called
-COULDD (COUnterfactual Reasoning with KnowLedge Graph EmbeDDings), which adeptly
-refines existing knowledge graph embeddings to effectively manage hypothetical scenarios.
-Through the extraction of logical rules from the knowledge graph, counterfactuals
-are generated, creating scenarios that involve adding new edges and potentially
-removing contradictory ones. These scenarios are then assimilated by updating the
-embeddings with counterfactual information and re-training the model to discern the
-validity of these new configurations. This innovative methodology not only
-enables the model to evaluate the legitimacy of counterfactual changes but also
-boosts its ability to navigate potential scenarios, thereby maintaining precision
-\parencite{zellinger_counterfactual_2024}
+task of CounterFactual Knowledge Graph Reasoning (CFKGR) explores hypothetical alterations
+within a knowledge graph. The study introduces a neural model called COULDD (COUnterfactual
+Reasoning with KnowLedge Graph EmbeDDings), which adeptly refines existing knowledge
+graph embeddings to effectively manage hypothetical scenarios. Through the
+extraction of logical rules from the knowledge graph, counterfactuals are generated,
+creating scenarios that involve adding new edges and potentially removing
+contradictory ones. These scenarios are then assimilated by updating the embeddings
+with counterfactual information and re-training the model to discern the validity
+of these new configurations. This innovative methodology enables the
+model to evaluate the legitimacy of counterfactual changes and boosts its
+ability to navigate potential scenarios, thereby maintaining precision \parencite{zellinger_counterfactual_2024}
 
 \section{Counterfactual Methods in Different Types of Recommender Systems}
 
-Counterfactual reasoning in recommender systems has emerged as a pivotal
+Counterfactual reasoning in recommender systems has emerged as a
 technique within the domain of explainable artificial intelligence (XAI), enhancing
 both the transparency and fairness of recommendations. By modeling alternative
 scenarios where specific variables are modified, this approach provides insights
-into the potential impacts of different data configurations, helping to
-elucidate the inner workings and dependencies within these systems.
+into the potential impacts of different data configurations in recommendation process.
 
-The introduction of the KGCR model \parencite{wei_causal_2023} marks a significant advancement
-in embedding causal inference within graph-based recommender systems. Utilizing
-Graph Convolutional Networks, this model enriches user, item, and attribute embeddings,
-which allow for a more nuanced understanding of user preferences. By constructing
-a causal graph and applying do-calculus interventions, the KGCR model
-effectively mitigates biases introduced by previous user interactions, offering a
-refined approach to understanding how bias influences recommendation outcomes.
+The introduction of the KGCR model \parencite{wei_causal_2023} marks an advancement in 
+embedding causal inference within graph-based recommender systems.
+Using Graph Convolutional Networks, this model improves user, item, and attribute
+embeddings, which allow for a more nuanced understanding of user preferences. By
+constructing a causal graph and applying do-calculus interventions, the KGCR
+model effectively mitigates biases introduced by previous user interactions, offering
+a refined approach to understanding how bias influences recommendation outcomes.
 
-In a similar vein, \textcite{tran_counterfactual_2021} developed the ACCENT framework, which
-facilitates the generation of actionable counterfactual explanations in neural
-recommender systems. This framework leverages extended influence functions to explore
-how changes in user-item interactions could affect recommendation outputs,
-significantly enhancing computational efficiency through Fast Influence Analysis.
+In a similar vein, \textcite{tran_counterfactual_2021} developed the ACCENT framework,
+which facilitates the generation of actionable counterfactual explanations in
+neural recommender systems. This framework leverages extended influence functions
+to explore how changes in user-item interactions could affect recommendation outputs,
+enhancing computational efficiency through Fast Influence Analysis.
 This methodology underscores the minimal adjustments in user behavior that could
 lead to different recommendations, thereby aiding in the creation of more
 transparent recommendation mechanisms.
 
-Addressing selection bias, \parencite{liu_practical_2022} implemented counterfactual policy
-learning to recalibrate recommendation fairness and effectiveness. Their approach
-utilizes Inverse Propensity Scoring to weigh observed interactions, allowing the
-system to simulate outcomes under different recommendation policies. By integrating
-these counterfactual outcomes into the learning process, the model achieves an
-improved balance, enhancing both the performance and equity of recommendations across
-various user groups and item categories.
+Addressing selection bias, \parencite{liu_practical_2022} implemented
+counterfactual policy learning to recalibrate recommendation fairness and
+effectiveness. Their approach uses Inverse Propensity Scoring to weigh observed
+interactions, allowing the system to simulate outcomes under different
+recommendation policies. By integrating these counterfactual outcomes into the learning
+process, the model achieves an improved balance, enhancing both the performance and
+equity of recommendations across various user groups and item categories.
 
-The Prince method \parencite{ghazimatin_prince_2020}, emphasizes the
-importance of trust and understanding in recommendation systems through
-counterfactual reasoning within heterogeneous information networks. By identifying
-key user actions and employing Personalized PageRank, Prince efficiently
-predicts the impact of these actions on recommendation outcomes. This approach not
-only avoids exhaustive computations but also outperforms traditional heuristic methods
-in providing understandable and trust-enhancing explanations.
+The Prince method \parencite{ghazimatin_prince_2020}, emphasizes the importance of
+trust and understanding in recommendation systems through counterfactual reasoning
+within heterogeneous information networks. By identifying key user actions and
+employing Personalized PageRank, Prince efficiently predicts the impact of these
+actions on recommendation outcomes. This approach avoids exhaustive
+computations outperforms traditional heuristic methods in providing
+understandable and trust-enhancing explanations.
 
-\textcite{yang_top-n_2021} utilize causal inference through Structural Equation Models (SEMs)
-to address data sparsity in recommender systems. By generating counterfactual training
-samples, they enrich the dataset with diverse user responses that are otherwise
-not observed but plausible. This approach not only enhances the performance of the
-recommender systems but also strengthens their capacity to handle scenarios marked
-by data imbalance.
 
-Finally, the Counterfactual Explainable Recommendation (CountER) model \parencite{tan_counterfactual_2021} focuses on identifying minimal attribute changes that could
-reverse a recommendation decision. Through a structured optimization process, CountER
-iteratively adjusts item attributes to discover the least extensive yet impactful
-changes required for altering outcomes. This model utilizes novel metrics to
-evaluate the necessity and sufficiency of these changes, demonstrating enhanced precision
-in providing actionable insights into recommendation decisions.
+Finally, the Counterfactual Explainable Recommendation (CountER) model \parencite{tan_counterfactual_2021}
+focuses on identifying minimal attribute changes that could reverse a
+recommendation decision. Through a structured optimization process, CountER
+iteratively adjusts item attributes to discover the least extensive yet
+impactful changes required for altering outcomes. This model uses novel metrics
+to evaluate the necessity and sufficiency of these changes, demonstrating
+enhanced precision in providing actionable insights into recommendation
+decisions.
 
 While counterfactual reasoning enhances the transparency and fairness of
 recommender systems, it also introduces potential vulnerabilities that can be exploited.
@@ -253,89 +244,86 @@ processes of recommender systems. Here, CFs are generated by pinpointing the min
 adjustments necessary in user-item interactions to alter the outcome of recommendations.
 These counterfactuals are critical in training a surrogate model, which then crafts
 targeted item embeddings and simulates user interactions to deceive the system.
-This approach not only highlights the application and generation of CFs but also
+This approach highlights the application and generation of CFs and also
 emphasizes their potential for both analysis and exploitation, particularly within
 environments sensitive to security.
 
 The Counterfactual Explainable Recommendation (CERec) system by \textcite{wang_reinforced_2024}
-represents a significant advancement in the domain of explainable AI within recommendation
-systems. CERec employs reinforcement learning to navigate and optimize paths in
-a knowledge graph, focusing on attribute-based counterfactual explanations. It
-identifies counterfactual paths where minimal attribute adjustments lead to
-notable shifts in recommendation outcomes. An essential feature of CERec is its adaptive
-path sampler, which incorporates a two-step attention mechanism to efficiently
-manage the extensive search space of the knowledge graph. This selective exploration
-ensures computational efficiency and enhances the relevance of the explanations provided.
-Counterfactual scenarios are crafted by simulating changes in item attributes
-and observing the consequent alterations in recommendation outputs. These insights
-are then reintegrated into the recommendation model, improving its accuracy and
-reducing the incidence of undesirable recommendations. This makes CERec a pivotal
-tool in enhancing both transparency and decision-making in recommendation systems,
-contributing to more accurate and user-satisfying outcomes.
-
+employs reinforcement learning to navigate and optimize
+paths in a knowledge graph, focusing on attribute-based counterfactual
+explanations. It identifies counterfactual paths where minimal attribute adjustments
+lead to notable shifts in recommendation outcomes. An essential feature of CERec
+is its adaptive path sampler, which incorporates a two-step attention mechanism to
+efficiently manage the extensive search space of the knowledge graph. This
+selective exploration ensures computational efficiency and enhances the
+relevance of the explanations provided. Counterfactual scenarios are crafted by simulating
+changes in item attributes and observing the consequent alterations in recommendation
+outputs. These insights are then reintegrated into the recommendation model, improving
+its accuracy and reducing the incidence of undesirable recommendations. This
+makes CERec a useful tool in enhancing both transparency and decision-making in
+recommendation systems, contributing to more accurate and user-satisfying outcomes.
 
 In conclusion, counterfactual reasoning offers a robust framework for enhancing
 the explainability and fairness of recommender systems by providing a deeper
 understanding of the implications of various data interactions and policies. These
-innovative approaches not only clarify the decision-making processes but also foster
+innovative approaches clarify the decision-making processes and provide
 more equitable and user-centric recommendation practices.
 
 \section{Application of Counterfactuals for Fairness and Bias Mitigation}
 
-Counterfactual reasoning plays a pivotal role in the domain of explainable
-artificial intelligence (XAI), especially for mitigating biases in automated decision-making
-systems. This method involves hypothesizing alternative scenarios where key
-variables are altered, allowing for the exploration of how such changes impact outcomes.
-This not only uncovers hidden biases but also ensures fairness in AI operations.
-Broadly applied in various AI frameworks, from graph neural networks to
-recommender systems, counterfactual reasoning enhances transparency and equity in
-AI outcomes, establishing it as an essential tool for ethical AI development.
+One of the uses of counterfactual reasoning is to mitigate biases in automated
+decision-making systems. This method involves hypothesizing alternative scenarios
+where key variables are altered, exploring how such changes impact outcomes. By doing
+so, it uncovers hidden biases and ensures fairness in AI operations. Widely applied
+across various AI frameworks, from graph neural networks to recommender systems,
+counterfactual reasoning is considered an essential tool for ethical AI development.
 
-\subsection{Mitigating Bias Across Different AI Frameworks}
-
-The use of counterfactual reasoning in graph-based models like those studied \textcite{guo_towards_2023} demonstrates a rigorous approach to maintaining consistency in
-model predictions across varying sensitive attributes. By implementing Graph Variational
-Autoencoders (GraphVAE), they not only perturb attributes but also train the
-network to minimize discrepancies in outputs between the original and
-counterfactual nodes. This methodology effectively addresses biases at a fundamental
-level, ensuring the fairness of the model's outcomes. \textcite{medda_gnnuers_2024} extend
-this approach within graph neural network-based recommender systems. Their innovative
+The use of counterfactual reasoning in graph-based models like those studied \textcite{guo_towards_2023}
+demonstrates a rigorous approach to maintaining consistency in model predictions
+across varying sensitive attributes, which is nessary to guarantee fairness. 
+By implementing Graph Variational Autoencoders
+(GraphVAE), they not only perturb attributes but also train the network to
+minimize discrepancies in outputs between the original and counterfactual nodes.
+This methodology effectively addresses biases at a fundamental level, ensuring
+the fairness of the model's outcomes. \textcite{medda_gnnuers_2024} extend this
+approach within graph neural network-based recommender systems. Their innovative
 use of counterfactual reasoning to adjust user-item interactions on a bipartite graph
 includes strategically adding or removing connections, which serves to simulate
 various scenarios where demographic disparities can be analyzed and mitigated, ensuring
 a more equitable distribution of utility among users. The field of recommender
 systems frequently grapples with biases such as popularity and exposure, which can
-distort user preferences. \textcite{wei_model-agnostic_2021} dissect these issues through the Model-Agnostic
-Counterfactual Reasoning (MACR) framework, which explicitly separates the
-influence of item popularity from actual user preferences. By adjusting input data
-to simulate a scenario where item popularity is neutralized, MACR provides a
-recalibrated basis for recommendation, aligning more closely with unbiased user preferences.
-Meanwhile, \textcite{xu_adversarial_2020} focus on exposure bias by employing a counterfactual
-approach that involves a minimax adversarial model. This model simulates worst-case
-scenarios to test the resilience of the recommendation system, ensuring that it
-can withstand and adapt to a range of user exposure conditions, thus promoting a
-more fair and balanced recommendation landscape.
+distort user preferences. \textcite{wei_model-agnostic_2021} dissect these issues
+through the Model-Agnostic Counterfactual Reasoning (MACR) framework, which
+explicitly separates the influence of item popularity from actual user
+preferences. By adjusting input data to simulate a scenario where item popularity
+is neutralized, MACR provides a recalibrated basis for recommendation, aligning more
+closely with unbiased user preferences. Meanwhile, \textcite{xu_adversarial_2020}
+focus on exposure bias by employing a counterfactual approach that involves a
+minimax adversarial model. This model simulates worst-case scenarios to test the
+resilience of the recommendation system, ensuring that it can withstand and
+adapt to a range of user exposure conditions, thus promoting a more fair and balanced
+recommendation landscape.
 
-\subsection{Enriching Data and Ensuring Equitable Outcomes}
+Addressing data sparsity and imbalance, \textcite{yang_top-n_2021} utilize
+causal inference via Structural Equation Models (SEMs) to generate
+counterfactual scenarios that enrich training datasets. This addresses the
+immediate issue of insufficient data and also simulates a broader spectrum of user
+interactions, which helps in developing a more robust and responsive recommender
+system. On a more focused level, \textcite{chiappa_path-specific_2019} experiments with the
+use of Path-Specific Counterfactual Fairness (PSCF) within decision-making processes.
+This approach manipulates causal pathways, particularly those that might be influenced
+by sensitive attributes such as race or gender, to ensure that resulting
+decisions are free from the undue influence of these attributes, thus promoting fairness
+in critical decision-making contexts.
 
-Addressing data sparsity and imbalance, \textcite{yang_top-n_2021} utilize causal
-inference via Structural Equation Models (SEMs) to generate counterfactual
-scenarios that enrich training datasets. This not only addresses the immediate issue
-of insufficient data but also simulates a broader spectrum of user interactions,
-which helps in developing a more robust and responsive recommender system. On a more
-focused level, \textcite{chiappa_path-specific_2019} pioneers the use of Path-Specific Counterfactual
-Fairness (PSCF) within decision-making processes. This approach manipulates causal
-pathways, particularly those that might be influenced by sensitive attributes
-such as race or gender, to ensure that resulting decisions are free from the undue
-influence of these attributes, thus promoting fairness in critical decision-making
-contexts.
 
 \subsection{Leveraging Knowledge Graphs for Fair Recommendations}
 
-Expanding the utility of knowledge graphs, \textcite{balloccu_post_2022} integrate counterfactual
-reasoning within the Policy-Guided Path Reasoning (PGPR) model to optimize recommendation
-systems. By re-ranking items and explanations based on various fairness-oriented
-criteria, such as recency, popularity, and diversity, PGPR enhances the quality
-and equity of recommendations. This approach not only improves the relevance of the
-recommendations but also significantly increases user trust and satisfaction by ensuring
-that recommendations cater equitably to diverse user groups.
+Expanding the utility of knowledge graphs, \textcite{balloccu_post_2022}
+integrate counterfactual reasoning within the Policy-Guided Path Reasoning (PGPR)
+model to optimize recommendation systems. By re-ranking items and explanations based
+on various fairness-oriented criteria, such as recency, popularity, and
+diversity, PGPR enhances the quality and equity of recommendations. This
+approach not only improves the relevance of the recommendations but also
+significantly increases user trust and satisfaction by ensuring that
+recommendations cater equitably to diverse user groups.
