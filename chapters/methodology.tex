@@ -1,53 +1,62 @@
 \chapter{Research Design and Methodology}
-\label{chap:methodology} This chapter details the methodology employed to achieve
-the primary objective of this study: extending the explainability of path-based
-knowledge graph recommender systems to explore "what-if" scenarios.
+\label{chap:methodology} This chapter details the methodology employed to achieve the primary objective
+of this study: enhancing the explainability of path-based knowledge graph-based recommender
+systems by narrowing the search space through community detection and outlier node
+recognition, as a result enabling the exploration of "what-if" scenarios within
+a feasible scope.
 
 The methodology is structured as follows:
 \begin{enumerate}
-	\item \textbf{Initial Recommendation}: The process initiates with the system generating
-		a product recommendation for a user. In a path-based recommendation system, the
-		inherent explanation typically comprises a sequence of entities and relationships
-		that link the user to the recommended product.
+	\item \textbf{Recommendation Engine/System Utilization}: For the recommendation engine,
+		we employ CAFE (Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation).
+		This system is particularly suitable for our purposes due to its path-based nature
+		and its capability to evaluate the plausibility of different paths by assigning
+		probability scores to the steps that connect users to products.
+
 
 	\item \textbf{Counterfactual Analysis}:
 		\begin{itemize}
-			\item \textbf{Extraction of Relevant Information}: Relevant attributes for
-				the counterfactual analysis are those that could potentially be associated
-				with the entity under examination. By analyzing these attributes, we gain
-				insights into the recommendations for the final product. The process of
-				extracting relevant information begins with the removal of outlier nodes
-				in the knowledge graph, using centrality measures to identify these nodes.
-				Based on the nodes along the path, the recommended product, and
-				connected entities, we select potential relevant attributes. These
-				attributes are then further refined by considering the communities
-				identified within the graph.
+			\item \textbf{Initial Recommendation}: The process initiates with the system
+			generating a product recommendation for a user. In a path-based recommendation system,
+			the built-in explanation typically includes a sequence of entities and
+			relationships that link the user to the recommended product. Then, the user
+			selects which product recommendation they want to analyze with counterfactual
+			analysis.
+
+			\item \textbf{Extraction of Relevant Information}: Relevant attributes for the
+			counterfactual analysis are those that could potentially be associated with the entity under
+			examination, which have a higher likelihood of achieving a score above the threshold
+			and being verified as plausible compared to the rest of the attribute search space
+			in the knowledge graph. The process of extracting relevant information
+			begins with the removal of outlier nodes in the knowledge graph, using
+			centrality measures to identify these nodes. Based on the nodes along the path,
+			the recommended product, and connected entities, we select potential relevant
+			attributes. These attributes are then further refined by considering the communities
+			identified within the graph. 
 
 			\item \textbf{Scenario Construction}: Utilizing the extracted information,
 				a collection of hypothetical scenarios are constructed. These scenarios are
 				crafted to test various alterations in attributes and their impact on the
 				recommendation outcome.
+			\item \textbf{Verifying The Plausibility of Scenarios}
 		\end{itemize}
 
-	\item \textbf{Recommendation System Utilization}: For the recommendation engine,
-		we employ CAFE (Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation).
-		This system is particularly suitable for our purposes due to its path-based nature
-		and its capability to evaluate the plausibility of different paths by assigning
-		probability scores to the steps that connect users to products.
+
 \end{enumerate}
 \vspace{12pt}
-This methodology both facilitates a deeper understanding of the decision-making processes
-inherent in the recommender system and also allows us to simulate and evaluate how
-changes in product attributes or user-product relationships might alter the system's
-recommendations.
 
-\section{Recommender System Details}
+
+\section{Recommendation Engine/System Utilization}
 %TODO add citation
-CAFE (Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation) serves
-as the foundational framework for our path-based knowledge graph recommender system.
-This framework is particularly suited to our needs because it allows for
-detailed access to the scores of each path within the graph, facilitating the analysis
-of the counterfactual scenarios. This section provides an overview of its
+The approach suggested in this thesis is designed for any knowledge graph-based
+recommender system that is path-based and scores the path at each step. We have found
+the CAFE (Coarse-to-Fine Neural Symbolic Reasoning for Explainable
+Recommendation) methodology to be a suitable foundation to work with for our objectives.
+
+CAFE forms the basis of our path-based knowledge graph recommender system. This
+methodology is particularly suited to our needs because it allows for detailed
+access to the scores of each path within the graph, facilitating the analysis of
+counterfactual scenarios. This section provides an overview of its
 implementation and core functionalities.
 
 \subsection{Data and Implementation}
@@ -107,14 +116,16 @@ and tailored to the user's preferences and behavior patterns. This structured
 approach allows the CAFE system to effectively recommend products and offer
 insights into the reasons behind each recommendation, enhancing the system's explainability.
 
-\section{Attribute Filtering and Knowledge Graph Refinement}
+\section{Counterfactual Analysis}
+\subsubsection{Initial Recommendation}
+\section{Extraction of Relevant Information}
 To select the most relevant counterfactual attributes for the product under analysis
 and ensure they add value to our study, we eliminate outlier nodes from the
 knowledge graph. Additionally, we conduct community detection to restrict
 attribute selection to those within the same community as the product being
 analyzed.
 
-\subsection{Outlier Nodes Detection and Removal}
+\subsubsection{Outlier Nodes Detection and Removal}
 For the purpose of the oulier detection and removal, we use the degree centrality
 of nodes in the knowledge graph. Nodes that exhibit a degree centrality above a
 certain threshold are eliminated. While these highly connected nodes can provide
@@ -127,16 +138,17 @@ communities essential for selecting relevant attributes, these nodes are removed
 For a given node, degree centrality is the number of edges connected to that
 node \parencite{bloch2023centrality}
 
-The use of degree centrality is justified given the structure of the knowledge
-graph, where node types such as category, brand, and related products are connected
-exclusively to product nodes, as shown in Figure
-\ref{fig:knowledge_graph_structure}. This measure will determine how many products
-each of these attribute nodes is connected to, which will help in deciding
-whether to retain or remove them as outliers based on a predetermined threshold.
-For word attributes, however, since word nodes are connected not only to product
-nodes but also to user nodes, we apply a modified approach. Rather than using degree
-centrality, we count only the connections between each word node and product
-nodes.
+The use of degree centrality for outlier detection is justified given the
+structure of the knowledge graph we have utilized, where node types such as category,
+brand, and related products are connected exclusively to product nodes, as shown
+in Figure \ref{fig:knowledge_graph_structure}. This measure will determine how many
+products each of these attribute nodes is connected to, which will help in
+deciding whether to retain or remove them as outliers based on a predetermined
+threshold. For word attributes, however, since word nodes are connected not only
+to product nodes but also to user nodes, we apply a modified approach. Rather than
+using degree centrality, we count only the connections between each word node
+and product nodes.
+
 
 The degree centrality of different types of nodes are demonstrated in \fref{fig:degree_centrality_distributions_by_node_type}.
 It is apparent from the plots that some nodes have unusual degree centralities.
@@ -151,15 +163,19 @@ It is apparent from the plots that some nodes have unusual degree centralities.
 	\end{center}
 \end{figure}
 
-\subsubsection*{Determining The Outlier Nodes}
+% \subsubsubsection*{Determining The Outlier Nodes}
 
-Based on the reasons described, it is necessary to remove the outlier nodes
-while retaining the structure of the original knowledge graph as much as
-possible. Various statistical methods for outlier detection were experimented with,
-and the method that removed the least number of nodes while maintaining the
-highest community resemblance is chosen. Specifically, the knee method is used
-to identify and remove the outlier nodes.
+Based on the reasons described, it is necessary to remove the outlier nodes while
+retaining the structure of the original knowledge graph as much as possible.
+Various statistical methods for outlier detection were experimented with, and the
+method that removed the least number of nodes while maintaining the highest community
+resemblance is chosen, as preserving the original data and structure as much as
+possible is preferred. Specifically, the knee method is used to identify and
+remove the outlier nodes.
 
+
+% \paragraph{Knee Detection}
+% \paragraph*{Knee Detection}
 \subsubsection*{Knee Detection}
 For the detection of the knee in the degree centrality of nodes, the Kneedle algorithm
 have been used. The Kneedle algorithm identifies "knee points" in data, which represent
@@ -189,6 +205,17 @@ centrality become less significant beyond this point compared to those before it
 	\end{center}
 \end{figure}
 
+In this study, the Kneedle algorithm is applied to the degree centrality of all node
+types collectively, rather than separately, to ensure a consistent and meaningful
+outlier removal process. Since the goal is to eliminate nodes with excessively
+high degree centrality while retaining the overall structure of the knowledge
+graph, a global knee point is more appropriate. Applying knee detection
+separately for each type could lead to over-filtering, especially for node types
+with lower variability, potentially unnecessariy removing nodes that are still
+structurally important. By considering all node types together, the method
+ensures that only the most extreme outliers are removed while preserving the
+connectivity and integrity of the network.
+
 In \fref{tab:graph_metrics} the number of nodes removed and consequent changes
 are represented.
 
@@ -209,7 +236,7 @@ are represented.
 	\label{tab:graph_metrics}
 \end{table}
 
-\subsection{Community Detection and Graph Analysis Based Node Filtering}
+\subsubsection{Community Detection and Graph Analysis Based Node Filtering}
 The next step in the counterfactual analysis is the detection of communities within
 the knowledge graph of interactions. Communities are identified using Louvain
 Method. This helps to cluster entities that share significant similarities and interactions.
@@ -244,6 +271,15 @@ community is given by:
 	)^{2}\right],
 \end{equation}
 
+% \begin{equation}
+% 	\label{eq:delta_modularity}
+% 	\Delta Q = \left[ \frac{\sum_{\text{in}}+ k_{i, \text{in}}}{2m}
+% 	- \left( \frac{\sum_{\text{tot}}+ k_{i}}{2m}\right)^{2}\right] 
+% 	- \left[ \frac{\sum_{\text{in}}}{2m}
+% 	- \left( \frac{\sum_{\text{tot}}}{2m}\right)^{2} - \left( \frac{k_{i}}{2m} \right)^{2} \right].
+% \end{equation}
+
+
 where $\sum_{\text{in}}$ is the sum of the weights of the edges inside the community,
 $k_{i, \text{in}}$ is the sum of the weights of the edges from node $i$ to other
 nodes in the community, and $\sum_{\text{tot}}$ is the total sum of the weights of
@@ -260,16 +296,21 @@ communities into new nodes of a reduced network, and the process is reapplied. T
 hierarchical approach allows the algorithm to uncover community structures at multiple
 levels effectively. Notable for its speed, the Louvain Method can handle networks
 with up to millions of nodes efficiently, making it well-suited for modern
-datasets of substantial size.
+datasets of substantial size. \parencite{Blondel_2008}
 
 % Describe what happens after communities are detected
 
 % counterfactual here
-\section{Counterfactual Analysis}
-For the counterfactual analysis of the predictions provided by the recommender system,
-first a threshold is determined for the minimum score required for a product
-path to be recommended to a user. This threshold corresponds to the path score of
-the last product in the top 10 recommended products.
+\subsubsection{Verifying The Plausibility of Scenarios}
+For the counterfactual analysis of the predictions provided by the recommender
+system, first a threshold is determined for the minimum score required for a product
+path to be recommended to a user. This threshold corresponds to the path score
+of the last product in the top 10 recommended products. This method of setting the
+threshold is based on the idea that in a recommender system suggesting 10 items,
+any item ranked below the 10th is not recommended. Therefore, the score of the
+10th item serves as a natural cutoff, as any lower score would fall outside the recommendation
+list. This approach is commonly used for defining thresholds in counterfactual
+analysis in recommender systems.
 
 The next step involves retreiving the first-level products related to the attributes
 of the recommended product, and through them, extraction of possible relevant attributes.
@@ -297,7 +338,7 @@ recommender system.
 
 
 
-\section{Case Study: Counterfactual Analysis of a Recommended Product}
+% \section{Case Study: Counterfactual Analysis of a Recommended Product}
 % % an example
 % % demonstration of all the paths through products
 % This section presents a demonstration of the analysis. The recommender system generates

@@ -2,29 +2,30 @@
 \label{chap:introduction}
 
 \section{Background and Motivation}
-The rapid growth of the Internet as a center for digital and commercial
-interactions has highlighted the essential role of recommender systems in today's
-technology landscape. These systems, which are increasingly vital to companies
-from media giants like Netflix to e-commerce leaders such as Amazon, make use of
-user feedback to create personalized experiences. This feedback varies from
-explicit ratings to implicit behavioral data, such as browsing and purchasing histories,
-and serves as a critical foundation for these systems. By analyzing past interactions
-between users and products, recommender systems can predict future preferences
-and use advanced algorithms to detect patterns in user behavior. These capabilities
-improve user satisfaction by aligning recommendations with individual tastes amd
-enhance business strategies by promoting customer engagement and retention. As
-user data grows more complex, these systems evolve by integrating sophisticated models
-that consider content attributes, user specifications, and contextual information,
+The rapid growth of the Internet as a hub for digital and commercial
+interactions, which consequently generates vast amounts of data, has underscored
+the essential role of recommender systems in today's technology landscape. These
+systems, which are increasingly important to companies from media giants like
+Netflix to e-commerce leaders such as Amazon, make use of user feedback to create
+personalized experiences. This feedback varies from explicit ratings to implicit
+behavioral data, such as browsing and purchasing histories, and serves as a
+critical foundation for these systems. By analyzing past interactions between users
+and products, recommender systems can predict future preferences and use
+advanced algorithms to detect patterns in user behavior. These capabilities improve
+user satisfaction by aligning recommendations with individual tastes and enhance
+business strategies by promoting customer engagement and retention. As user data
+grows more complex, these systems evolve by integrating sophisticated models that
+consider content attributes, user specifications, and contextual information,
 thus increasing the accuracy and relevance of the recommendations offered
 \parencite{aggarwal_recommender_2016}.
 
 Despite their effectiveness in predicting user preferences and enhancing service
-personalization, traditional recommender systems often operate as opaque
-entities. This opacity arises from their complex computational mechanisms that typically
+personalization, traditional recommender systems, like many other AI systems, often operate as opaque
+entities. This opacity arises from their complex computational mechanisms that frequently
 use deep learning methods, known for their 'black-box' nature, where the internal
 reasoning processes remain hidden from both users and developers. This lack of
 transparency poses significant challenges, especially from a business perspective,
-where understanding and trust in these systems are crucial.
+where understanding and trust in these systems are of high value.
 
 For businesses, the drive to make recommender systems explainable is motivated by
 several key factors. Transparency builds trust; when users understand how recommendations
@@ -94,16 +95,16 @@ comprehensible and verifiable pieces of information, offering deeper insights in
 the reasoning behind AI decisions. Therefore, knowledge graphs act as entities that
 both enhance the trustworthiness and clarity of AI systems and also play a significant
 role in bridging the gap between human understanding and machine reasoning,
-crucial for the broader adoption and ethical deployment of AI technologies
+necessary for the broader adoption and ethical deployment of AI technologies
 \parencite{tiddi_knowledge_2022}.
 
-Within the realm of knowledge graph-based recommender systems, two primary
-methodologies are prominent: embedding-based methods and path-based methods.
-Embedding-based approaches capitalize on the rich semantic information available
-within knowledge graphs to improve the representation of users and items. These methods
-may focus on creating item-specific graphs that enrich item representations with
-attributes from the knowledge graph or develop user-item graphs that include both
-entities and use the defined relationships and attributes to predict user preferences.
+Within the field of knowledge graph-based recommender systems, two main approaches
+stand out: Embedding-based approaches make use of the rich semantic information
+available within knowledge graphs to improve the representation of users and
+items. These methods may focus on creating item-specific graphs that enrich item
+representations with attributes from the knowledge graph or develop user-item graphs
+that include both entities and use the defined relationships and attributes to predict
+user preferences.
 
 Conversely, path-based methods leverage the connectivity patterns within the
 graph, using paths to define and measure the similarity and interaction context between
@@ -112,24 +113,38 @@ semantic similarities and refine representations, thereby enhancing the recommen
 process \parencite{guo_survey_2020}.
 
 While these explanations significantly improve transparency, they often do not fully
-meet the human cognitive need for a deeper understanding. Users frequently
-question how recommendations might change if product attributes were altered, such
-as brand changes or descriptors like "animal cruelty-free" or "plant-based."
-This study aims to extend the level of explainability of path based kg
+satisfy the human cognitive need for deeper understanding. Human cognition
+naturally operates by imagining alternative conditions and exploring various
+possible scenarios. By considering the outcomes of these hypothetical situations,
+individuals gain confidence in their grasp of a concept. Users frequently question
+how recommendations might change if product attributes were altered, such as
+brand changes or descriptors like "animal cruelty-free" or "plant-based."
+
+While these explanations significantly improve transparency, they often do not fully
+satisfy the human cognitive need for deeper understanding. Human cognition
+naturally operates by imagining alternative conditions and exploring various
+possible scenarios. By considering the outcomes of these hypothetical situations,
+individuals gain confidence in their grasp of a concept. From a business perspective,
+understanding that the recommender system suggested Product X due to Attribute A
+is valuable, but knowing how recommendations might change if the product had different
+attributes—such as an altered brand, or descriptors like "animal cruelty-free"
+or "plant-based" can provide businesses with high-value strategic insights into how
+these changes could influence user perceptions and preferences.
+This study aims to extend the level of explainability of path-based knowledge-graph-based
 recommendation through counterfactual analysis. Counterfactuals represent hypothetical
 alternatives to actual events, offering insights into what could have happened
 under different circumstances. These constructs are crucial in various domains of
 artificial intelligence, especially in enhancing the interpretability and
-trustworthiness of AI systems—a fundamental aspect of explainable AI. Counterfactuals
+trustworthiness of AI systems, a fundamental aspect of explainable AI. Counterfactuals
 serve as a critical tool in XAI by providing "what if" analyses that make clear the
 decision-making processes of AI models, showing how alternative inputs might
 alter an AI systems output and making these systems more transparent and
 understandable.
 
-The application of counterfactuals in XAI are present in both intrinsic and post
-hoc approaches. Intrinsic methods integrate counterfactual reasoning as part of the
-AI model's fundamental design, directly influencing its operational framework. Conversely,
-post hoc techniques generate counterfactual explanations after the model has
+The application of counterfactuals in XAI are present in both intrinsic and post-hoc
+approaches. Intrinsic methods integrate counterfactual reasoning as part of the AI
+model's fundamental design, directly influencing its operational framework. Conversely,
+post-hoc techniques generate counterfactual explanations after the model has
 made a decision. By simulating different scenarios, counterfactuals provide
 insights into the specific conditions under which the outcomes of AI decisions
 might change, thereby highlighting the causal relationships within the model's reasoning.
@@ -137,21 +152,34 @@ These "what if" scenarios do more than alter outcomes; they enrich the AI's deci
 process, allowing users to explore and understand the model's behavior under
 various hypothetical conditions. This aspect of counterfactuals in XAI aids in debugging
 and improving AI systems and also enhances user trust, making AI decisions more
-relatable and understandable, thereby providing a deeper human-AI rapport \textcite{byrne_counterfactuals_2019}.
+relatable and understandable, thereby providing a deeper human-AI relationship \parencite{byrne_counterfactuals_2019}.
 
 \section{Research Problem and Objective}
 
-The central challenge addressed by this thesis is the limited explainability in path-based
-knowledge graph recommender systems. These systems are adept at stating the
-reasons for selecting a particular product but often lack the capability to
-delve into hypothetical "what-if" scenarios, such as the impact of different attributes
-on recommendations. Specifically, the systems do not answer questions like, "What
-if the recommended product had different attributes? Which attributes would
-still make it a plausible choice? This thesis addresses this gap by applying
-counterfactual analysis to these systems, aiming to explore how hypothetical changes
+The central challenge addressed by this thesis is the limited explainability in
+path-based knowledge graph recommender systems. These systems are adept at stating
+the reasons for selecting a particular product but often lack the capability to delve
+into hypothetical "what-if" scenarios, such as the impact of different
+attributes on recommendations. Specifically, the systems do not answer questions
+like, "What if the recommended product had different attributes?" Understanding
+which attributes would still make it a plausible choice is not only a highly
+valuable business insight but also aligns closely with the natural human
+cognitive process of exploring alternatives.
+
+The main problem in counterfactual analysis lies in the construction of
+hypothetical scenarios, as the search space of all possible attributes is vast,
+and exploring all possibilities is computationally expensive, with complexity growing
+exponentially with the size of the graph. Identifying relevant attributes with a
+higher likelihood of relevance could transform this otherwise infeasible task
+into a practical and valuable technique.
+
+To address these limitations, this thesis applies counterfactual analysis to path-based
+knowledge graph recommender systems, aiming to explore how hypothetical changes
 to product attributes and interactions could alter the generated recommendations,
-thereby enhancing the system's explainability. The primary objectives of this research
-are twofold:
+thereby enhancing the system's explainability. For the challenge of attribute
+selection, we narrow down the search space by employing community detection techniques
+and identifying and removing less informative nodes.
+The primary objectives of this research are twofold:
 
 \begin{enumerate}
 	\item \textbf{Development of an Analytical Model:} To create an analytical
